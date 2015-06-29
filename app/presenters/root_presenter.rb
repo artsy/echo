@@ -11,6 +11,34 @@ module RootPresenter
 
   # Additional endpoint links
 
+  link :accounts do |opts|
+    {
+      href: "#{base_url(opts)}/accounts{?page,size}",
+      templated: true
+    }
+  end
+
+  link :account do |opts|
+    {
+      href: "#{base_url(opts)}/accounts/{id}",
+      templated: true
+    }
+  end
+
+  link :features do |opts|
+    {
+      href: "#{base_url(opts)}/features{?page,size,account_id}",
+      templated: true
+    }
+  end
+
+  link :feature do |opts|
+    {
+      href: "#{base_url(opts)}/features/{id}",
+      templated: true
+    }
+  end
+
   private
 
   def base_url(opts)

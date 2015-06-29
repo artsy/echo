@@ -22,4 +22,6 @@ class ApplicationEndpoint < Grape::API
   end
 
   # Additional mounted endpoints
+  mount AccountsEndpoint
+  mount FeaturesEndpoint
 end
