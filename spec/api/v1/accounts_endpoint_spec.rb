@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe AccountsEndpoint do
+describe V1::Endpoints::AccountsEndpoint do
   include Rack::Test::Methods
-  include_context 'with a running app and client'
+  include_context 'with a running app and client accessing API V1'
 
   context 'accounts' do
     before(:each) do

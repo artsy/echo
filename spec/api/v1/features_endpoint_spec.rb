@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe FeaturesEndpoint do
+describe V1::Endpoints::FeaturesEndpoint do
   include Rack::Test::Methods
-  include_context 'with a running app and client'
+  include_context 'with a running app and client accessing API V1'
 
   let(:parent_account) { Fabricate(:account) }
 

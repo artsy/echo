@@ -15,7 +15,7 @@ HandleExceptions:
   Enabled: false
 
 LineLength:
-  Max: 120
+  Max: 180
 
 NumericLiterals:
   Enabled: false

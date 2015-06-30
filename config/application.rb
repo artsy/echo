@@ -4,8 +4,8 @@ require File.expand_path('../boot', __FILE__)
 Dir['./config/initializers/**/*.rb'].map { |file| require file }
 
 # autoload app
-relative_load_paths = %w(app/endpoints app/presenters app/models)
-ActiveSupport::Dependencies.autoload_paths += relative_load_paths
+relative_file_paths = %w(app/models app/api app/api/v1/endpoints app/api/v1/presenters app/api/v2/endpoints app/api/v2/presenters)
+ActiveSupport::Dependencies.autoload_paths += relative_file_paths
 
 module Echo
   class Application < Gris::Application
