@@ -58,6 +58,20 @@ describe V1::Endpoints::AccountsEndpoint do
       expect(account.features.count).to eq 2
     end
 
+    it 'returns associated messages' do
+      Fabricate(:message, account: account1)
+      Fabricate(:message, account: account1)
+      account = client.account(id: account1.id)
+      expect(account.messages.count).to eq 2
+    end
+
+    it 'returns associated routes' do
+      Fabricate(:route, account: account1)
+      Fabricate(:route, account: account1)
+      account = client.account(id: account1.id)
+      expect(account.routes.count).to eq 2
+    end
+
     it 'updates account' do
       account = client.account(id: account1.id)._patch(account: { name: 'the most loveliest app' })
       expect(account.id).to eq account1.id

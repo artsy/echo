@@ -17,6 +17,16 @@ module V1
         request = Grape::Request.new(opts[:env])
         "#{request.base_url}/features?account_id=#{id}"
       end
+
+      link :messages do |opts|
+        request = Grape::Request.new(opts[:env])
+        "#{request.base_url}/messages?account_id=#{id}"
+      end
+
+      link :routes do |opts|
+        request = Grape::Request.new(opts[:env])
+        "#{request.base_url}/routes?account_id=#{id}"
+      end
     end
   end
 end

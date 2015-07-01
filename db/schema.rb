@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150629222936) do
+ActiveRecord::Schema.define(version: 20150701134454) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -30,5 +30,21 @@ ActiveRecord::Schema.define(version: 20150629222936) do
   end
 
   add_index "features", ["account_id"], name: "index_features_on_account_id", using: :btree
+
+  create_table "messages", force: :cascade do |t|
+    t.integer  "account_id"
+    t.string   "name"
+    t.text     "content"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "routes", force: :cascade do |t|
+    t.integer  "account_id"
+    t.string   "name"
+    t.string   "path"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
 end

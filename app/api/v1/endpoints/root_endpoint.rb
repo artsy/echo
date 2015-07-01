@@ -21,6 +21,8 @@ module V1
 
       mount V1::Endpoints::AccountsEndpoint
       mount V1::Endpoints::FeaturesEndpoint
+      mount V1::Endpoints::MessagesEndpoint
+      mount V1::Endpoints::RoutesEndpoint
     end
   end
 end
