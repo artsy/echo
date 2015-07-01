@@ -233,6 +233,3 @@ DEPENDENCIES
   shotgun
   simplecov
   webmock
-
-BUNDLED WITH
-   1.10.4

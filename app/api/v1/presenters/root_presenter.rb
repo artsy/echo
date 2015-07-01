@@ -39,6 +39,34 @@ module V1
         }
       end
 
+      link :messages do |opts|
+        {
+          href: "#{base_url(opts)}/messages{?page,size,account_id}",
+          templated: true
+        }
+      end
+
+      link :message do |opts|
+        {
+          href: "#{base_url(opts)}/messages/{id}",
+          templated: true
+        }
+      end
+
+      link :routes do |opts|
+        {
+          href: "#{base_url(opts)}/routes{?page,size,account_id}",
+          templated: true
+        }
+      end
+
+      link :route do |opts|
+        {
+          href: "#{base_url(opts)}/routes/{id}",
+          templated: true
+        }
+      end
+
       private
 
       def base_url(opts)
