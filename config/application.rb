@@ -4,7 +4,7 @@ require File.expand_path('../boot', __FILE__)
 Dir['./config/initializers/**/*.rb'].map { |file| require file }
 
 # autoload app
-relative_file_paths = %w(app/models app/api app/api/v1/endpoints app/api/v1/presenters app/api/v2/endpoints app/api/v2/presenters)
+relative_file_paths = %w(app/models app/models/concerns app/api app/api/v1/endpoints app/api/v1/presenters app/api/v2/endpoints app/api/v2/presenters)
 ActiveSupport::Dependencies.autoload_paths += relative_file_paths
 
 module Echo
