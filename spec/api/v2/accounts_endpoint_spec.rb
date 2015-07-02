@@ -18,9 +18,28 @@ describe V2::Endpoints::AccountsEndpoint do
       expect(account.name).to eq account_details[:name]
     end
 
-    it 'does not return a link to associated features' do
+    it 'returns associated features array' do
+      2.times do
+        Fabricate(:feature, account: account1)
+      end
       account = client.account(id: account1.id)
-      expect(account.try(:features)).to be_nil
+      expect(account.features.count).to eq 2
+    end
+
+    it 'returns associated messages array' do
+      2.times do
+        Fabricate(:message, account: account1)
+      end
+      account = client.account(id: account1.id)
+      expect(account.messages.count).to eq 2
+    end
+
+    it 'returns associated routes array' do
+      2.times do
+        Fabricate(:route, account: account1)
+      end
+      account = client.account(id: account1.id)
+      expect(account.routes.count).to eq 2
     end
   end
 end

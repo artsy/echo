@@ -27,6 +27,7 @@ end
 group :test do
   gem 'fabrication'
   gem 'rspec'
+  gem 'shoulda-matchers'
   gem 'rack-test'
   gem 'simplecov'
   gem 'webmock'

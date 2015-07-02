@@ -1,8 +1,6 @@
 require 'spec_helper'
 
 describe Route do
-  it 'validates that an account is present' do
-    expect(subject).to be_invalid
-    expect(subject.errors.messages).to eq(account: ["can't be blank"])
-  end
+  it { should belong_to(:account).touch(true) }
+  it { should validate_presence_of(:account) }
 end

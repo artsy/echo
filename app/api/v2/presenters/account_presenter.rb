@@ -8,10 +8,9 @@ module V2
       property :created_at, writeable: false, type: DateTime, desc: 'Account created timestamp.'
       property :updated_at, writeable: false, type: DateTime, desc: 'Account updated timestamp.'
 
-      link :self do |opts|
-        request = Grape::Request.new(opts[:env])
-        "#{request.base_url}/accounts/#{id}"
-      end
+      collection :features, extend: FeaturePresenter, class: Feature
+      collection :messages, extend: MessagePresenter, class: Message
+      collection :routes, extend: RoutePresenter, class: Route
     end
   end
 end

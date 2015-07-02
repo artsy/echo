@@ -188,6 +188,8 @@ GEM
     safe_yaml (1.0.4)
     shotgun (0.9.1)
       rack (>= 1.0)
+    shoulda-matchers (2.8.0)
+      activesupport (>= 3.0.0)
     simplecov (0.10.0)
       docile (~> 1.1.0)
       json (~> 1.8)
@@ -231,5 +233,6 @@ DEPENDENCIES
   rspec
   rubocop
   shotgun
+  shoulda-matchers
   simplecov
   webmock
