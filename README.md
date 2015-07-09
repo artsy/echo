@@ -20,7 +20,7 @@ Set-Up for Development
 - Fork [artsy/echo](https://github.com/artsy/echo)
 - Clone your fork locally; for example:
 ```
-git clone git@github.com:dylanfareed/echo.git
+git clone git@github.com:artsy/echo.git
 ```
 - Bundle
 ```
