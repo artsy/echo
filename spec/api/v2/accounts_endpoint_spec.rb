@@ -12,6 +12,14 @@ describe V2::Endpoints::AccountsEndpoint do
     end
     let(:account1) { Fabricate(:account, attributes: account_details) }
 
+    it 'returns custom Updated-At header with HEAD request' do
+      head "/accounts/#{account1.id}", {},
+           'HTTP_ACCEPT' => 'application/vnd.echo-v2+json',
+           'HTTP_AUTHORIZATION' => permitted_token
+      expect(last_response.status).to eq(200)
+      expect(last_response.headers['Updated-At']).to eq account1.updated_at.to_s
+    end
+
     it 'returns account' do
       account = client.account(id: account1.id)
       expect(account.id).to eq account1.id
