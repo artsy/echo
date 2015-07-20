@@ -16,7 +16,6 @@ Meta
 
 Set-Up for Development
 ---
-
 - Fork [artsy/echo](https://github.com/artsy/echo)
 - Clone your fork locally; for example:
 ```
