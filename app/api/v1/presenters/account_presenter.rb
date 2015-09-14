@@ -8,24 +8,20 @@ module V1
       property :created_at, writeable: false, type: DateTime, desc: 'Account created timestamp.'
       property :updated_at, writeable: false, type: DateTime, desc: 'Account updated timestamp.'
 
-      link :self do |opts|
-        request = Grape::Request.new(opts[:env])
-        "#{request.base_url}/accounts/#{id}"
+      link :self do
+        "#{Gris::Identity.base_url}/accounts/#{id}"
       end
 
-      link :features do |opts|
-        request = Grape::Request.new(opts[:env])
-        "#{request.base_url}/features?account_id=#{id}"
+      link :features do
+        "#{Gris::Identity.base_url}/features?account_id=#{id}"
       end
 
-      link :messages do |opts|
-        request = Grape::Request.new(opts[:env])
-        "#{request.base_url}/messages?account_id=#{id}"
+      link :messages do
+        "#{Gris::Identity.base_url}/messages?account_id=#{id}"
       end
 
-      link :routes do |opts|
-        request = Grape::Request.new(opts[:env])
-        "#{request.base_url}/routes?account_id=#{id}"
+      link :routes do
+        "#{Gris::Identity.base_url}/routes?account_id=#{id}"
       end
     end
   end

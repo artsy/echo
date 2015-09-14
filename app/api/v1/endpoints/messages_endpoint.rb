@@ -11,8 +11,7 @@ module V1
         get do
           conditions = {}
           conditions = conditions.merge(account_id: params[:account_id]) if params[:account_id].present?
-          messages = Message.where(conditions)
-          present Kaminari.paginate_array(messages).page(params[:page]).per(params[:size]), with: Presenters::MessagesPresenter
+          paginate Message, conditions: conditions, with: Presenters::MessagesPresenter
         end
 
         desc 'Create new message.'

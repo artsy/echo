@@ -10,9 +10,8 @@ module V1
       property :created_at, writeable: false, type: DateTime, desc: 'Message created timestamp.'
       property :updated_at, writeable: false, type: DateTime, desc: 'Message updated timestamp.'
 
-      link :self do |opts|
-        request = Grape::Request.new(opts[:env])
-        "#{request.base_url}/features/#{id}"
+      link :self do
+        "#{Gris::Identity.base_url}/features/#{id}"
       end
     end
   end

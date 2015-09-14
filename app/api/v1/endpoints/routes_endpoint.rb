@@ -11,8 +11,7 @@ module V1
         get do
           conditions = {}
           conditions = conditions.merge(account_id: params[:account_id]) if params[:account_id].present?
-          routes = Route.where(conditions)
-          present Kaminari.paginate_array(routes).page(params[:page]).per(params[:size]), with: Presenters::RoutesPresenter
+          paginate Route, conditions: conditions, with: Presenters::RoutesPresenter
         end
 
         desc 'Create new route.'
