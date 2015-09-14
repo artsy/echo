@@ -31,9 +31,9 @@ describe V1::Endpoints::MessagesEndpoint do
 
     it 'returns pagination' do
       response = client.messages(size: 2, page: 2)
-      expect(response._links.next._url).to eq 'http://example.org/messages?page=3&size=2'
-      expect(response._links.prev._url).to eq 'http://example.org/messages?page=1&size=2'
-      expect(response._links.self._url).to eq 'http://example.org/messages?page=2&size=2'
+      expect(response._links.next._url).to eq "#{Gris::Identity.base_url}/messages?page=3&size=2"
+      expect(response._links.prev._url).to eq "#{Gris::Identity.base_url}/messages?page=1&size=2"
+      expect(response._links.self._url).to eq "#{Gris::Identity.base_url}/messages?page=2&size=2"
     end
 
     it 'returns all unique ids' do

@@ -9,8 +9,7 @@ module V1
         end
         get do
           conditions = {}
-          accounts = Account.where(conditions)
-          present Kaminari.paginate_array(accounts).page(params[:page]).per(params[:size]), with: Presenters::AccountsPresenter
+          paginate Account, conditions: conditions, with: Presenters::AccountsPresenter
         end
 
         desc 'Create new account.'

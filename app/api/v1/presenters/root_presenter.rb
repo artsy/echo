@@ -3,76 +3,16 @@ module V1
     module RootPresenter
       include Gris::Presenter
 
-      link :self do |opts|
-        "#{base_url(opts)}"
+      link :self do
+        Gris::Identity.base_url
       end
 
-      link :health do |opts|
-        { href: "#{base_url(opts)}/health" }
-      end
+      endpoint_link :health
 
-      link :accounts do |opts|
-        {
-          href: "#{base_url(opts)}/accounts{?page,size}",
-          templated: true
-        }
-      end
-
-      link :account do |opts|
-        {
-          href: "#{base_url(opts)}/accounts/{id}",
-          templated: true
-        }
-      end
-
-      link :features do |opts|
-        {
-          href: "#{base_url(opts)}/features{?page,size,account_id}",
-          templated: true
-        }
-      end
-
-      link :feature do |opts|
-        {
-          href: "#{base_url(opts)}/features/{id}",
-          templated: true
-        }
-      end
-
-      link :messages do |opts|
-        {
-          href: "#{base_url(opts)}/messages{?page,size,account_id}",
-          templated: true
-        }
-      end
-
-      link :message do |opts|
-        {
-          href: "#{base_url(opts)}/messages/{id}",
-          templated: true
-        }
-      end
-
-      link :routes do |opts|
-        {
-          href: "#{base_url(opts)}/routes{?page,size,account_id}",
-          templated: true
-        }
-      end
-
-      link :route do |opts|
-        {
-          href: "#{base_url(opts)}/routes/{id}",
-          templated: true
-        }
-      end
-
-      private
-
-      def base_url(opts)
-        request = Grape::Request.new(opts[:env])
-        request.base_url
-      end
+      resource_links :account
+      resource_links :feature, [:account_id]
+      resource_links :message, [:account_id]
+      resource_links :route, [:account_id]
     end
   end
 end

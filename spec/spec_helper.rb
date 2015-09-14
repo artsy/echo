@@ -4,6 +4,8 @@ require File.expand_path('../../config/application', __FILE__)
 require 'gris/rspec_extensions/response_helpers'
 require 'gris/rspec_extensions/active_record_shared_connection'
 
+ActiveRecord::Migration.check_pending!
+
 # Requires supporting ruby files with custom matchers and macros, etc,
 # in spec/support/ and its subdirectories.
 Dir['./spec/support/**/*.rb'].each { |f| require f }

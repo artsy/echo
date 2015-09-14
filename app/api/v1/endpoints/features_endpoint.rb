@@ -11,8 +11,7 @@ module V1
         get do
           conditions = {}
           conditions = conditions.merge(account_id: params[:account_id]) if params[:account_id].present?
-          features = Feature.where(conditions)
-          present Kaminari.paginate_array(features).page(params[:page]).per(params[:size]), with: Presenters::FeaturesPresenter
+          paginate Feature, conditions: conditions, with: Presenters::FeaturesPresenter
         end
 
         desc 'Create new feature.'

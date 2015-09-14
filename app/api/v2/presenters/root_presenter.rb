@@ -3,22 +3,15 @@ module V2
     module RootPresenter
       include Gris::Presenter
 
-      link :self do |opts|
-        "#{base_url(opts)}"
+      link :self do
+        Gris::Identity.base_url
       end
 
-      link :account do |opts|
+      link :account do
         {
-          href: "#{base_url(opts)}/accounts/{id}",
+          href: "#{Gris::Identity.base_url}/accounts/{id}",
           templated: true
         }
-      end
-
-      private
-
-      def base_url(opts)
-        request = Grape::Request.new(opts[:env])
-        request.base_url
       end
     end
   end

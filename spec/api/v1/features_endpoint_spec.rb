@@ -31,9 +31,9 @@ describe V1::Endpoints::FeaturesEndpoint do
 
     it 'returns pagination' do
       response = client.features(size: 2, page: 2)
-      expect(response._links.next._url).to eq 'http://example.org/features?page=3&size=2'
-      expect(response._links.prev._url).to eq 'http://example.org/features?page=1&size=2'
-      expect(response._links.self._url).to eq 'http://example.org/features?page=2&size=2'
+      expect(response._links.next._url).to eq "#{Gris::Identity.base_url}/features?page=3&size=2"
+      expect(response._links.prev._url).to eq "#{Gris::Identity.base_url}/features?page=1&size=2"
+      expect(response._links.self._url).to eq "#{Gris::Identity.base_url}/features?page=2&size=2"
     end
 
     it 'returns all unique ids' do

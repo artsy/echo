@@ -3,20 +3,22 @@ ruby '2.2.2'
 
 gem 'rack-cors'
 gem 'pg'
-gem 'activerecord', '~> 4.2.0', require: 'active_record'
+gem 'activerecord', require: 'active_record'
 gem 'json'
 
 gem 'gris'
+gem 'gris_paginator'
+gem 'gris-toko_ohno'
 
 gem 'roar'
-gem 'grape-roar', '~> 0.3.0'
+gem 'grape-roar'
 gem 'grape-swagger'
-gem 'kaminari', '~> 0.16.2', require: 'kaminari/grape'
+gem 'kaminari', require: 'kaminari/grape'
 gem 'puma'
 
 group :development, :test do
   gem 'pry'
-  gem 'hyperclient', '0.7.0'
+  gem 'hyperclient'
 end
 
 group :development do

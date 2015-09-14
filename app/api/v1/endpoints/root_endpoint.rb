@@ -5,10 +5,7 @@ module V1
       formatter :json, Grape::Formatter::Roar
       content_type :json, 'application/hal+json'
       version 'v1', using: :header, vendor: 'echo'
-
-      helpers do
-        include Gris::AuthenticationHelpers
-      end
+      cascade true
 
       before do
         token_authentication!
