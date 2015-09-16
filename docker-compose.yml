@@ -4,7 +4,7 @@ db:
   - "5432:5432"
 web:  
   build: .
-  command: bundle exec puma -C config/puma.rb
+  command: ./config/start.sh
   ports:
   - "3000:3000"
   volumes:

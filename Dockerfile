@@ -17,4 +17,4 @@ RUN bundle install -j 10
 COPY . $APP_DIR
 
 EXPOSE 3000
-CMD bundle exec puma -C config/puma.rb
+CMD ./config/start.sh
