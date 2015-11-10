@@ -1,0 +1,6 @@
+- service: web
+  command: env
+- service: web
+  command: bundle exec rake db:create 
+- service: web
+  command: bundle exec rake

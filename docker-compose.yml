@@ -1,12 +1,7 @@
-db:
-  image: postgres:9.4
-  ports:
-  - "5432:5432"
+
 web:  
   build: .
   command: ./config/start.sh
-  ports:
-  - "3000:3000"
   volumes:
    - .:/app
   links:
@@ -14,3 +9,7 @@ web:
   environment:
     DATABASE_HOST: db
     DATABASE_USER: postgres
+    RACK_ENV: test
+
+db:
+  image: postgres:9.4
