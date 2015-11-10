@@ -1,6 +1,6 @@
 - service: web
   command: env
 - service: web
-  command: bundle exec rake db:create 
+  command: ./ci/wait.sh
 - service: web
-  command: bundle exec rake
+  command: ./ci/tests.sh
