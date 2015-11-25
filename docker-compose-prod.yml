@@ -1,0 +1,18 @@
+# DO NOT USE THIS FOR A PRODUCTION DEPLOY!
+# This is only an example of running the app in production mode for local debugging.
+db:
+  image: postgres:9.4
+  ports:
+  - "5432:5432"
+web:  
+  build: .
+  command: ./config/start.sh
+  ports:
+  - "3000:3000"
+  links:
+  - db
+  environment:
+    RACK_ENV: production
+    DATABASE_URL: postgres://postgres@db/echo_production
+    PERMITTED_TOKENS: production-key
+

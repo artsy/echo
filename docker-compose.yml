@@ -4,6 +4,7 @@ db:
   - "5432:5432"
 web:  
   build: .
+  dockerfile: Dockerfile.dev
   command: ./config/start.sh
   ports:
   - "3000:3000"

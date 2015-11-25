@@ -9,7 +9,7 @@ WORKDIR $APP_DIR
 
 COPY Gemfile $APP_DIR/
 COPY Gemfile.lock $APP_DIR/
-RUN bundle install -j 10 --without development test
+RUN bundle install -j 10
 
 COPY . $APP_DIR
 
