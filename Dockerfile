@@ -1,10 +1,9 @@
-FROM ruby:2.2.2
+FROM quay.io/artsy/ruby:2.2
 
 # throw errors if Gemfile has been modified since Gemfile.lock
 RUN bundle config --global frozen 1
 
 RUN apt-get update && apt-get install -y nodejs --no-install-recommends && rm -rf /var/lib/apt/lists/*
-RUN apt-get update && apt-get install -y postgresql-client --no-install-recommends && rm -rf /var/lib/apt/lists/*
 
 ENV APP_DIR=/app
 RUN mkdir -p $APP_DIR
