@@ -13,4 +13,6 @@ RUN bundle install -j 10 --without development test
 
 COPY . $APP_DIR
 
+EXPOSE 3000
+
 CMD ./config/start.sh
