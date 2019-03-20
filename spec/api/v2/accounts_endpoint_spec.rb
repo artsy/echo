@@ -1,4 +1,5 @@
 require 'spec_helper'
+require 'json'
 
 describe V2::Endpoints::AccountsEndpoint do
   include Rack::Test::Methods
@@ -17,7 +18,15 @@ describe V2::Endpoints::AccountsEndpoint do
            'HTTP_ACCEPT' => 'application/vnd.echo-v2+json',
            'HTTP_AUTHORIZATION' => permitted_token
       expect(last_response.status).to eq(200)
-      expect(last_response.headers['Updated-At']).to eq account1.updated_at.to_s
+      expect(Time.parse(last_response.headers['Updated-At'])).to be_within(1.second).of account1.updated_at
+    end
+
+    it 'returns custom Updated-At header identical to account created_at' do
+      get "/accounts/#{account1.id}", {},
+          'HTTP_ACCEPT' => 'application/vnd.echo-v2+json',
+          'HTTP_AUTHORIZATION' => permitted_token
+      body = JSON.parse(last_response.body)
+      expect(last_response.headers['Updated-At']).to eq body['updated_at']
     end
 
     it 'returns account' do
