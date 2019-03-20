@@ -1,5 +1,7 @@
 # echo
 
+**NOTE TO ARTSY STAFF**: The `master` branch is currently not deployable. The last deployed branch is `ash-deploy`, so any urgent fixes should be made from there. See [PLATFORM-1300](https://artsyproduct.atlassian.net/browse/PLATFORM-1300) for more information.
+
 [echo](http://github.com/artsy/echo) is a Grape + Rack ([Gris](http://github.com/artsy/gris)) hypermedia API service that provides remote configuration for Artsy mobile clients.
 
 [![Build Status](https://semaphoreci.com/api/v1/projects/0b1b6ac6-4ee1-47b4-a65e-90bc37b414c2/469563/badge.svg)](https://semaphoreci.com/artsy-it/echo)
