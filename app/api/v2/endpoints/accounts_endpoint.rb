@@ -8,7 +8,7 @@ module V2
         end
         get ':id' do
           account = Account.find params[:id]
-          header 'Updated-At', account.updated_at.to_s
+          header 'Updated-At', account.updated_at.to_json.tr("\"", "")
           present account, with: Presenters::AccountPresenter
         end
       end
