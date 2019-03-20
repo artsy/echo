@@ -23,8 +23,8 @@ describe V2::Endpoints::AccountsEndpoint do
 
     it 'returns custom Updated-At header identical to account created_at' do
       get "/accounts/#{account1.id}", {},
-           'HTTP_ACCEPT' => 'application/vnd.echo-v2+json',
-           'HTTP_AUTHORIZATION' => permitted_token
+          'HTTP_ACCEPT' => 'application/vnd.echo-v2+json',
+          'HTTP_AUTHORIZATION' => permitted_token
       body = JSON.parse(last_response.body)
       expect(last_response.headers['Updated-At']).to eq body['updated_at']
     end
