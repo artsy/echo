@@ -146,7 +146,7 @@ GEM
       method_source (~> 0.8.1)
       slop (~> 3.4)
     puma (2.13.4)
-    rack (1.6.4)
+    rack (1.6.12)
     rack-accept (0.4.5)
       rack (>= 0.4)
     rack-cors (0.4.0)
