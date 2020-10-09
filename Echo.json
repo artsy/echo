@@ -36,11 +36,11 @@
 		},
 		{
 			"name": "StripeProductionPublishableKey",
-			"content": "$StripeProductionPublishableKey"
+			"content": "${StripeProductionPublishableKey}"
 		},
 		{
 			"name": "StripeStagingPublishableKey",
-			"content": "$StripeStagingPublishableKey"
+			"content": "${StripeStagingPublishableKey}"
 		},
 		{ "name": "KillSwitchBuildMinimum", "content": "5.0.0" }
 	],
