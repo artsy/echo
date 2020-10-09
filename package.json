@@ -1,0 +1,14 @@
+{
+	"name": "echo",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"lint": "prettier --write Echo.json"
+	},
+	"dependencies": {
+		"prettier": "^2.1.2"
+	},
+	"repository": "git@github.com:artsy/echo.git",
+	"author": "Pavlos Vinieratos <pvinis@gmail.com>",
+	"license": "MIT"
+}
