@@ -9,8 +9,18 @@
 		{ "name": "ARDisableReactNativeBidFlow", "value": false },
 		{ "name": "AREnableBuyNowFlow", "value": true },
 		{ "name": "AREnableMakeOfferFlow", "value": true },
+		{ "name": "AREnableLocalDiscovery", "value": true },
+		{ "name": "ARReactNativeArtworkEnableAlways", "value": false },
+		{ "name": "ARReactNativeArtworkEnableNonCommercial", "value": true },
+		{ "name": "ARReactNativeArtworkEnableNSOInquiry", "value": true },
+		{ "name": "ARReactNativeArtworkEnableAuctions", "value": true },
+		{ "name": "AROptionsPriceTransparency", "value": true },
+		{ "name": "AREnableNewPartnerView", "value": true },
+		{ "name": "AREnableNewSearch", "value": true },
+		{ "name": "AROptionsLotConditionReport", "value": true },
+		{ "name": "AROptionsEnableSales", "value": true },
 		{ "name": "AREnableViewingRooms", "value": true },
-		{ "name": "AREnableLocalDiscovery", "value": true }
+		{ "name": "AROptionsArtistSeries", "value": true }
 	],
 	"messages": [
 		{ "name": "LiveAuctionsCurrentWebSocketVersion", "content": "3" },
@@ -20,8 +30,19 @@
 		},
 		{ "name": "ExchangeCurrentVersion", "content": "1" },
 		{ "name": "LocalDiscoveryCurrentVersion", "content": "2" },
-		{ "name": "StripeProductionPublishableKey", "content": "-" },
-		{ "name": "StripeStagingPublishableKey", "content": "-" }
+		{
+			"name": "LocalDiscoveryAllowListCSV",
+			"content": "56ec4863139b21562100026e,5c28731d287756002c8f6735,57a9833b6d932d38f000044c,58c7b908139b214de8598d0c,5c8bc82809b9510028404a58,5c8bcabf5a48a511f9925c90,5c8fafe695ac402fc5f1cfa9,502d15746e721400020006fa"
+		},
+		{
+			"name": "StripeProductionPublishableKey",
+			"content": "$StripeProductionPublishableKey"
+		},
+		{
+			"name": "StripeStagingPublishableKey",
+			"content": "$StripeStagingPublishableKey"
+		},
+		{ "name": "KillSwitchBuildMinimum", "content": "5.0.0" }
 	],
 	"routes": [
 		{ "name": "ARArtistRoute", "path": "/artist/:id" },
