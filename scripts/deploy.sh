@@ -13,8 +13,8 @@ aws s3 cp build/Echo.min.json s3://artsy-public/eigen/Echo_$(date +%F)_$(git rev
 
 
 # add git tag
-git tag deploy_$(date +%F)_$(git rev-parse --short HEAD)
-git push --tags
+# git tag deploy_$(date +%F)_$(git rev-parse --short HEAD)
+# git push --tags
 
 
 ## only run this script on master and prod. master goes to echo.staging.json, prod goes to echo.json
