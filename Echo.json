@@ -23,7 +23,7 @@
 		{ "name": "AROptionsArtistSeries", "value": true }
 	],
 	"messages": [
-		 "name": "LiveAuctionsCurrentWebSocketVersion", "content": "3" },
+		{ "name": "LiveAuctionsCurrentWebSocketVersion", "content": "3" },
 		{
 			"name": "ARVIRVideo",
 			"content": "https://files.artsy.net/videos/artsy-eigen-arvir-iphone.mp4"
