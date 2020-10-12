@@ -14,12 +14,9 @@ aws s3 cp build/Echo.min.json s3://artsy-public/eigen/Echo_$(date +%F)_$(git rev
 
 #### what about staging?
 
+### dont upload if nothing changed?
 
 
 ### only do this in master
 
 		# // invalidate cloudflare
-
-
-
-## docs about cloudfront, then cloudflare

@@ -8,13 +8,12 @@ Meta
 ---
 
 * __State:__ production
+* __Staging:__ [https://echo-staging.artsy.net/Echo.json](https://echo-staging.artsy.net/Echo.json)
+* __Production:__ [https://echo.artsy.net/Echo.json](https://echo.artsy.net/Echo.json)
 * __Github:__ [https://github.com/artsy/echo/](https://github.com/artsy/echo/)
-* __Point People:__ [@ashfurrow](https://github.com/ashfurrow)
+* __Point People:__ [@ashfurrow](https://github.com/ashfurrow), [@pvinis](https://github.com/pvinis)
 
 Set-Up for Development
 ---
 - Fork [artsy/echo](https://github.com/artsy/echo)
-- Clone your fork locally; for example:
-```
-git clone git@github.com:artsy/echo.git
-```
+- Make a PR with your changes (toggle/add/remove flags)
