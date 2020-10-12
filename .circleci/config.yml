@@ -13,8 +13,9 @@ jobs:
     steps:
       - checkout
       - node/install:
-          install-yarn: true
           node-version: 12.16.2
+          install-yarn: true
+          install-npm: false
       - run: yarn install
       - run: ./scripts/deploy.sh
 
