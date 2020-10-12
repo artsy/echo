@@ -2,7 +2,7 @@
 	"id": 1,
 	"name": "eigen",
 	"created_at": "2015-07-10T20:59:23.453Z",
-	"updated_at": "2019-03-25T11:56:52.753Z",
+	"updated_at": "${ECHO_CURRENT_TIME}",
 	"features": [
 		{ "name": "ipad_vir", "value": false },
 		{ "name": "iphone_vir", "value": true },

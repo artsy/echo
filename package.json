@@ -6,6 +6,7 @@
 	},
 	"dependencies": {
 		"envsub": "^4.0.7",
+		"jsonminify": "^0.4.1",
 		"prettier": "^2.1.2"
 	},
 	"repository": "git@github.com:artsy/echo.git",
