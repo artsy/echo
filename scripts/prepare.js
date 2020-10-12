@@ -1,6 +1,7 @@
 const fs = require('fs')
 const envsub = require('envsub')
 const jsonminify = require('jsonminify')
+const { exit } = require('process')
 
 const repoDir = `${__dirname}/..`
 const templateFile = `${repoDir}/Echo.json`
@@ -29,6 +30,7 @@ const prepare = async () => {
 
 	} catch (e) {
 		console.error(e)
+		exit(-1)
 	}
 }
 
