@@ -8,7 +8,7 @@ Meta
 ---
 
 * __State:__ production
-* __Staging:__ [https://echo-staging.artsy.net/Echo.json](https://echo-staging.artsy.net/Echo.json)
+* __Staging:__ [https://echo.artsy.net/Echo.staging.json](https://echo.artsy.net/Echo.staging.json)
 * __Production:__ [https://echo.artsy.net/Echo.json](https://echo.artsy.net/Echo.json)
 * __Github:__ [https://github.com/artsy/echo/](https://github.com/artsy/echo/)
 * __Point People:__ [@ashfurrow](https://github.com/ashfurrow), [@pvinis](https://github.com/pvinis)
