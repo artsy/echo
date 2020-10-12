@@ -2,18 +2,23 @@ version: 2.1
 
 
 orbs:
-  welcome: circleci/welcome-orb@0.4.1
+  node: circleci/node@2.1.1
+  aws: circleci/aws-s3@2.0.0
 
-
-workflows:
-  deploy:
-    jobs:
-      - deploy-json
-      - welcome/run
 
 jobs:
   deploy-json:
     machine:
       image: ubuntu-1604:202007-01
     steps:
+      - checkout
+      - node/install:
+          install-yarn: true
+      - run: yarn install
       - run: ./scripts/deploy.sh
+
+
+workflows:
+  deploy:
+    jobs:
+      - deploy-json
