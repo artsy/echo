@@ -1,21 +1,19 @@
 version: 2.1
+
+
 orbs:
   welcome: circleci/welcome-orb@0.4.1
-  shellcheck: circleci/shellcheck@x.y.z
 
 
 workflows:
   deploy:
     jobs:
-      - shellcheck/check # job defined within the orb so no further config necessary
-      - deploy-json:
-          requires:
-            - shellcheck/check
+      - deploy-json
       - welcome/run
 
 jobs:
   deploy-json:
+    machine:
+      image: ubuntu-1604:202007-01
     steps:
-      - run:
-          name: deploy-script
-          command: ./scripts/deploy.sh
+      - run: ./scripts/deploy.sh
