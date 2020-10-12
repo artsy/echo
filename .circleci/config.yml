@@ -23,4 +23,5 @@ jobs:
 workflows:
   deploy:
     jobs:
-      - deploy-json
+      - deploy-json:
+          context: palette-docs-upload
