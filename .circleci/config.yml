@@ -28,4 +28,6 @@ workflows:
   deploy:
     jobs:
       - deploy-json:
-          context: echo
+          context:
+            - echo
+            - circleci-api
