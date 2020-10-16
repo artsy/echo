@@ -19,13 +19,12 @@ jobs:
           install-npm: false
       - run: yarn install
       - run: ./scripts/deploy.sh
-      # - committag:
-          # parameters:
-            # custom_tag: wow
 
 
 workflows:
   deploy:
     jobs:
       - deploy-json:
-          context: echo
+          context:
+            - echo
+            - circleci-api
