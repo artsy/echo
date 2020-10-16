@@ -4,7 +4,7 @@ version: 2.1
 orbs:
   node: circleci/node@2.1.1
   aws: circleci/aws-s3@2.0.0
-  git-tools: sandbox/git-tools@0.3.0
+  # git-tools: sandbox/git-tools@0.3.0
 
 
 jobs:
@@ -27,4 +27,4 @@ workflows:
       - deploy-json:
           context:
             - echo
-            - github-write
+            # - github-write

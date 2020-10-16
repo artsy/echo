@@ -2,22 +2,36 @@
 set -euxo pipefail
 
 
+BRANCH_DEPLOYING_TO_STAGING=s3
+BRANCH_DEPLOYING_TO_PRODUCTION=s3-production
+
+NAME_POSTFIX=
+CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
+if [[ "$CURRENT_BRANCH" == "$BRANCH_DEPLOYING_TO_STAGING" ]]; then
+  NAME_POSTFIX=.staging
+elif [[ "$CURRENT_BRANCH" == "$BRANCH_DEPLOYING_TO_PRODUCTION" ]]; then
+  NAME_POSTFIX=
+else
+  exit 255
+fi
+
+
 # prepare files
 mkdir -p build
 node scripts/prepare.js
 
 
 # upload a public copy and a private/backup copy
-aws s3 cp build/Echo.min.json s3://artsy-public/eigen/Echo.json --acl public-read
-aws s3 cp build/Echo.min.json s3://artsy-public/eigen/Echo_$(date +%F)_$(git rev-parse --short HEAD).json
+aws s3 cp build/Echo.min.json "s3://artsy-public/eigen/Echo$(NAME_POSTFIX).json" --acl public-read
+aws s3 cp build/Echo.min.json "s3://artsy-public/eigen/Echo_$(date +%F)_$(git rev-parse --short HEAD)$(NAME_POSTFIX).json"
 
 
 # add git tag
-git tag deploy_$(date +%F)_$(git rev-parse --short HEAD)
-git push --tags
+# git tag deploy_$(date +%F)_$(git rev-parse --short HEAD)
+# git push --tags
 
 
-## only run this script on master and prod. master goes to echo.staging.json, prod goes to echo.json
+
 
 ## make a pr from master to prod branch (auto, like force?)
 
