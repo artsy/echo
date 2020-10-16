@@ -27,4 +27,4 @@ workflows:
       - deploy-json:
           context:
             - echo
-            - circleci-api
+            - github
