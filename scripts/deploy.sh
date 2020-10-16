@@ -22,8 +22,8 @@ node scripts/prepare.js
 
 
 # upload a public copy and a private/backup copy
-aws s3 cp build/Echo.min.json "s3://artsy-public/eigen/Echo$(NAME_POSTFIX).json" --acl public-read
-aws s3 cp build/Echo.min.json "s3://artsy-public/eigen/Echo_$(date +%F)_$(git rev-parse --short HEAD)$(NAME_POSTFIX).json"
+aws s3 cp build/Echo.min.json "s3://artsy-public/eigen/Echo${NAME_POSTFIX}.json" --acl public-read
+aws s3 cp build/Echo.min.json "s3://artsy-public/eigen/Echo_$(date +%F)_$(git rev-parse --short HEAD)${NAME_POSTFIX}.json"
 
 
 # add git tag
