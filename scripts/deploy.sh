@@ -32,7 +32,7 @@ CURRENT_MD5=$(curl https://echo.artsy.net/Echo${NAME_POSTFIX}.json | md5_no_upd)
 NEXT_MD5=$(cat $MIN_JSON | md5_no_upd)
 
 if [ "$CURRENT_MD5" = "$NEXT_MD5" ]; then
-  echo "No change in file besides `updated_at`. Skipping deployment."
+  echo "No change in file besides updated_at field. Skipping deployment."
   exit 0
 fi
 
@@ -53,7 +53,7 @@ aws cloudfront create-invalidation --distribution-id E1U95PW8WB8P0Z --paths /Ech
 
 
 
-# no changes in json
 
 
 
+# lso have a way to force deploy, just in case
