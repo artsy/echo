@@ -27,7 +27,7 @@ aws s3 cp build/Echo.min.json "s3://artsy-public/eigen/Echo_$(date +%F)_$(git re
 
 
 # add git tag
-git tag deploy_$(date +%F)_$(git rev-parse --short HEAD)${NAME_POSTFIX}
+git tag --force deploy_$(date +%F)_$(git rev-parse --short HEAD)${NAME_POSTFIX}
 git push --tags
 
 
