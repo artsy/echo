@@ -17,6 +17,9 @@ jobs:
           install-yarn: true
           install-npm: false
       - run: yarn install
+      - add_ssh_keys:
+          fingerprints:
+            - "64:ce:5e:b5:3f:c5:fe:94:90:7a:fb:d5:5f:c5:a7:ef"
       - run: ./scripts/deploy.sh
 
 
