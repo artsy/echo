@@ -36,4 +36,4 @@ git push --tags
 ### dont upload if nothing changed? check latest `deploy-*` tag, check if Echo.json changed? also have a way to force deploy, just in case
 
 # invalidate caching of file
-# aws cloudfront create-invalidation --distribution-id E1U95PW8WB8P0Z --paths /Echo${NAME_POSTFIX}.json
+aws cloudfront create-invalidation --distribution-id E1U95PW8WB8P0Z --paths /Echo${NAME_POSTFIX}.json
