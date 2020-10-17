@@ -33,8 +33,6 @@ aws s3 cp build/Echo.min.json "s3://artsy-public/eigen/Echo_$(date +%F)_$(git re
 
 
 
-## make a pr from master to prod branch (auto, like force?)
-
 ### dont upload if nothing changed? check latest `deploy-*` tag, check if Echo.json changed? also have a way to force deploy, just in case
 
 # invalidate caching of file

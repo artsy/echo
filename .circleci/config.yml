@@ -29,5 +29,4 @@ workflows:
                only:
                  - s3
                  - s3-production
-          context:
-            - echo
+          context: echo
