@@ -28,7 +28,7 @@ function md5_no_upd {
   perl -pe 's|,"updated_at":".+?"||' | md5
 }
 
-CURRENT_MD5=$(curl https://echo.artsy.net/Echo.json | md5_no_upd)
+CURRENT_MD5=$(curl https://echo.artsy.net/Echo${NAME_POSTFIX}.json | md5_no_upd)
 NEXT_MD5=$(cat $MIN_JSON | md5_no_upd)
 
 if [ "$CURRENT_MD5" = "$NEXT_MD5" ]; then
