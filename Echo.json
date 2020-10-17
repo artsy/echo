@@ -4,7 +4,7 @@
 	"created_at": "2015-07-10T20:59:23.453Z",
 	"updated_at": "${ECHO_CURRENT_TIME}",
 	"features": [
-		{ "name": "ipad_vir", "value": true },
+		{ "name": "ipad_vir", "value": false },
 		{ "name": "iphone_vir", "value": true },
 		{ "name": "ARDisableReactNativeBidFlow", "value": false },
 		{ "name": "AREnableBuyNowFlow", "value": true },
