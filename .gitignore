@@ -2,3 +2,7 @@
 
 .env
 .env.*
+
+yarn-error.log
+
+build/
