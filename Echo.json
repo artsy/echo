@@ -19,7 +19,7 @@
     { "name": "AREnableNewSearch", "value": true },
     { "name": "AROptionsLotConditionReport", "value": true },
     { "name": "AROptionsEnableSales", "value": true },
-    { "name": "AREnableViewingRooms", "value": false },
+    { "name": "AREnableViewingRooms", "value": true },
     { "name": "AROptionsArtistSeries", "value": true },
     { "name": "AROptionsNewFairPage", "value": false }
   ],
