@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Echo",
+  "type": "object",
+  "properties": {
+    "updated_at": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "id": {
+      "type": "number"
+    },
+    "name": {
+      "type": "string"
+    },
+    "features": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "name": { "type": "string" },
+          "value": { "type": "boolean" }
+        },
+        "required": ["name", "value"]
+      }
+    },
+    "messages": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "name": { "type": "string" },
+          "content": { "type": "string" }
+        },
+        "required": ["name", "content"]
+      }
+    },
+    "routes": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "name": { "type": "string" },
+          "path": { "type": "string" }
+        },
+        "required": ["name", "path"]
+      }
+    }
+  },
+  "required": [
+    "created_at",
+    "name",
+    "id",
+    "updated_at",
+    "features",
+    "messages",
+    "routes"
+  ]
+}
