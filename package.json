@@ -1,16 +1,24 @@
 {
-	"name": "echo",
-	"version": "1.0.0",
-	"scripts": {
-		"lint": "prettier --write Echo.json"
-	},
-	"dependencies": {
-		"envsub": "^4.0.7",
-		"jsonminify": "^0.4.1",
-		"jsonschema": "^1.4.0",
-		"prettier": "^2.1.2"
-	},
-	"repository": "git@github.com:artsy/echo.git",
-	"author": "Pavlos Vinieratos <pvinis@gmail.com>",
-	"license": "MIT"
+    "name": "echo",
+    "version": "1.0.0",
+    "scripts": {
+        "lint": "prettier --write Echo.json"
+    },
+    "dependencies": {
+        "envsub": "^4.0.7",
+        "jsonminify": "^0.4.1",
+        "jsonschema": "^1.4.0",
+        "prettier": "^2.1.2"
+    },
+    "devDependencies": {
+        "husky": "^4.3.0"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "./scripts/validate.sh"
+        }
+    },
+    "repository": "git@github.com:artsy/echo.git",
+    "author": "Pavlos Vinieratos <pvinis@gmail.com>",
+    "license": "MIT"
 }
