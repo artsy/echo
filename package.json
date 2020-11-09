@@ -2,10 +2,11 @@
     "name": "echo",
     "version": "1.0.0",
     "scripts": {
-        "lint": "prettier --write Echo.json"
+        "lint": "prettier --parser json5 --write Echo.json5"
     },
     "dependencies": {
         "envsub": "^4.0.7",
+        "json5": "^2.1.3",
         "jsonminify": "^0.4.1",
         "jsonschema": "^1.4.0",
         "prettier": "^2.1.2"
