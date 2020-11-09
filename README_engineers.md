@@ -7,3 +7,6 @@ This happens in 4 steps:
   The context credentials come from the `artsy-echo` IAM user, created based on [these docs](https://www.notion.so/artsy/Adding-New-IAM-Profiles-98884ccf1f0744e3862104e661445d65) and the creds are under `artsy-echo IAM Keypair` in our password manager.
 - Cloudfront is used to serve the directory `s3:artsy-public/eigen` under a domain name like `xxxxx.cloudfront.net` and allowing access from echo.artsy.net.
 - Cloudflare is using a CNAME to point `echo`(`.artsy.net`) to the above domain name (`xxxxx.cloudfront.net`) .
+
+
+⚠️ **NOTE** ⚠️: Everything in the Echo.json file is public and visible by anyone with the url below. This file should **not** be used to store/deliver any sensitive values/keys. Even if values are stored in circleci and then replaced in the final file, the values are still visible to the world.

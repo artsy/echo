@@ -21,7 +21,8 @@
     { "name": "AROptionsEnableSales", "value": true },
     { "name": "AREnableViewingRooms", "value": true },
     { "name": "AROptionsArtistSeries", "value": true },
-    { "name": "AROptionsNewFairPage", "value": false }
+    { "name": "AROptionsNewFairPage", "value": true },
+    { "name": "AROptionsNewShowPage", "value": true }
   ],
   "messages": [
     { "name": "LiveAuctionsCurrentWebSocketVersion", "content": "3" },
