@@ -22,7 +22,7 @@
     { "name": "AREnableViewingRooms", "value": true },
     { "name": "AROptionsArtistSeries", "value": true },
     { "name": "AROptionsNewFairPage", "value": true },
-    { "name": "AROptionsNewShowPage", "value": true },
+    { "name": "AROptionsNewShowPage", "value": false },
     { "name": "AROptionsNewSalePage", "value": true }
   ],
   "messages": [
