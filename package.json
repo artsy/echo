@@ -16,7 +16,7 @@
     },
     "husky": {
         "hooks": {
-            "pre-commit": "./scripts/validate.sh"
+            "pre-commit": "./scripts/validate.sh && yarn lint"
         }
     },
     "repository": "git@github.com:artsy/echo.git",
