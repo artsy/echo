@@ -1,0 +1,17 @@
+{
+  "name": "echo",
+  "version": "0.0.1",
+  "description": "A server to redirect Heroku requests to the new S3 bucket.",
+  "main": "index.js",
+  "repository": "https://github.com/artsy/echo.git",
+  "author": "Ash Furrow <ash@ashfurrow.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  }
+}
