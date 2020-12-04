@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A server to redirect Heroku requests to the new S3 bucket.",
   "main": "index.js",
-  "repository": "https://github.com/artsy/echo.git",
+  "repository": "https://github.com/artsy/echo.git#heroku-redirect-to-s3",
   "author": "Ash Furrow <ash@ashfurrow.com>",
   "license": "MIT",
   "private": false,
