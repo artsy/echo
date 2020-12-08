@@ -6,5 +6,5 @@ It's very important that this proxy app continues to run. To deploy new versions
 
 ```sh
 heroku login
-git push heroku +head:master # Pushes whatever branch you're on to Heroku to deploy
+git push heroku +head:master # Pushes whatever commit you're on to Heroku to deploy
 ```
