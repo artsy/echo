@@ -24,4 +24,7 @@ express()
     const { content: s3ContentsJSON } = await fetchS3Echo()
     res.json(s3ContentsJSON)
   })
+  .get('/health', (_req, res) => {
+    res.end()
+  })
   .listen(PORT, () => console.log(`Listening on ${PORT}`))
