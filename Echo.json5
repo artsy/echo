@@ -21,7 +21,7 @@
     { name: 'AROptionsEnableSales', value: true },
     { name: 'AREnableViewingRooms', value: true },
     { name: 'AROptionsNewFirstInquiry', value: true },
-    { name: 'AROptionsBidManagement', value: false },
+    { name: 'AROptionsBidManagement', value: true },
     { name: 'AROptionsArtistSeries', value: true },
     { name: 'AROptionsNewFairPage', value: true },
     { name: 'AROptionsNewShowPage', value: true },
