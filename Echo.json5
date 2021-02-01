@@ -27,6 +27,7 @@
     { name: 'AROptionsNewShowPage', value: true },
     { name: 'AROptionsNewSalePage', value: true },
     { name: 'AREnableCustomSharesheet', value: false },
+    { name: 'AROptionsNewInsightsPage', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
