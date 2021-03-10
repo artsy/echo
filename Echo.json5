@@ -51,6 +51,7 @@
       content: '${StripeStagingPublishableKey}',
     },
     { name: 'KillSwitchBuildMinimum', content: '5.0.0' },
+    { name: 'KillSwitchBuildMinimumAndroid', content: '5.0.0' },
     {
       name: 'LegacyFairSlugs',
       content: 'ifpda-fine-art-print-fair-online-fall-2020,photo-london-2020,highlights-international-art-fair-munich-2020,2020-art-taipei,1-54-london-2020',
@@ -88,4 +89,8 @@
     },
     { name: 'ARBuyNowRoute', path: '/orders/:id' },
   ],
+  excludedVersions: {
+    ios: {},
+    android: {},
+  },
 }
