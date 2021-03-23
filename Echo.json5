@@ -89,7 +89,7 @@
     },
     { name: 'ARBuyNowRoute', path: '/orders/:id' },
   ],
-  excludedVersions: {
+  alwaysForceUpdateOnVersions: {
     ios: {
       '1.0.0': {
         message: 'custom update message',
