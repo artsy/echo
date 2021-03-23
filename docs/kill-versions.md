@@ -1,11 +1,13 @@
 ## Killing a specific app version
 
-In order to kill a specific app version, extend the `alwaysForceUpdateOnVersions` object in echo to include with the version you want to kill. It will always show an update message and force an update for these versions.
+A "killed" app version means it will force the user to update by showing them an update message.
+
+In order to kill a specific app version, extend the `killedVersions` object in echo to include with the version you want to kill.
 
 For example in order to always "force update" version `1.0.0` on android and ios, the following is needed:
 
 ```javascript
-alwaysForceUpdateOnVersions: {
+killedVersions: {
     ios: {
       '1.0.0': {
         message: 'custom update message',
