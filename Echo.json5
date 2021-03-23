@@ -90,15 +90,8 @@
     { name: 'ARBuyNowRoute', path: '/orders/:id' },
   ],
   killedVersions: {
-    ios: {
-      '1.0.0': {
-        message: 'custom update message',
-      },
-    },
-    android: {
-      '1.0.0': {
-        message: 'custom update message',
-      },
+    ios: {},
+    android: {},
     },
   },
 }
