@@ -1,11 +1,13 @@
 ## Killing a specific app version
 
-In order to kill a specific app version, extend the `excludedVersions` object in echo to include with the version you want to exlude and an update message.
+A "killed" app version means it will force the user to update by showing them an update message.
 
-For example in order to exclude version `1.0.0` on android and ios, the following is needed.
+In order to kill a specific app version, extend the `killedVersions` object in echo to include with the version you want to kill.
+
+For example in order to always "force update" version `1.0.0` on android and ios, the following is needed:
 
 ```javascript
-excludedVersions: {
+killedVersions: {
     ios: {
       '1.0.0': {
         message: 'custom update message',
