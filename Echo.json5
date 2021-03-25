@@ -92,6 +92,5 @@
   killedVersions: {
     ios: {},
     android: {},
-    },
   },
 }
