@@ -30,6 +30,7 @@
     { name: 'AROptionsNewInsightsPage', value: false },
     { name: 'AREnableReactNativeWebView', value: true },
     { name: 'AROptionsNewArtistInsightsPage', value: true },
+    { name: 'AROptionsInquiryCheckout', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
