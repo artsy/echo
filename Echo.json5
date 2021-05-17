@@ -29,7 +29,7 @@
     { name: 'AREnableCustomSharesheet', value: true },
     { name: 'AROptionsNewInsightsPage', value: false },
     { name: 'AREnableReactNativeWebView', value: true },
-    { name: 'AROptionsNewArtistInsightsPage', value: true },
+    { name: 'AROptionsNewArtistInsightsPage', value: true }, // removed: artsy/eigen#4753, deployed: 6.4.1
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
