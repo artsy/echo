@@ -30,7 +30,7 @@
     { name: 'AROptionsNewInsightsPage', value: false },
     { name: 'AREnableReactNativeWebView', value: true },
     { name: 'AROptionsNewArtistInsightsPage', value: true }, // 2021-05-17, removed: artsy/eigen#4753, deployed: 6.4.1
-    { name: 'AROptionsInquiryCheckout', value: false },
+    { name: 'AROptionsInquiryCheckout', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
