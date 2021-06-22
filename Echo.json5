@@ -32,6 +32,7 @@
     { name: 'AROptionsNewArtistInsightsPage', value: true }, // 2021-05-17, removed: artsy/eigen#4753, deployed: 6.4.1
     { name: 'AROptionsInquiryCheckout', value: true },
     { name: 'AREnableOrderHistoryOption', value: false },
+    { name: 'AREnableSavedSearch', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
