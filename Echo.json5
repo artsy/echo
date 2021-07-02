@@ -33,6 +33,7 @@
     { name: 'AROptionsInquiryCheckout', value: true },
     { name: 'AREnableOrderHistoryOption', value: false },
     { name: 'AREnableSavedSearch', value: false },
+    { name: 'AREnableOnlyTargetSupplyConsignments', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
