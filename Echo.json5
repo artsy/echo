@@ -33,6 +33,7 @@
     { name: 'AROptionsInquiryCheckout', value: true },
     { name: 'AREnableOrderHistoryOption', value: true },
     { name: 'AREnableSavedSearch', value: true },
+    { name: 'AREnableSavedSearchAndroid', value: false },
     { name: 'AREnableOnlyTargetSupplyConsignments', value: true },
     { name: 'ARHomeAuctionResultsByFollowedArtists', value: true },
   ],
