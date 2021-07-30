@@ -35,6 +35,7 @@
     { name: 'AREnableSavedSearch', value: true },
     { name: 'AREnableSavedSearchAndroid', value: false },
     { name: 'AREnableOnlyTargetSupplyConsignments', value: true },
+    { name: 'AREnableAuctionResultsKeywordFilter', value: true },
     { name: 'ARHomeAuctionResultsByFollowedArtists', value: true },
   ],
   messages: [
