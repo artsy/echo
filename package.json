@@ -2,7 +2,8 @@
     "name": "echo",
     "version": "1.0.0",
     "scripts": {
-        "lint": "prettier --parser json5 --write Echo.json5"
+        "lint": "prettier --parser json5 --write Echo.json5",
+        "prepare": "husky install"
     },
     "dependencies": {
         "envsub": "^4.0.7",
@@ -13,12 +14,7 @@
         "prettier": "^2.3.2"
     },
     "devDependencies": {
-        "husky": "^4.3.8"
-    },
-    "husky": {
-        "hooks": {
-            "pre-commit": "./scripts/validate.sh && yarn lint"
-        }
+        "husky": "^7.0.1"
     },
     "repository": "git@github.com:artsy/echo.git",
     "author": "Pavlos Vinieratos <pvinis@gmail.com>",
