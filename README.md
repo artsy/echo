@@ -1,4 +1,4 @@
-# echo
+# echo [![Depfu](https://badges.depfu.com/badges/433c73edca24a04a7cefd5441a84b774/count.svg)](https://depfu.com/github/artsy/echo?project_id=30287)
 
 [echo](http://github.com/artsy/echo) is an API service that provides remote configuration for Artsy mobile clients. It works using a json file and some scripts to upload it to s3.
 
