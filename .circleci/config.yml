@@ -13,7 +13,7 @@ jobs:
     steps:
       - checkout
       - node/install:
-          node-version: 12.22.4
+          node-version: 16.6.1
           install-yarn: true
           install-npm: false
       - run: yarn install
