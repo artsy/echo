@@ -6,7 +6,7 @@
     },
     "dependencies": {
         "envsub": "^4.0.7",
-        "execa": "^4.1.0",
+        "execa": "^5.1.1",
         "json5": "^2.2.0",
         "jsonminify": "^0.4.1",
         "jsonschema": "^1.4.0",
