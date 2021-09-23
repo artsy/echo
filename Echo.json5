@@ -38,6 +38,7 @@
     { name: 'AREnableOnlyTargetSupplyConsignments', value: true },
     { name: 'AREnableAuctionResultsKeywordFilter', value: true },
     { name: 'ARHomeAuctionResultsByFollowedArtists', value: true },
+    { name: 'ARShowNetworkUnavailableModal', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
