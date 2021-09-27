@@ -39,6 +39,7 @@
     { name: 'AREnableAuctionResultsKeywordFilter', value: true },
     { name: 'ARHomeAuctionResultsByFollowedArtists', value: true },
     { name: 'ARShowNetworkUnavailableModal', value: true },
+    { name: 'AREnableMyCollectionIOS', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
