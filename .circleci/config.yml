@@ -32,4 +32,5 @@ workflows:
                only:
                  - master
                  - production
+                 - fix-ci
           context: echo
