@@ -8,14 +8,10 @@ orbs:
 
 jobs:
   deploy-json:
-    machine:
-      image: ubuntu-1604:202007-01
+    docker:
+      - image: cimg/node:16
     steps:
       - checkout
-      - node/install:
-          node-version: 16.6.1
-          install-yarn: true
-          install-npm: false
       - run: yarn install
       - add_ssh_keys:
           fingerprints:
