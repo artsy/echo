@@ -9,7 +9,7 @@ orbs:
 jobs:
   deploy-json:
     docker:
-      - image: cimg/node:16
+      - image: cimg/node:16.10
     steps:
       - checkout
       - run: yarn install
