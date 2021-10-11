@@ -42,6 +42,7 @@
     { name: 'AREnableMyCollectionIOS', value: true },
     { name: 'ARGoogleAuth', value: true },
     { name: 'AREnableTrove', value: true },
+    { name: 'AREnableShowsRail', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
