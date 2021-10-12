@@ -32,12 +32,18 @@
     { name: 'AROptionsNewArtistInsightsPage', value: true }, // 2021-05-17, removed: artsy/eigen#4753, deployed: 6.4.1
     { name: 'AROptionsInquiryCheckout', value: true },
     { name: 'AREnableOrderHistoryOption', value: true },
-    { name: 'AREnableSavedSearch', value: true },
-    { name: 'AREnableSavedSearchAndroid', value: false },
+    { name: 'AREnableSavedSearch', value: true }, // 2021-10-07, removed artsy/eigen#5590
+    { name: 'AREnableSavedSearchAndroid', value: false }, // 2021-10-07, removed artsy/eigen#5590
+    { name: 'AREnableSavedSearchV2', value: true }, // 2021-10-07, removed artsy/eigen#5590
     { name: 'AREnableOnlyTargetSupplyConsignments', value: true },
     { name: 'AREnableAuctionResultsKeywordFilter', value: true },
     { name: 'ARHomeAuctionResultsByFollowedArtists', value: true },
     { name: 'AREnableNewOnboardingFlow', value: true },
+    { name: 'ARShowNetworkUnavailableModal', value: true },
+    { name: 'AREnableMyCollectionIOS', value: true },
+    { name: 'ARGoogleAuth', value: false },
+    { name: 'AREnableTrove', value: true },
+    { name: 'AREnableShowsRail', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
