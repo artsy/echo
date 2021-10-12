@@ -2,20 +2,16 @@ version: 2.1
 
 
 orbs:
-  node: circleci/node@2.1.1
-  aws: circleci/aws-s3@2.0.0
+  node: circleci/node@4.7.0
+  aws: circleci/aws-s3@3.0.0
 
 
 jobs:
   deploy-json:
-    machine:
-      image: ubuntu-1604:202007-01
+    docker:
+      - image: cimg/node:16.10
     steps:
       - checkout
-      - node/install:
-          node-version: 16.6.1
-          install-yarn: true
-          install-npm: false
       - run: yarn install
       - add_ssh_keys:
           fingerprints:
@@ -32,4 +28,5 @@ workflows:
                only:
                  - master
                  - production
+                 - fix-ci
           context: echo
