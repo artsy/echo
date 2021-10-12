@@ -38,10 +38,12 @@
     { name: 'AREnableOnlyTargetSupplyConsignments', value: true },
     { name: 'AREnableAuctionResultsKeywordFilter', value: true },
     { name: 'ARHomeAuctionResultsByFollowedArtists', value: true },
+    { name: 'AREnableNewOnboardingFlow', value: true },
     { name: 'ARShowNetworkUnavailableModal', value: true },
     { name: 'AREnableMyCollectionIOS', value: true },
-    { name: 'ARGoogleAuth', value: true },
+    { name: 'ARGoogleAuth', value: false },
     { name: 'AREnableTrove', value: true },
+    { name: 'AREnableShowsRail', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
