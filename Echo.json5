@@ -44,6 +44,7 @@
     { name: 'ARGoogleAuth', value: false },
     { name: 'AREnableTrove', value: true },
     { name: 'AREnableShowsRail', value: true },
+    { name: 'AREnableWebPImages', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
