@@ -45,7 +45,7 @@
     { name: 'AREnableTrove', value: true },
     { name: 'AREnableShowsRail', value: true },
     { name: 'AREnableWebPImages', value: true },
-    { name: 'AREnableImprovedSearch', value: false },
+    { name: 'AREnableImprovedSearch', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
