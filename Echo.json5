@@ -48,6 +48,7 @@
     { name: 'AREnableImprovedSearch', value: true },
     { name: 'AREnableImprovedSearchPills', value: false },
     { name: 'AREnableMyCollectionOrderImport', value: false },
+    { name: 'AREnableSortFilterForArtworksPill', value: false },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
