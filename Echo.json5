@@ -50,6 +50,7 @@
     { name: 'AREnableMyCollectionOrderImport', value: false },
     { name: 'AREnableSortFilterForArtworksPill', value: false },
     { name: 'AREnableVisualProfileIconAndBio', value: true },
+    { name: 'AREnableSplitIOABTesting', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
