@@ -53,7 +53,7 @@
     { name: 'AREnableVisualProfileIconAndBio', value: true },
     { name: 'AREnableSplitIOABTesting', value: false },
     { name: 'AREnableNewWorksForYou', value: true },
-    { name: 'AREnableAuctionResultComparableWorks', value: true },
+    { name: 'AREnableAuctionResultComparableWorks', value: false },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
