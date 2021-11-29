@@ -4,7 +4,7 @@ const jsonminify = require('jsonminify')
 const { exit } = require('process')
 const JSON5 = require('json5')
 const jsonschema = require('jsonschema')
-const execa = require('execa')
+const { execa } = require('execa')
 
 const repoDir = `${__dirname}/..`
 const templateFile5 = `${repoDir}/Echo.json5`
