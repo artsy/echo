@@ -1,6 +1,7 @@
 {
     "name": "echo",
     "version": "1.0.0",
+    "type": "module",
     "scripts": {
         "lint": "prettier --parser json5 --write Echo.json5",
         "prepare": "husky install"
