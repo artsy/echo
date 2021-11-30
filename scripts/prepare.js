@@ -1,19 +1,22 @@
-const fs = require('fs')
-const envsub = require('envsub')
-const jsonminify = require('jsonminify')
-const { exit } = require('process')
-const JSON5 = require('json5')
-const jsonschema = require('jsonschema')
-const execa = require('execa')
+import fs from "fs"
+import envsub from 'envsub'
+import jsonminify from 'jsonminify'
+import { exit }  from 'process'
+import JSON5 from 'json5'
+import jsonschema from 'jsonschema'
+import { execa } from 'execa'
 
-const repoDir = `${__dirname}/..`
+
+const __dirname = new URL('.', import.meta.url).pathname
+
+const repoDir = `${__dirname}..`
 const templateFile5 = `${repoDir}/Echo.json5`
 const outputFile5 = `${repoDir}/build/Echo.json5`
 const outputFile = `${repoDir}/build/Echo.json`
 const outputFileMini = `${repoDir}/build/Echo.min.json`
 const prettierCmd = `yarn prettier --parser json --write ${outputFile}` /// use outputfile
 
-const schema = require('../schema.json')
+const schema = JSON.parse(fs.readFileSync(`${repoDir}/schema.json`))
 
 const prepare = async () => {
   try {

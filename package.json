@@ -1,13 +1,14 @@
 {
     "name": "echo",
     "version": "1.0.0",
+    "type": "module",
     "scripts": {
         "lint": "prettier --parser json5 --write Echo.json5",
         "prepare": "husky install"
     },
     "dependencies": {
         "envsub": "^4.0.7",
-        "execa": "^5.1.1",
+        "execa": "^6.0.0",
         "json5": "^2.2.0",
         "jsonminify": "^0.4.1",
         "jsonschema": "^1.4.0",
