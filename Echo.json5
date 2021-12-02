@@ -51,9 +51,10 @@
     { name: 'AREnableMyCollectionOrderImport', value: true },
     { name: 'AREnableSortFilterForArtworksPill', value: false },
     { name: 'AREnableVisualProfileIconAndBio', value: true },
-    { name: 'AREnableSplitIOABTesting', value: false },
+    { name: 'AREnableSplitIOABTesting', value: true },
     { name: 'AREnableNewWorksForYou', value: true },
-    { name: 'AREnableAuctionResultComparableWorks', value: false },
+    { name: 'AREnableAuctionResultComparableWorks', value: true },
+    { name: 'AREnableSavedSearchToggles', value: false },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
