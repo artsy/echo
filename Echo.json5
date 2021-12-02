@@ -53,7 +53,9 @@
     { name: 'AREnableVisualProfileIconAndBio', value: true },
     { name: 'AREnableSplitIOABTesting', value: true },
     { name: 'AREnableNewWorksForYou', value: true },
+    { name: 'AREnableAuctionResultComparableWorks', value: true },
     { name: 'AREnableSavedSearchToggles', value: false },
+    { name: 'ARMyCollectionLocalSortAndFilter', value: false },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
