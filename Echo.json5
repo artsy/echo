@@ -53,6 +53,7 @@
     { name: 'AREnableVisualProfileIconAndBio', value: true },
     { name: 'AREnableSplitIOABTesting', value: true },
     { name: 'AREnableNewWorksForYou', value: true },
+    { name: 'AREnableAuctionResultComparableWorks', value: true },
     { name: 'AREnableSavedSearchToggles', value: false },
   ],
   messages: [
