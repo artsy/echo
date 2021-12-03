@@ -49,7 +49,7 @@
     { name: 'AREnableImprovedSearch', value: true },
     { name: 'AREnableImprovedSearchPills', value: false },
     { name: 'AREnableMyCollectionOrderImport', value: true },
-    { name: 'AREnableSortFilterForArtworksPill', value: false },
+    { name: 'AREnableSortFilterForArtworksPill', value: true },
     { name: 'AREnableVisualProfileIconAndBio', value: true },
     { name: 'AREnableSplitIOABTesting', value: true },
     { name: 'AREnableNewWorksForYou', value: true },
