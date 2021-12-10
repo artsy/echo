@@ -2,7 +2,7 @@
 set -euxo pipefail
 
 
-BRANCH_DEPLOYING_TO_STAGING=master
+BRANCH_DEPLOYING_TO_STAGING=main
 BRANCH_DEPLOYING_TO_PRODUCTION=production
 
 NAME_POSTFIX=
@@ -12,7 +12,7 @@ if [[ "$CURRENT_BRANCH" == "$BRANCH_DEPLOYING_TO_STAGING" ]]; then
 elif [[ "$CURRENT_BRANCH" == "$BRANCH_DEPLOYING_TO_PRODUCTION" ]]; then
   NAME_POSTFIX=
 else
-  echo "Not in master or production branches. Not deploying."
+  echo "Not in main or production branches. Not deploying."
   exit 255
 fi
 

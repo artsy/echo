@@ -29,7 +29,7 @@ workflows:
           filters:
              branches:
                only:
-                 - master
+                 - main
                  - production
                  - fix-ci
           context: echo
