@@ -54,7 +54,7 @@
     { name: 'AREnableSplitIOABTesting', value: true },
     { name: 'AREnableNewWorksForYou', value: true },
     { name: 'AREnableAuctionResultComparableWorks', value: true },
-    { name: 'AREnableSavedSearchToggles', value: false },
+    { name: 'AREnableSavedSearchToggles', value: true },
     { name: 'ARMyCollectionLocalSortAndFilter', value: false },
     { name: 'AREnableQueriesPrefetching', value: true },
   ],
