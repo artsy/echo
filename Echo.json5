@@ -55,7 +55,7 @@
     { name: 'AREnableNewWorksForYou', value: true },
     { name: 'AREnableAuctionResultComparableWorks', value: true },
     { name: 'AREnableSavedSearchToggles', value: true },
-    { name: 'ARMyCollectionLocalSortAndFilter', value: false },
+    { name: 'ARMyCollectionLocalSortAndFilter', value: true },
     { name: 'AREnableQueriesPrefetching', value: true },
   ],
   messages: [
