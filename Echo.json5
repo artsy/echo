@@ -40,8 +40,6 @@
     { name: 'ARHomeAuctionResultsByFollowedArtists', value: true },
     { name: 'AREnableNewOnboardingFlow', value: true },
     { name: 'ARShowNetworkUnavailableModal', value: true },
-    { name: 'AREnableMyCollectionIOS', value: true },
-    { name: 'AREnableMyCollectionAndroid', value: true },
     { name: 'ARGoogleAuth', value: false },
     { name: 'AREnableTrove', value: true },
     { name: 'AREnableShowsRail', value: true },
@@ -53,9 +51,7 @@
     { name: 'AREnableVisualProfileIconAndBio', value: true },
     { name: 'AREnableSplitIOABTesting', value: true },
     { name: 'AREnableNewWorksForYou', value: true },
-    { name: 'AREnableAuctionResultComparableWorks', value: true },
     { name: 'AREnableSavedSearchToggles', value: true },
-    { name: 'ARMyCollectionLocalSortAndFilter', value: true },
     { name: 'AREnableQueriesPrefetching', value: true },
   ],
   messages: [
