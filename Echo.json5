@@ -46,6 +46,7 @@
     { name: 'AREnableTrove', value: true },
     { name: 'AREnableShowsRail', value: true },
     { name: 'AREnableWebPImages', value: true },
+    { name: 'AREnableImprovedAlertsFlow', value: false },
     { name: 'AREnableImprovedSearch', value: true },
     { name: 'AREnableImprovedSearchPills', value: false },
     { name: 'AREnableMyCollectionOrderImport', value: true },
