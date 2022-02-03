@@ -58,6 +58,7 @@
     { name: 'AREnableSavedSearchToggles', value: true },
     { name: 'ARMyCollectionLocalSortAndFilter', value: true },
     { name: 'AREnableQueriesPrefetching', value: true },
+    { name: 'AREnablePlaceholderAnimation', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
