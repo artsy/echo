@@ -22,7 +22,7 @@
     { name: 'AREnableViewingRooms', value: true }, // old flag
     { name: 'AROptionsNewFirstInquiry', value: true }, // old flag
     { name: 'AROptionsBidManagement', value: true }, // old flag
-    { name: 'AROptionsArtistSeries', value: true }, // old flag
+    { name: 'AROptionsArtistSeries', value: true }, // 2021-02-21, removed: artsy/eigen#6171
     { name: 'AROptionsNewFairPage', value: true },
     { name: 'AROptionsNewShowPage', value: true },
     { name: 'AROptionsNewSalePage', value: true }, // old flag
