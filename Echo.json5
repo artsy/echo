@@ -59,7 +59,6 @@
     { name: 'ARMyCollectionLocalSortAndFilter', value: true },
     { name: 'AREnableQueriesPrefetching', value: true },
     { name: 'AREnablePlaceholderLayoutAnimation', value: true },
-    { name: 'AREnableMakeOfferOnAllEligibleArtworks', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
