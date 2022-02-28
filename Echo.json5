@@ -57,6 +57,8 @@
     { name: 'AREnableSavedSearchToggles', value: false },
     { name: 'ARMyCollectionLocalSortAndFilter', value: false },
     { name: 'AREnableQueriesPrefetching', value: true },
+    { name: 'ARShowLinkedAccounts', value: true },
+    { name: 'ARAllowLinkSocialAccountsOnSignUp', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
