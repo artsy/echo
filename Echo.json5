@@ -61,6 +61,7 @@
     { name: 'AREnablePlaceholderLayoutAnimation', value: true },
     { name: 'ARShowLinkedAccounts', value: true },
     { name: 'ARAllowLinkSocialAccountsOnSignUp', value: true },
+    { name: 'AREnableCollectorProfile', value: false },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
