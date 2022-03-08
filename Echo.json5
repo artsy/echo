@@ -62,7 +62,7 @@
     { name: 'AROptionsNewArtistInsightsPage', value: true }, // 2021-05-17, removed: artsy/eigen#4753, deployed: 6.4.1
     { name: 'AROptionsNewFirstInquiry', value: true }, // old flag
     { name: 'AROptionsNewInsightsPage', value: false }, // old flag
-    { name: 'AROptionsNewSalePage', value: true }, // old flag
+    { name: 'AROptionsNewSalePage', value: true }, // 2022-03-08, removed: artsy/eigen#6386
     { name: 'AROptionsPriceTransparency', value: true }, // old flag
   ],
   messages: [
