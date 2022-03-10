@@ -59,7 +59,10 @@
     { name: 'ARMyCollectionLocalSortAndFilter', value: true },
     { name: 'AREnableQueriesPrefetching', value: true },
     { name: 'AREnablePlaceholderLayoutAnimation', value: true },
-    { name: 'AREnableMakeOfferOnAllEligibleArtworks', value: true },
+    { name: 'ARShowLinkedAccounts', value: true },
+    { name: 'ARAllowLinkSocialAccountsOnSignUp', value: true },
+    { name: 'AREnableCollectorProfile', value: false },
+    { name: 'AREnableAccordionNavigationOnSubmitArtwork', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
