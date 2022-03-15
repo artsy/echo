@@ -48,6 +48,7 @@
     { name: 'ARShowLinkedAccounts', value: true },
     { name: 'ARAllowLinkSocialAccountsOnSignUp', value: true },
     { name: 'AREnableCollectorProfile', value: false },
+    { name: 'AREnableAccordionNavigationOnSubmitArtwork', value: true },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
     { name: 'ARDisableReactNativeBidFlow', value: false }, // old flag
@@ -60,7 +61,7 @@
     { name: 'AROptionsBidManagement', value: true }, // old flag
     { name: 'AROptionsLotConditionReport', value: true }, // old flag
     { name: 'AROptionsNewArtistInsightsPage', value: true }, // 2021-05-17, removed: artsy/eigen#4753, deployed: 6.4.1
-    { name: 'AROptionsNewFirstInquiry', value: true }, // old flag
+    { name: 'AROptionsNewFirstInquiry', value: true }, // 2021-03-14, removed: artsy/eigen#6419
     { name: 'AROptionsNewInsightsPage', value: false }, // old flag
     { name: 'AROptionsNewSalePage', value: true }, // 2022-03-08, removed: artsy/eigen#6386
     { name: 'AROptionsPriceTransparency', value: true }, // old flag
