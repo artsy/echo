@@ -6,7 +6,6 @@
   features: [
     { name: 'ipad_vir', value: false },
     { name: 'iphone_vir', value: true },
-    { name: 'ARDisableReactNativeBidFlow', value: false }, // old flag
     { name: 'AREnableBuyNowFlow', value: true },
     { name: 'AREnableMakeOfferFlow', value: true },
     { name: 'AREnableLocalDiscovery', value: true },
@@ -14,27 +13,14 @@
     { name: 'ARReactNativeArtworkEnableNonCommercial', value: true },
     { name: 'ARReactNativeArtworkEnableNSOInquiry', value: true },
     { name: 'ARReactNativeArtworkEnableAuctions', value: true },
-    { name: 'AROptionsPriceTransparency', value: true }, // old flag
-    { name: 'AREnableNewPartnerView', value: true }, // old flag
     { name: 'AREnableNewSearch', value: true },
-    { name: 'AROptionsLotConditionReport', value: true }, // old flag
     { name: 'AROptionsEnableSales', value: true },
-    { name: 'AREnableViewingRooms', value: true }, // old flag
-    { name: 'AROptionsNewFirstInquiry', value: true }, // 2021-03-14, removed: artsy/eigen#6419
-    { name: 'AROptionsBidManagement', value: true }, // old flag
-    { name: 'AROptionsArtistSeries', value: true }, // 2021-02-21, removed: artsy/eigen#6171
     { name: 'AROptionsNewFairPage', value: true },
     { name: 'AROptionsNewShowPage', value: true },
-    { name: 'AROptionsNewSalePage', value: true }, // old flag
     { name: 'AREnableCustomSharesheet', value: true },
-    { name: 'AROptionsNewInsightsPage', value: false }, // old flag
     { name: 'AREnableReactNativeWebView', value: true },
-    { name: 'AROptionsNewArtistInsightsPage', value: true }, // 2021-05-17, removed: artsy/eigen#4753, deployed: 6.4.1
     { name: 'AROptionsInquiryCheckout', value: true },
     { name: 'AREnableOrderHistoryOption', value: true },
-    { name: 'AREnableSavedSearch', value: true }, // 2021-10-07, removed artsy/eigen#5590
-    { name: 'AREnableSavedSearchAndroid', value: false }, // 2021-10-07, removed artsy/eigen#5590
-    { name: 'AREnableSavedSearchV2', value: true }, // 2021-10-07, removed artsy/eigen#5590
     { name: 'AREnableOnlyTargetSupplyConsignments', value: true },
     { name: 'AREnableAuctionResultsKeywordFilter', value: true },
     { name: 'ARHomeAuctionResultsByFollowedArtists', value: true },
@@ -63,6 +49,22 @@
     { name: 'ARAllowLinkSocialAccountsOnSignUp', value: true },
     { name: 'AREnableCollectorProfile', value: false },
     { name: 'AREnableAccordionNavigationOnSubmitArtwork', value: true },
+
+    // deprecated flags. REMOVE OR CHANGE WITH CARE.
+    { name: 'ARDisableReactNativeBidFlow', value: false }, // old flag
+    { name: 'AREnableNewPartnerView', value: true }, // old flag
+    { name: 'AREnableSavedSearch', value: true }, // 2021-10-07, removed artsy/eigen#5590
+    { name: 'AREnableSavedSearchAndroid', value: false }, // 2021-10-07, removed artsy/eigen#5590
+    { name: 'AREnableSavedSearchV2', value: true }, // 2021-10-07, removed artsy/eigen#5590
+    { name: 'AREnableViewingRooms', value: true }, // old flag
+    { name: 'AROptionsArtistSeries', value: true }, // 2021-02-21, removed: artsy/eigen#6171
+    { name: 'AROptionsBidManagement', value: true }, // old flag
+    { name: 'AROptionsLotConditionReport', value: true }, // old flag
+    { name: 'AROptionsNewArtistInsightsPage', value: true }, // 2021-05-17, removed: artsy/eigen#4753, deployed: 6.4.1
+    { name: 'AROptionsNewFirstInquiry', value: true }, // 2021-03-14, removed: artsy/eigen#6419
+    { name: 'AROptionsNewInsightsPage', value: false }, // old flag
+    { name: 'AROptionsNewSalePage', value: true }, // 2022-03-08, removed: artsy/eigen#6386
+    { name: 'AROptionsPriceTransparency', value: true }, // old flag
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
