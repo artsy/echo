@@ -65,6 +65,13 @@
     { name: 'AROptionsNewInsightsPage', value: false }, // old flag
     { name: 'AROptionsNewSalePage', value: true }, // 2022-03-08, removed: artsy/eigen#6386
     { name: 'AROptionsPriceTransparency', value: true }, // old flag
+    { name: 'ARShowConsignmentsInMyCollection', value: true },
+    { name: 'AREnableNewMyCollectionArtwork', value: true },
+    { name: 'AREnableShowOnlySubmittedMyCollectionArtworkFilter', value: true },
+    { name: 'ARShowRequestPriceEstimateBanner', value: true },
+    { name: 'ARShowDemandIndexHints', value: true },
+    { name: 'AREnablePriceEstimateRange', value: true },
+    { name: 'AREnableMyCollectionComparableWorks', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
