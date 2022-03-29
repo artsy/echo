@@ -49,6 +49,7 @@
     { name: 'ARAllowLinkSocialAccountsOnSignUp', value: true },
     { name: 'AREnableCollectorProfile', value: false },
     { name: 'AREnableAccordionNavigationOnSubmitArtwork', value: true },
+    { name: 'AREnableHomeScreenArtworkRecommendations', value: true },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
     { name: 'ARDisableReactNativeBidFlow', value: false }, // old flag
