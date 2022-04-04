@@ -50,7 +50,7 @@
     { name: 'AREnableCollectorProfile', value: false },
     { name: 'AREnableAccordionNavigationOnSubmitArtwork', value: true },
     { name: 'AREnableHomeScreenArtworkRecommendations', value: true },
-    { name: 'AREnableMyCollectionComparableWorks', value: false }
+    { name: 'AREnableMyCollectionComparableWorks', value: false },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
     { name: 'ARDisableReactNativeBidFlow', value: false }, // old flag
