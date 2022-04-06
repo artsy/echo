@@ -67,11 +67,11 @@
     { name: 'AROptionsNewInsightsPage', value: false }, // old flag
     { name: 'AROptionsNewSalePage', value: true }, // 2022-03-08, removed: artsy/eigen#6386
     { name: 'AROptionsPriceTransparency', value: true }, // old flag
-    { name: 'ARShowConsignmentsInMyCollection', value: false },
+    { name: 'ARShowConsignmentsInMyCollection', value: true },
     { name: 'AREnableNewMyCollectionArtwork', value: true },
     {
       name: 'AREnableShowOnlySubmittedMyCollectionArtworkFilter',
-      value: false,
+      value: true,
     },
     { name: 'ARShowRequestPriceEstimateBanner', value: false },
     { name: 'ARShowDemandIndexHints', value: false },
