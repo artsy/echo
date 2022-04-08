@@ -78,6 +78,7 @@
     { name: 'ARShowDemandIndexHints', value: false },
     { name: 'AREnablePriceEstimateRange', value: true },
     { name: 'AREnableMyCollectionComparableWorks', value: true },
+    { name: 'AREnableAuctionShareButton', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
