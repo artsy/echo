@@ -51,6 +51,7 @@
     { name: 'AREnableAccordionNavigationOnSubmitArtwork', value: true },
     { name: 'AREnableHomeScreenArtworkRecommendations', value: true },
     { name: 'AREnableMyCollectionComparableWorks', value: false },
+    { name: 'ARDisableCascadingEndTimerLotPage', value: false },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
     { name: 'ARDisableReactNativeBidFlow', value: false }, // old flag
@@ -77,6 +78,7 @@
     { name: 'ARShowDemandIndexHints', value: false },
     { name: 'AREnablePriceEstimateRange', value: true },
     { name: 'AREnableMyCollectionComparableWorks', value: true },
+    { name: 'AREnableAuctionShareButton', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
