@@ -19,7 +19,7 @@
     { name: 'AROptionsNewShowPage', value: true },
     { name: 'AREnableCustomSharesheet', value: true },
     { name: 'AREnableReactNativeWebView', value: true },
-    { name: 'AROptionsInquiryCheckout', value: true },
+    { name: 'AROptionsInquiryCheckout', value: true }, // 2022-04-13, removed artsy/eigen#6607
     { name: 'AREnableOrderHistoryOption', value: true },
     { name: 'AREnableOnlyTargetSupplyConsignments', value: true },
     { name: 'AREnableAuctionResultsKeywordFilter', value: true },
