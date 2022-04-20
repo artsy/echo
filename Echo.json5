@@ -48,7 +48,6 @@
     { name: 'ARShowLinkedAccounts', value: true },
     { name: 'ARAllowLinkSocialAccountsOnSignUp', value: true },
     { name: 'AREnableCollectorProfile', value: false },
-    { name: 'AREnableAccordionNavigationOnSubmitArtwork', value: true },
     { name: 'AREnableHomeScreenArtworkRecommendations', value: true },
     { name: 'AREnableMyCollectionComparableWorks', value: false },
     { name: 'ARDisableCascadingEndTimerLotPage', value: false },
@@ -56,6 +55,7 @@
     { name: 'ARDisableCascadingEndTimerSalePageDetails', value: false },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
+    { name: 'AREnableAccordionNavigationOnSubmitArtwork', value: true }, // 2022-04-20, removed artsy/eigen#6643
     { name: 'ARDisableReactNativeBidFlow', value: false }, // old flag
     { name: 'AREnableNewPartnerView', value: true }, // old flag
     { name: 'AREnableSavedSearch', value: true }, // 2021-10-07, removed artsy/eigen#5590
