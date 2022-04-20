@@ -50,9 +50,9 @@
     { name: 'AREnableCollectorProfile', value: false },
     { name: 'AREnableHomeScreenArtworkRecommendations', value: true },
     { name: 'AREnableMyCollectionComparableWorks', value: false },
-    { name: 'ARDisableCascadingEndTimerLotPage', value: false },
-    { name: 'ARDisableCascadingEndTimerSalePageGrid', value: false },
-    { name: 'ARDisableCascadingEndTimerSalePageDetails', value: false },
+    { name: 'AREnableCascadingEndTimerLotPage', value: false },
+    { name: 'AREnableCascadingEndTimerSalePageGrid', value: false },
+    { name: 'AREnableCascadingEndTimerSalePageDetails', value: false },
     { name: 'AREnableConversationalBuyNow', value: false },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
