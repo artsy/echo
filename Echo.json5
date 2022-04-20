@@ -54,6 +54,7 @@
     { name: 'ARDisableCascadingEndTimerLotPage', value: false },
     { name: 'ARDisableCascadingEndTimerSalePageGrid', value: false },
     { name: 'ARDisableCascadingEndTimerSalePageDetails', value: false },
+    { name: 'AREnableConversationalBuyNow', value: false },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
     { name: 'ARDisableReactNativeBidFlow', value: false }, // old flag
