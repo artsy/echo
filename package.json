@@ -15,7 +15,7 @@
     "prettier": "2.6.2"
   },
   "devDependencies": {
-    "husky": "7.0.4"
+    "husky": "8.0.1"
   },
   "repository": "git@github.com:artsy/echo.git",
   "author": "Pavlos Vinieratos <pvinis@gmail.com>",
