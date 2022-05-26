@@ -53,7 +53,7 @@
     { name: 'AREnableCascadingEndTimerLotPage', value: true },
     { name: 'AREnableCascadingEndTimerSalePageGrid', value: true },
     { name: 'AREnableCascadingEndTimerSalePageDetails', value: true },
-    { name: 'AREnableCascadingEndTimerHomeSalesRail', value: false },
+    { name: 'AREnableCascadingEndTimerHomeSalesRail', value: true },
     { name: 'AREnableConversationalBuyNow', value: false },
     { name: 'AREnableArtworksFromNonArtsyArtists', value: false },
 
