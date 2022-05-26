@@ -79,7 +79,7 @@
       name: 'AREnableShowOnlySubmittedMyCollectionArtworkFilter',
       value: true,
     },
-    { name: 'ARShowRequestPriceEstimateBanner', value: false },
+    { name: 'ARShowRequestPriceEstimateBanner', value: true },
     { name: 'ARShowDemandIndexHints', value: true },
     { name: 'ARShowMyCollectionDemandIndexHints', value: true },
     { name: 'AREnablePriceEstimateRange', value: true },
