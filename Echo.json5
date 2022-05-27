@@ -56,6 +56,7 @@
     { name: 'AREnableCascadingEndTimerHomeSalesRail', value: true },
     { name: 'AREnableConversationalBuyNow', value: false },
     { name: 'AREnableArtworksFromNonArtsyArtists', value: false },
+    { name: 'AREnableCreateArtworkAlert', value: false },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
     { name: 'AREnableAccordionNavigationOnSubmitArtwork', value: true }, // 2022-04-20, removed artsy/eigen#6643
