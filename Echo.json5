@@ -31,6 +31,7 @@
     { name: 'ARGoogleAuth', value: false },
     { name: 'AREnableTrove', value: true },
     { name: 'AREnableShowsRail', value: true },
+    { name: 'AREnableCompleteProfileMessage', value: true },
     { name: 'AREnableWebPImages', value: true },
     { name: 'AREnableImprovedAlertsFlow', value: true }, // Released 2022-02-07
     { name: 'AREnableImprovedSearch', value: true },
