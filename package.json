@@ -11,11 +11,11 @@
     "execa": "6.1.0",
     "json5": "2.2.1",
     "jsonminify": "0.4.2",
-    "jsonschema": "1.4.0",
+    "jsonschema": "1.4.1",
     "prettier": "2.6.2"
   },
   "devDependencies": {
-    "husky": "7.0.4"
+    "husky": "8.0.1"
   },
   "repository": "git@github.com:artsy/echo.git",
   "author": "Pavlos Vinieratos <pvinis@gmail.com>",
