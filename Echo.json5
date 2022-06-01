@@ -87,7 +87,6 @@
     { name: 'AREnablePriceEstimateRange', value: true },
     { name: 'AREnableMyCollectionComparableWorks', value: true },
     { name: 'AREnableAuctionShareButton', value: true },
-    { name: 'AREnableCompleteProfileMessage', value: true },
     { name: 'AREnableNotFoundFailureView', value: true },
   ],
   messages: [
