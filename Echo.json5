@@ -28,7 +28,7 @@
     { name: 'ARShowNetworkUnavailableModal', value: true },
     { name: 'AREnableMyCollectionIOS', value: true },
     { name: 'AREnableMyCollectionAndroid', value: true },
-    { name: 'ARGoogleAuth', value: false },
+    { name: 'ARGoogleAuth', value: true },
     { name: 'AREnableTrove', value: true },
     { name: 'AREnableShowsRail', value: true },
     { name: 'AREnableCompleteProfileMessage', value: true },
@@ -57,7 +57,7 @@
     { name: 'AREnableCascadingEndTimerHomeSalesRail', value: true },
     { name: 'AREnableConversationalBuyNow', value: false },
     { name: 'AREnableArtworksFromNonArtsyArtists', value: false },
-    { name: 'AREnableCreateArtworkAlert', value: false },
+    { name: 'AREnableCreateArtworkAlert', value: true },
     { name: 'AREnableMyCollectionInsights', value: false },
     { name: 'AREnableMyCollectionInsightsPhase1Part1', value: false },
 
