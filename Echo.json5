@@ -28,7 +28,7 @@
     { name: 'ARShowNetworkUnavailableModal', value: true },
     { name: 'AREnableMyCollectionIOS', value: true },
     { name: 'AREnableMyCollectionAndroid', value: true },
-    { name: 'ARGoogleAuth', value: false },
+    { name: 'ARGoogleAuth', value: true },
     { name: 'AREnableTrove', value: true },
     { name: 'AREnableShowsRail', value: true },
     { name: 'AREnableCompleteProfileMessage', value: true },
