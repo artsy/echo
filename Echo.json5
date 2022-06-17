@@ -58,8 +58,8 @@
     { name: 'AREnableConversationalBuyNow', value: false },
     { name: 'AREnableArtworksFromNonArtsyArtists', value: false },
     { name: 'AREnableCreateArtworkAlert', value: true },
-    { name: 'AREnableMyCollectionInsights', value: false },
-    { name: 'AREnableMyCollectionInsightsPhase1Part1', value: false },
+    { name: 'AREnableMyCollectionInsights', value: true },
+    { name: 'AREnableMyCollectionInsightsPhase1Part1', value: true },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
     { name: 'AREnableAccordionNavigationOnSubmitArtwork', value: true }, // 2022-04-20, removed artsy/eigen#6643
