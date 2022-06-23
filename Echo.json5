@@ -92,6 +92,7 @@
     { name: 'AREnableMyCollectionComparableWorks', value: true },
     { name: 'AREnableAuctionShareButton', value: true },
     { name: 'AREnableNotFoundFailureView', value: true },
+    { name: 'AREnableMyCollectionSearchBar', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
