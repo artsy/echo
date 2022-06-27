@@ -33,7 +33,6 @@
     { name: 'AREnableShowsRail', value: true },
     { name: 'AREnableCompleteProfileMessage', value: true },
     { name: 'AREnableWebPImages', value: true },
-    { name: 'AREnableImprovedAlertsFlow', value: true }, // Released 2022-02-07
     { name: 'AREnableImprovedSearch', value: true },
     { name: 'AREnableImprovedSearchPills', value: false },
     { name: 'AREnableMyCollectionOrderImport', value: true },
@@ -66,6 +65,7 @@
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
     { name: 'AREnableAccordionNavigationOnSubmitArtwork', value: true }, // 2022-04-20, removed artsy/eigen#6643
     { name: 'ARDisableReactNativeBidFlow', value: false }, // old flag
+    { name: 'AREnableImprovedAlertsFlow', value: true }, // 2022-02-07, removed artsy/eigen#6976
     { name: 'AREnableNewPartnerView', value: true }, // old flag
     { name: 'AREnableSavedSearch', value: true }, // 2021-10-07, removed artsy/eigen#5590
     { name: 'AREnableSavedSearchAndroid', value: false }, // 2021-10-07, removed artsy/eigen#5590
