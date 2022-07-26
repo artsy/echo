@@ -61,6 +61,7 @@
     { name: 'AREnableMyCollectionInsightsPhase1Part1', value: true },
     { name: 'AREnableMyCollectionInsightsPhase1Part2', value: true },
     { name: 'AREnableNewOpaqueImageView', value: false },
+    { name: 'AREnableArtworksConnectionForAuction', value: false },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
     { name: 'AREnableAccordionNavigationOnSubmitArtwork', value: true }, // 2022-04-20, removed artsy/eigen#6643
