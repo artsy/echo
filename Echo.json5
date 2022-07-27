@@ -115,7 +115,7 @@
       name: 'StripeStagingPublishableKey',
       content: '${StripeStagingPublishableKey}',
     },
-    { name: 'KillSwitchBuildMinimum', content: '5.0.0' },
+    { name: 'KillSwitchBuildMinimum', content: '6.5.0' },
     { name: 'KillSwitchBuildMinimumAndroid', content: '5.0.0' },
     { name: 'EigenQueryPrefetchingRateLimit', content: '60' },
     {
