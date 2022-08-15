@@ -95,6 +95,7 @@
     { name: 'AREnableNotFoundFailureView', value: true },
     { name: 'AREnableMyCollectionSearchBar', value: true },
     { name: 'AREnableMyCollectionInsightsMedianPrice', value: true },
+    { name: 'AREnableMyCollectionInsightsPhase1Part3', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
