@@ -14,6 +14,7 @@
     { name: 'ARReactNativeArtworkEnableNSOInquiry', value: true },
     { name: 'ARReactNativeArtworkEnableAuctions', value: true },
     { name: 'AREnableNewSearch', value: true },
+    { name: 'AREnableNewOnboarding', value: false }, // new onboarding flow flag (August 2022)
     { name: 'AROptionsEnableSales', value: true },
     { name: 'AROptionsNewFairPage', value: true },
     { name: 'AROptionsNewShowPage', value: true },
