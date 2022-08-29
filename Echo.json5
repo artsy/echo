@@ -61,7 +61,7 @@
     { name: 'AREnableMyCollectionInsights', value: true },
     { name: 'AREnableMyCollectionInsightsPhase1Part1', value: true },
     { name: 'AREnableMyCollectionInsightsPhase1Part2', value: true },
-    { name: 'AREnableNewImageComponent', value: true },
+    { name: 'AREnableNewImageComponent', value: false },
     { name: 'AREnableArtworksConnectionForAuction', value: false },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
