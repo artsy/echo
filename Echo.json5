@@ -98,6 +98,7 @@
     { name: 'AREnableMyCollectionSearchBar', value: true },
     { name: 'AREnableMyCollectionInsightsMedianPrice', value: true },
     { name: 'AREnableMyCollectionInsightsPhase1Part3', value: true },
+    { name: 'AREnableMyCollectionInsightsPhase1Part4', value: false },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
