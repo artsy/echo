@@ -61,6 +61,8 @@
     { name: 'AREnableMyCollectionInsights', value: true },
     { name: 'AREnableMyCollectionInsightsPhase1Part1', value: true },
     { name: 'AREnableMyCollectionInsightsPhase1Part2', value: true },
+    { name: 'AREnableMyCollectionInsightsPhase1Part4', value: false },
+    { name: 'AREnableMedianPriceChartCareerHighlights', value: false },
     { name: 'AREnableNewImageComponent', value: false },
     { name: 'AREnableArtworksConnectionForAuction', value: false },
 
