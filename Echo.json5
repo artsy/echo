@@ -101,6 +101,7 @@
     { name: 'AREnableMyCollectionInsightsPhase1Part3', value: true },
     { name: 'AREnableMyCollectionInsightsPhase1Part4', value: true },
     { name: 'ARCustomRecentlySoldOnArtsy', value: true },
+    { name: 'ARNewSellWithArtsyScreen', value: true }
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
