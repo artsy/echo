@@ -63,6 +63,7 @@
     { name: 'AREnableMyCollectionInsightsPhase1Part2', value: true },
     { name: 'AREnableMedianPriceChartCareerHighlights', value: true },
     { name: 'AREnableNewImageComponent', value: false },
+    { name: 'AREnableNewImage', value: false },
     { name: 'AREnableArtworksConnectionForAuction', value: false },
     { name: 'AREnableCollectionsInOnboarding', value: false },
 
