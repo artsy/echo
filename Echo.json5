@@ -62,12 +62,12 @@
     { name: 'AREnableMyCollectionInsightsPhase1Part1', value: true },
     { name: 'AREnableMyCollectionInsightsPhase1Part2', value: true },
     { name: 'AREnableMedianPriceChartCareerHighlights', value: true },
-    { name: 'AREnableNewImageComponent', value: false },
     { name: 'AREnableNewImage', value: false },
     { name: 'AREnableArtworksConnectionForAuction', value: false },
     { name: 'AREnableCollectionsInOnboarding', value: false },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
+    { name: 'AREnableNewImageComponent', value: false }, // renamed to AREnableNewImage on 2022-10-06, safe to remove after this pr gets merged
     { name: 'AREnableNewOpaqueImageView', value: false }, // renamed to AREnableNewImageComponent on 2022-08-23, safe to remove after this pr gets merged
     { name: 'AREnableAccordionNavigationOnSubmitArtwork', value: true }, // 2022-04-20, removed artsy/eigen#6643
     { name: 'ARDisableReactNativeBidFlow', value: false }, // old flag
