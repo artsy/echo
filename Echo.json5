@@ -64,7 +64,7 @@
     { name: 'AREnableMedianPriceChartCareerHighlights', value: true },
     { name: 'AREnableNewImage', value: false },
     { name: 'AREnableArtworksConnectionForAuction', value: false },
-    { name: 'AREnableCollectionsInOnboarding', value: false },
+    { name: 'AREnableCollectionsInOnboarding', value: true },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
     { name: 'AREnableNewImageComponent', value: false }, // renamed to AREnableNewImage on 2022-10-06, safe to remove after this pr gets merged
