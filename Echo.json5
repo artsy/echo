@@ -66,6 +66,7 @@
     { name: 'AREnableArtworksConnectionForAuction', value: false },
     { name: 'AREnableCollectionsInOnboarding', value: true },
     { name: 'AREnableNewRequestPriceEstimateLogic', value: false },
+    { name: 'AREnableActivity', value: false },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
     { name: 'AREnableNewImageComponent', value: false }, // renamed to AREnableNewImage on 2022-10-06, safe to remove after this pr gets merged
