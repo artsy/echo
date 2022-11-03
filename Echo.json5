@@ -51,10 +51,6 @@
     { name: 'AREnableCollectorProfile', value: false },
     { name: 'AREnableHomeScreenArtworkRecommendations', value: true },
     { name: 'AREnableMyCollectionComparableWorks', value: false },
-    { name: 'AREnableCascadingEndTimerLotPage', value: true },
-    { name: 'AREnableCascadingEndTimerSalePageGrid', value: true },
-    { name: 'AREnableCascadingEndTimerSalePageDetails', value: true },
-    { name: 'AREnableCascadingEndTimerHomeSalesRail', value: true },
     { name: 'AREnableConversationalBuyNow', value: true },
     { name: 'AREnableArtworksFromNonArtsyArtists', value: false },
     { name: 'AREnableCreateArtworkAlert', value: true },
@@ -69,6 +65,10 @@
     { name: 'AREnableActivity', value: false },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
+    { name: 'AREnableCascadingEndTimerLotPage', value: true }, // 2022-11-3 removed artsy/eigen#7579
+    { name: 'AREnableCascadingEndTimerSalePageGrid', value: true }, // 2022-11-3 removed artsy/eigen#7579
+    { name: 'AREnableCascadingEndTimerSalePageDetails', value: true }, // 2022-11-3 removed artsy/eigen#7579
+    { name: 'AREnableCascadingEndTimerHomeSalesRail', value: true }, // 2022-11-3 removed artsy/eigen#7579
     { name: 'AREnableNewImageComponent', value: false }, // renamed to AREnableNewImage on 2022-10-06, safe to remove after this pr gets merged
     { name: 'AREnableNewOpaqueImageView', value: false }, // renamed to AREnableNewImageComponent on 2022-08-23, safe to remove after this pr gets merged
     { name: 'AREnableAccordionNavigationOnSubmitArtwork', value: true }, // 2022-04-20, removed artsy/eigen#6643
