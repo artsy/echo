@@ -64,6 +64,7 @@
     { name: 'AREnableNewRequestPriceEstimateLogic', value: false },
     { name: 'AREnableActivity', value: false },
     { name: 'AREnableMyCollectionHFOnboarding', value: false },
+    { name: 'ARReorderSWAArtworkSubmissionFlow', value: false },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
     { name: 'AREnableCascadingEndTimerLotPage', value: true }, // 2022-11-3 removed artsy/eigen#7579
