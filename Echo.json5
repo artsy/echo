@@ -60,7 +60,7 @@
     { name: 'AREnableMedianPriceChartCareerHighlights', value: true },
     { name: 'AREnableArtworksConnectionForAuction', value: false },
     { name: 'AREnableCollectionsInOnboarding', value: true },
-    { name: 'AREnableNewRequestPriceEstimateLogic', value: false },
+    { name: 'AREnableNewRequestPriceEstimateLogic', value: true },
     { name: 'AREnableActivity', value: true },
     { name: 'AREnableMyCollectionHFOnboarding', value: false },
     { name: 'ARReorderSWAArtworkSubmissionFlow', value: false },
