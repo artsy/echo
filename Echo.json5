@@ -63,7 +63,7 @@
     { name: 'AREnableNewRequestPriceEstimateLogic', value: true },
     { name: 'AREnableActivity', value: true },
     { name: 'AREnableMyCollectionHFOnboarding', value: false },
-    { name: 'ARReorderSWAArtworkSubmissionFlow', value: false },
+    { name: 'ARReorderSWAArtworkSubmissionFlow', value: true },
     { name: 'AREnableNewOpaqueImageComponent', value: false },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
