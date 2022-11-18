@@ -110,6 +110,7 @@
     { name: 'ARCustomRecentlySoldOnArtsy', value: true },
     { name: 'ARNewSellWithArtsyScreen', value: true },
     { name: 'AREnableMyCollectionHFOnboarding', value: true },
+    { name: 'AREnableArtworksFromNonArtsyArtists', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
