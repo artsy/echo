@@ -112,7 +112,7 @@
     { name: 'ARNewSellWithArtsyScreen', value: true },
     { name: 'AREnableMyCollectionHFOnboarding', value: true },
     { name: 'AREnableArtworksFromNonArtsyArtists', value: true },
-    { name: 'AREnableArtworkGridSaveIcon', value: true },
+    { name: 'AREnableArtworkGridSaveIcon', value: true }
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
