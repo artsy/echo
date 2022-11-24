@@ -64,7 +64,7 @@
     { name: 'AREnableActivity', value: true },
     { name: 'AREnableMyCollectionHFOnboarding', value: false },
     { name: 'ARReorderSWAArtworkSubmissionFlow', value: true },
-    { name: 'AREnableNewOpaqueImageComponent', value: false },
+    { name: 'AREnableNewOpaqueImageComponent', value: true },
     { name: 'AREnableSearchDiscoveryContentIOS', value: true },
     { name: 'AREnableSearchDiscoveryContentAndroid', value: true },
 
