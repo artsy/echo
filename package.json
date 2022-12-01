@@ -7,7 +7,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "envsub": "4.0.7",
+    "envsub": "4.1.0",
     "execa": "6.1.0",
     "json5": "2.2.1",
     "jsonminify": "0.4.2",
