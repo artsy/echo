@@ -52,7 +52,6 @@
     { name: 'AREnableHomeScreenArtworkRecommendations', value: true },
     { name: 'AREnableMyCollectionComparableWorks', value: false },
     { name: 'AREnableConversationalBuyNow', value: true },
-    { name: 'AREnableArtworksFromNonArtsyArtists', value: false },
     { name: 'AREnableCreateArtworkAlert', value: true },
     { name: 'AREnableMyCollectionInsights', value: true },
     { name: 'AREnableMyCollectionInsightsPhase1Part1', value: true },
@@ -116,7 +115,7 @@
     { name: 'AREnableMyCollectionHFOnboarding', value: true },
     { name: 'AREnableArtworksFromNonArtsyArtists', value: true },
     { name: 'AREnableArtworkGridSaveIcon', value: true },
-    { name: 'AREnableLargeArtworkRailSaveIcon', value: true }
+    { name: 'AREnableLargeArtworkRailSaveIcon', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
