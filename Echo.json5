@@ -62,7 +62,6 @@
     { name: 'AREnableCollectionsInOnboarding', value: true },
     { name: 'AREnableNewRequestPriceEstimateLogic', value: true },
     { name: 'AREnableActivity', value: true },
-    { name: 'AREnableMyCollectionHFOnboarding', value: false },
     { name: 'ARReorderSWAArtworkSubmissionFlow', value: true },
     { name: 'AREnableNewOpaqueImageComponent', value: true },
     { name: 'AREnableSearchDiscoveryContentIOS', value: true },
