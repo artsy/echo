@@ -61,7 +61,6 @@
     { name: 'AREnableArtworksConnectionForAuction', value: false },
     { name: 'AREnableCollectionsInOnboarding', value: true },
     { name: 'AREnableNewRequestPriceEstimateLogic', value: true },
-    { name: 'AREnableActivity', value: true },
     { name: 'ARReorderSWAArtworkSubmissionFlow', value: true },
     { name: 'AREnableNewOpaqueImageComponent', value: true },
     { name: 'AREnableSearchDiscoveryContentIOS', value: true },
@@ -69,6 +68,7 @@
     { name: 'AREnableConsignmentInquiryFlow', value: false },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
+    { name: 'AREnableActivity', value: true }, // 2022-12-12 removed artsy/eigen#7847
     { name: 'AREnableNewImage', value: false }, // renamed to AREnableNewOpaqueImageComponent on 2022-11-15
     { name: 'AREnableCascadingEndTimerLotPage', value: true }, // 2022-11-3 removed artsy/eigen#7579
     { name: 'AREnableCascadingEndTimerSalePageGrid', value: true }, // 2022-11-3 removed artsy/eigen#7579
