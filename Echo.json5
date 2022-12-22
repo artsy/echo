@@ -116,6 +116,7 @@
     { name: 'AREnableArtworksFromNonArtsyArtists', value: true },
     { name: 'AREnableArtworkGridSaveIcon', value: true },
     { name: 'AREnableLargeArtworkRailSaveIcon', value: true },
+    { name: 'ARShowUpcomingAuctionResultsRails', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
