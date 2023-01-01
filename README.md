@@ -32,3 +32,4 @@ Check docs [here](./docs/kill-versions.md) for details.
 ## Old Heroku Echo
 
 **NOTE TO ARTSY STAFF**: Old versions of the app are still hitting the `echo-api-production.herokuapp.com` URL. Versions 6.7.0 and onward of the app [use an AWS S3-based approach](https://artsyproduct.atlassian.net/browse/CX-386) ([see PR](https://github.com/artsy/echo/pull/39)) but older versions are still in use by users. We have replaced the old `echo-api-production` Heroku app with a proxy to our S3 bucket approach; the app is stored on [the `heroku-proxy-to-s3` branch](https://github.com/artsy/echo/tree/heroku-proxy-to-s3), with instructions on how to deploy updates.
+test
