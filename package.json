@@ -9,7 +9,7 @@
   "dependencies": {
     "envsub": "4.1.0",
     "execa": "6.1.0",
-    "json5": "2.2.2",
+    "json5": "2.2.3",
     "jsonminify": "0.4.2",
     "jsonschema": "1.4.1",
     "prettier": "2.8.1"
