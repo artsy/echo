@@ -113,7 +113,7 @@
     { name: 'ARCustomRecentlySoldOnArtsy', value: true },
     { name: 'ARNewSellWithArtsyScreen', value: true },
     { name: 'AREnableMyCollectionHFOnboarding', value: true },
-    { name: 'AREnableArtworksFromNonArtsyArtists', value: false },
+    { name: 'AREnableArtworksFromNonArtsyArtists', value: true },
     { name: 'AREnableArtworkGridSaveIcon', value: true },
     { name: 'AREnableLargeArtworkRailSaveIcon', value: true },
     { name: 'ARShowUpcomingAuctionResultsRails', value: true },
