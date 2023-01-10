@@ -65,9 +65,10 @@
     { name: 'AREnableNewOpaqueImageComponent', value: true },
     { name: 'AREnableSearchDiscoveryContentIOS', value: true },
     { name: 'AREnableSearchDiscoveryContentAndroid', value: true },
-    { name: 'AREnableConsignmentInquiryFlow', value: false },
+    { name: 'AREnableConsignmentInquiry', value: false },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
+    { name: 'AREnableConsignmentInquiryFlow', value: false }, // 10-01-2023 renamed AREnableConsignmentInquiry 
     { name: 'AREnableActivity', value: true }, // 2022-12-12 removed artsy/eigen#7847
     { name: 'AREnableNewImage', value: false }, // renamed to AREnableNewOpaqueImageComponent on 2022-11-15
     { name: 'AREnableCascadingEndTimerLotPage', value: true }, // 2022-11-3 removed artsy/eigen#7579
