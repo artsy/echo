@@ -65,7 +65,7 @@
     { name: 'AREnableNewOpaqueImageComponent', value: true },
     { name: 'AREnableSearchDiscoveryContentIOS', value: true },
     { name: 'AREnableSearchDiscoveryContentAndroid', value: true },
-    { name: 'AREnableConsignmentInquiry', value: false },
+    { name: 'AREnableConsignmentInquiry', value: true },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
     { name: 'AREnableConsignmentInquiryFlow', value: false }, // 10-01-2023 renamed AREnableConsignmentInquiry 
