@@ -12,7 +12,7 @@
     "json5": "2.2.3",
     "jsonminify": "0.4.2",
     "jsonschema": "1.4.1",
-    "prettier": "2.8.1"
+    "prettier": "2.8.3"
   },
   "devDependencies": {
     "husky": "8.0.3"
