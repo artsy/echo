@@ -121,6 +121,7 @@
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
+    { name: 'BrianDummyMessage', content: '5' }, 
     {
       name: 'ARVIRVideo',
       content: 'https://files.artsy.net/videos/artsy-eigen-arvir-iphone.mp4',
