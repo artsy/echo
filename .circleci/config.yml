@@ -11,6 +11,9 @@ jobs:
     docker:
       - image: cimg/node:16.10
     steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "7c:fc:21:ad:e5:d6:c3:a3:45:b9:48:a8:3f:ff:ae:70"
       - checkout
       - run: yarn install
       - run:
