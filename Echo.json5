@@ -66,6 +66,7 @@
     { name: 'AREnableSearchDiscoveryContentIOS', value: true },
     { name: 'AREnableSearchDiscoveryContentAndroid', value: true },
     { name: 'AREnableConsignmentInquiry', value: true },
+    { name: 'AREnableMoneyFormattingInMyCollectionForm', value: true },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
     { name: 'AREnableConsignmentInquiryFlow', value: false }, // 10-01-2023 renamed AREnableConsignmentInquiry
