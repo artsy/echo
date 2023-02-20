@@ -120,6 +120,7 @@
     { name: 'AREnableLargeArtworkRailSaveIcon', value: true },
     { name: 'ARShowUpcomingAuctionResultsRails', value: true },
     { name: 'AREnableAndroidImagesGallery', value: true },
+    { name: 'AREnableCuratorsPickRail', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
