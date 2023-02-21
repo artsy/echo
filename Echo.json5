@@ -5,7 +5,6 @@
   updated_at: '${ECHO_CURRENT_TIME}',
   features: [
     { name: 'ARAllowLinkSocialAccountsOnSignUp', value: true },
-    { name: 'ARArtworkRedesingPhase2', value: true },
     { name: 'AREnableArtworksConnectionForAuction', value: false },
     { name: 'AREnableAuctionResultComparableWorks', value: true },
     { name: 'AREnableAuctionResultsKeywordFilter', value: true },
@@ -70,6 +69,7 @@
     { name: 'iphone_vir', value: true },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
+    { name: 'ARArtworkRedesingPhase2', value: true }, // 2023-02-21 removed artsy/eigen#8244
     { name: 'AREnableConsignmentInquiryFlow', value: false }, // 10-01-2023 renamed AREnableConsignmentInquiry
     { name: 'AREnableActivity', value: true }, // 2022-12-12 removed artsy/eigen#7847
     { name: 'AREnableNewImage', value: false }, // renamed to AREnableNewOpaqueImageComponent on 2022-11-15
