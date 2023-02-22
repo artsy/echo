@@ -122,6 +122,7 @@
     { name: 'AREnableAndroidImagesGallery', value: true },
     { name: 'AREnableCuratorsPickRail', value: true },
     { name: 'AREnableBrowseMoreArtworksCard', value: true },
+    { name: 'AREnableNewCollectionsRail', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
