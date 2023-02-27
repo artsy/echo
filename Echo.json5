@@ -123,6 +123,7 @@
     { name: 'AREnableCuratorsPickRail', value: true },
     { name: 'AREnableBrowseMoreArtworksCard', value: true },
     { name: 'AREnableNewCollectionsRail', value: true },
+    { name: 'ARImpressionsTrackingHomeRailViews', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
