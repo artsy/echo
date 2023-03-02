@@ -5,6 +5,7 @@
   updated_at: '${ECHO_CURRENT_TIME}',
   features: [
     { name: 'AREnableESOnlySearch', value: false },
+    { name: 'ARShowArtQuizApp', value: false },
     { name: 'ARAllowLinkSocialAccountsOnSignUp', value: true },
     { name: 'AREnableArtworksConnectionForAuction', value: false },
     { name: 'AREnableAuctionResultComparableWorks', value: true },
