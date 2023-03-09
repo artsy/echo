@@ -126,6 +126,7 @@
     { name: 'AREnableBrowseMoreArtworksCard', value: true },
     { name: 'AREnableNewCollectionsRail', value: true },
     { name: 'ARImpressionsTrackingHomeRailViews', value: true },
+    { name: 'AREnableMyCollectionNotesField', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
