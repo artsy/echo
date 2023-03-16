@@ -69,6 +69,9 @@
     { name: 'ARShowNetworkUnavailableModal', value: true },
     { name: 'ipad_vir', value: false },
     { name: 'iphone_vir', value: true },
+    { name: 'AREnableNewSWALandingPage', value: false },
+    { name: 'AREnableSWALandingPageMeetTheSpecialist', value: false },
+    { name: 'AREnableSWALandingPageTestimonials', value: false },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
     { name: 'ARArtworkRedesingPhase2', value: true }, // 2023-02-21 removed artsy/eigen#8244
