@@ -69,7 +69,7 @@
     { name: 'ARShowNetworkUnavailableModal', value: true },
     { name: 'ipad_vir', value: false },
     { name: 'iphone_vir', value: true },
-    { name: 'AREnableNewSWALandingPage', value: false },
+    { name: 'AREnableNewSWALandingPage', value: true },
     { name: 'AREnableSWALandingPageMeetTheSpecialist', value: false },
     { name: 'AREnableSWALandingPageTestimonials', value: false },
 
