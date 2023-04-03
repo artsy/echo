@@ -130,7 +130,7 @@
     { name: 'AREnableNewCollectionsRail', value: true },
     { name: 'ARImpressionsTrackingHomeRailViews', value: true },
     { name: 'AREnableMyCollectionNotesField', value: true },
-    { name: 'AREnableSkeletonAnimation', value: true },
+    { name: 'AREnableSkeletonAnimation', value: false }
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
