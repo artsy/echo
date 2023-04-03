@@ -69,7 +69,7 @@
     { name: 'ARShowNetworkUnavailableModal', value: true },
     { name: 'ipad_vir', value: false },
     { name: 'iphone_vir', value: true },
-    { name: 'AREnableNewSWALandingPage', value: false },
+    { name: 'AREnableNewSWALandingPage', value: true },
     { name: 'AREnableSWALandingPageMeetTheSpecialist', value: false },
     { name: 'AREnableSWALandingPageTestimonials', value: false },
 
@@ -130,6 +130,7 @@
     { name: 'AREnableNewCollectionsRail', value: true },
     { name: 'ARImpressionsTrackingHomeRailViews', value: true },
     { name: 'AREnableMyCollectionNotesField', value: true },
+    { name: 'AREnableSkeletonAnimation', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
