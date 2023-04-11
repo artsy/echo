@@ -9,7 +9,7 @@ orbs:
 jobs:
   deploy-json:
     docker:
-      - image: cimg/node:16.10
+      - image: cimg/node:18.15.0
     steps:
       - add_ssh_keys:
           fingerprints:
