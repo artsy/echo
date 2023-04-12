@@ -133,7 +133,7 @@
     { name: 'AREnableSkeletonAnimation', value: true },
     { name: 'ARImpressionsTrackingHomeItemViews', value: true },
     { name: 'AREnableDoMoreOnArtsyRail', value: true },
-    { name: 'AREnableMeetYourNewAdvisorRail', value: true }
+    { name: 'AREnableMeetYourNewAdvisorRail', value: false }
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
