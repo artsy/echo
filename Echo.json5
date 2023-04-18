@@ -132,7 +132,7 @@
     { name: 'AREnableMyCollectionNotesField', value: true },
     { name: 'AREnableSkeletonAnimation', value: true },
     { name: 'ARImpressionsTrackingHomeItemViews', value: true },
-    { name: 'AREnableDoMoreOnArtsyRail', value: true },
+    { name: 'AREnableDoMoreOnArtsyRail', value: false },
     { name: 'AREnableMeetYourNewAdvisorRail', value: true }
   ],
   messages: [
