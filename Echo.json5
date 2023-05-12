@@ -71,7 +71,7 @@
     { name: 'iphone_vir', value: true },
     { name: 'AREnableNewSWALandingPage', value: true },
     { name: 'AREnableSWALandingPageMeetTheSpecialist', value: true },
-    { name: 'AREnableSWALandingPageTestimonials', value: true },
+    { name: 'AREnableSWALandingPageTestimonials', value: false },
     { name: 'AREnableNewAuctionsRailCard', value: true },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
