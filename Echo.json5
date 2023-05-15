@@ -136,6 +136,7 @@
     { name: 'ARImpressionsTrackingHomeItemViews', value: true },
     { name: 'AREnableDoMoreOnArtsyRail', value: false },
     { name: 'AREnableMeetYourNewAdvisorRail', value: true },
+    { name: 'AREnableShowsForYouLocation', value: true }
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
