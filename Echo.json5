@@ -73,6 +73,7 @@
     { name: 'AREnableSWALandingPageMeetTheSpecialist', value: true },
     { name: 'AREnableSWALandingPageTestimonials', value: false },
     { name: 'AREnableNewAuctionsRailCard', value: true },
+    { name: 'AREnableStickyTabsLazyLoading', value: true },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
     { name: 'ARArtworkRedesingPhase2', value: true }, // 2023-02-21 removed artsy/eigen#8244
@@ -134,7 +135,7 @@
     { name: 'AREnableSkeletonAnimation', value: true },
     { name: 'ARImpressionsTrackingHomeItemViews', value: true },
     { name: 'AREnableDoMoreOnArtsyRail', value: false },
-    { name: 'AREnableMeetYourNewAdvisorRail', value: true }
+    { name: 'AREnableMeetYourNewAdvisorRail', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
