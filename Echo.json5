@@ -125,7 +125,7 @@
     { name: 'AREnableArtworksFromNonArtsyArtists', value: true },
     { name: 'AREnableArtworkGridSaveIcon', value: true },
     { name: 'AREnableLargeArtworkRailSaveIcon', value: true },
-    { name: 'ARShowUpcomingAuctionResultsRails', value: true },
+    { name: 'ARShowUpcomingAuctionResultsRails', value: false },
     { name: 'AREnableAndroidImagesGallery', value: true },
     { name: 'AREnableCuratorsPickRail', value: true },
     { name: 'AREnableBrowseMoreArtworksCard', value: true },
@@ -136,7 +136,7 @@
     { name: 'ARImpressionsTrackingHomeItemViews', value: true },
     { name: 'AREnableDoMoreOnArtsyRail', value: false },
     { name: 'AREnableMeetYourNewAdvisorRail', value: true },
-    { name: 'AREnableShowsForYouLocation', value: true }
+    { name: 'AREnableShowsForYouLocation', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
