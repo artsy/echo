@@ -138,6 +138,7 @@
     { name: 'AREnableDoMoreOnArtsyRail', value: false },
     { name: 'AREnableMeetYourNewAdvisorRail', value: true },
     { name: 'AREnableShowsForYouLocation', value: true },
+    { name: 'AREnableInstantViewInRoom', value: false },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
