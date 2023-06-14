@@ -74,7 +74,7 @@
     { name: 'AREnableSWALandingPageTestimonials', value: false },
     { name: 'AREnableNewAuctionsRailCard', value: true },
     { name: 'AREnableStickyTabsLazyLoading', value: true },
-    { name: 'AREnableArtworkContextMenu', value: false },
+    { name: 'AREnableArtworkContextMenu', value: true },
     { name: 'AREnableArtworkLists', value: true },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
