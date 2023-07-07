@@ -74,12 +74,13 @@
     { name: 'AREnableSWALandingPageTestimonials', value: false },
     { name: 'AREnableNewAuctionsRailCard', value: true },
     { name: 'AREnableStickyTabsLazyLoading', value: true },
-    { name: 'AREnableLongPressArtworkCards', value: false },
     { name: 'AREnableArtworkLists', value: false },
-    { name: 'AREnableNativeArticles', value: true },
+    { name: 'AREnableLongPressOnArtworkCards', value: false },
+    { name: 'AREnableNativeArticleView', value: true },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
     { name: 'ARArtworkRedesingPhase2', value: true }, // 2023-02-21 removed artsy/eigen#8244
+    { name: 'AREnableLongPressArtworkCards', value: false }, // 2023-07-7 removed artsy/eigen#8966 make sure that 8.15.0 doesn't have active users
     { name: 'AREnableArtworkContextMenu', value: false }, // 2023-06-16 removed artsy/eigen#8895 (before removing make sure that 8.14.0 doesn't have any active users)
     { name: 'AREnableConsignmentInquiryFlow', value: false }, // 10-01-2023 renamed AREnableConsignmentInquiry
     { name: 'AREnableActivity', value: true }, // 2022-12-12 removed artsy/eigen#7847
