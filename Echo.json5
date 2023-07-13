@@ -143,6 +143,7 @@
     { name: 'AREnableShowsForYouLocation', value: true },
     { name: 'AREnableInstantViewInRoom', value: true },
     { name: 'AREnableGalleriesForYou', value: false },
+    { name: 'AREnableAdditionalSiftAndroidTracking', value: false },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
