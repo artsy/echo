@@ -74,7 +74,7 @@
     { name: 'AREnableSWALandingPageTestimonials', value: false },
     { name: 'AREnableNewAuctionsRailCard', value: true },
     { name: 'AREnableStickyTabsLazyLoading', value: true },
-    { name: 'AREnableArtworkLists', value: false },
+    { name: 'AREnableArtworksLists', value: false },
     { name: 'AREnableLongPressOnArtworkCards', value: false },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
@@ -144,6 +144,7 @@
     { name: 'AREnableInstantViewInRoom', value: true },
     { name: 'AREnableGalleriesForYou', value: false },
     { name: 'AREnableAdditionalSiftAndroidTracking', value: false },
+    { name: 'AREnableArtworkLists', value: false },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
