@@ -143,7 +143,7 @@
     { name: 'AREnableMeetYourNewAdvisorRail', value: true },
     { name: 'AREnableShowsForYouLocation', value: true },
     { name: 'AREnableInstantViewInRoom', value: true },
-    { name: 'AREnableGalleriesForYou', value: false },
+    { name: 'AREnableGalleriesForYou', value: true },
     { name: 'AREnableAdditionalSiftAndroidTracking', value: false },
     { name: 'AREnableArtworkLists', value: false },
   ],
