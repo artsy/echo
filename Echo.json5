@@ -74,7 +74,7 @@
     { name: 'AREnableSWALandingPageTestimonials', value: false },
     { name: 'AREnableNewAuctionsRailCard', value: true },
     { name: 'AREnableStickyTabsLazyLoading', value: true },
-    { name: 'AREnableArtworksLists', value: false },
+    { name: 'AREnableArtworksLists', value: true },
     { name: 'AREnableLongPressOnArtworkCards', value: false },
     { name: 'AREnablePriceControlForCreateAlertFlow', value: true },
 
