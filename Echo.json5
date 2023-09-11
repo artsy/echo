@@ -149,7 +149,8 @@
     { name: 'AREnableArtworkLists', value: false },
     { name: 'AREnableMyCollectionCollectedArtists', value: true },
     { name: 'ARShowCollectedArtistOnboarding', value: true },
-    { name: 'AREnableFallbackToGeneratedAlertNames', value: true }
+    { name: 'AREnableFallbackToGeneratedAlertNames', value: true },
+    { name: 'ARShowCreateAlertInArtistArtworksListFooter', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
