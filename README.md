@@ -1,7 +1,7 @@
 # echo
 
 - **Depfu :** [![Depfu](https://badges.depfu.com/badges/433c73edca24a04a7cefd5441a84b774/count.svg)](https://depfu.com/github/artsy/echo?project_id=30287)
-- **CI :** [![Build Status](https://circleci.com/gh/artsy/echo/tree/main.svg?style=shield&circle-token=f7a3e9b08ab306cd01a15da49933c0774d508ecb)](https://circleci.com/gh/artsy/echo)
+- **CI :** [![Build status](https://dl.circleci.com/status-badge/img/gh/artsy/echo/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/artsy/echo/tree/main)
 
 [echo](http://github.com/artsy/echo) is an API service that provides remote configuration for Artsy mobile clients. It works using a json file and some scripts to upload it to s3.
 

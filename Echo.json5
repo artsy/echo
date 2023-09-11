@@ -77,6 +77,7 @@
     { name: 'AREnableArtworksLists', value: true },
     { name: 'AREnableLongPressOnArtworkCards', value: false },
     { name: 'AREnablePriceControlForCreateAlertFlow', value: true },
+    { name: 'ARUseNewErrorMiddleware', value: false },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
     { name: 'ARArtworkRedesingPhase2', value: true }, // 2023-02-21 removed artsy/eigen#8244
