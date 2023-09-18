@@ -152,6 +152,7 @@
     { name: 'AREnableFallbackToGeneratedAlertNames', value: true },
     { name: 'ARShowCreateAlertInArtistArtworksListFooter', value: true },
     { name: 'AREnableLatestActivityRail', value: false },
+    { name: 'AREnableAuctionHeaderAlertCTA', value: false }
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
