@@ -5,13 +5,11 @@
   updated_at: '${ECHO_CURRENT_TIME}',
   features: [
     { name: 'AREnableESOnlySearch', value: true },
-    { name: 'ARShowArtQuizApp', value: true },
     { name: 'ARAllowLinkSocialAccountsOnSignUp', value: true },
     { name: 'AREnableArtworksConnectionForAuction', value: false },
     { name: 'AREnableAuctionResultComparableWorks', value: true },
     { name: 'AREnableAuctionResultsKeywordFilter', value: true },
     { name: 'AREnableBuyNowFlow', value: true },
-    { name: 'AREnableCollectionsInOnboarding', value: true },
     { name: 'AREnableCollectorProfile', value: false },
     { name: 'AREnableCompleteProfileMessage', value: true },
     { name: 'AREnableConsignmentInquiry', value: true },
@@ -34,15 +32,12 @@
     { name: 'AREnableMyCollectionOrderImport', value: true },
     { name: 'AREnableNewOnboarding', value: true }, // new onboarding flow flag (August 2022)
     { name: 'AREnableNewOnboardingFlow', value: true },
-    { name: 'AREnableNewOpaqueImageComponent', value: true },
     { name: 'AREnableNewRequestPriceEstimateLogic', value: true },
     { name: 'AREnableNewSearch', value: true },
     { name: 'AREnableNewWorksForYou', value: true },
     { name: 'AREnableOnlyTargetSupplyConsignments', value: true },
-    { name: 'AREnableOrderHistoryOption', value: true },
     { name: 'AREnablePageableArtworkScreens', value: false },
     { name: 'AREnablePlaceholderLayoutAnimation', value: true },
-    { name: 'AREnableQueriesPrefetching', value: true },
     { name: 'AREnableReactNativeWebView', value: true },
     { name: 'AREnableSavedSearchToggles', value: true },
     { name: 'AREnableSearchDiscoveryContentAndroid', value: true },
@@ -80,6 +75,11 @@
     { name: 'ARUseNewErrorMiddleware', value: false },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
+    { name: 'AREnableOrderHistoryOption', value: true },  // 2023-09-21 removed artsy/eigen#9299
+    { name: 'AREnableQueriesPrefetching', value: true },  // 2023-09-21 removed artsy/eigen#9299
+    { name: 'AREnableCollectionsInOnboarding', value: true },  // 2023-09-21 removed artsy/eigen#9299
+    { name: 'ARShowArtQuizApp', value: true },  // 2023-09-21 removed artsy/eigen#9299
+    { name: 'AREnableNewOpaqueImageComponent', value: true }, // 2023-09-21 removed artsy/eigen#9299
     { name: 'ARArtworkRedesingPhase2', value: true }, // 2023-02-21 removed artsy/eigen#8244
     { name: 'AREnableLongPressArtworkCards', value: false }, // 2023-07-7 removed artsy/eigen#8966 make sure that 8.15.0 doesn't have active users
     { name: 'AREnableArtworkContextMenu', value: false }, // 2023-06-16 removed artsy/eigen#8895 (before removing make sure that 8.14.0 doesn't have any active users)
