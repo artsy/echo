@@ -39,8 +39,6 @@
     { name: 'AREnablePlaceholderLayoutAnimation', value: true },
     { name: 'AREnableReactNativeWebView', value: true },
     { name: 'AREnableSavedSearchToggles', value: true },
-    { name: 'AREnableSearchDiscoveryContentAndroid', value: true },
-    { name: 'AREnableSearchDiscoveryContentIOS', value: true },
     { name: 'AREnableShowsRail', value: true },
     { name: 'AREnableSortFilterForArtworksPill', value: true },
     { name: 'AREnableSplitIOABTesting', value: true },
@@ -74,6 +72,8 @@
     { name: 'ARUseNewErrorMiddleware', value: false },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
+    { name: 'AREnableSearchDiscoveryContentAndroid', value: true }, //2023-09-22 removed artsy/eigen#9320
+    { name: 'AREnableSearchDiscoveryContentIOS', value: true }, //2023-09-22 removed artsy/eigen#9320
     { name: 'AREnableConversationalBuyNow', value: true }, //2023-09-22 removed artsy/eigen#9319
     { name: 'AREnableOrderHistoryOption', value: true },  // 2023-09-21 removed artsy/eigen#9299
     { name: 'AREnableQueriesPrefetching', value: true },  // 2023-09-21 removed artsy/eigen#9299
