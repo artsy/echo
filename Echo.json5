@@ -151,7 +151,7 @@
     { name: 'ARShowCollectedArtistOnboarding', value: true },
     { name: 'AREnableFallbackToGeneratedAlertNames', value: true },
     { name: 'ARShowCreateAlertInArtistArtworksListFooter', value: true },
-    { name: 'AREnableLatestActivityRail', value: false },
+    { name: 'AREnableLatestActivityRail', value: true },
     { name: 'AREnableAuctionHeaderAlertCTA', value: true },
     { name: 'ARShowArtistsAlertsSet', value: true },
     { name: 'AREnableSingleActivityPanelScreen', value: false },
