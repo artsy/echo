@@ -145,7 +145,7 @@
     { name: 'AREnableShowsForYouLocation', value: true },
     { name: 'AREnableInstantViewInRoom', value: true },
     { name: 'AREnableGalleriesForYou', value: true },
-    { name: 'AREnableAdditionalSiftAndroidTracking', value: false },
+    { name: 'AREnableAdditionalSiftAndroidTracking', value: true },
     { name: 'AREnableArtworkLists', value: false },
     { name: 'AREnableMyCollectionCollectedArtists', value: true },
     { name: 'ARShowCollectedArtistOnboarding', value: true },
