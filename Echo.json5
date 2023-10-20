@@ -12,7 +12,6 @@
     { name: 'AREnableBuyNowFlow', value: true },
     { name: 'AREnableCollectorProfile', value: false },
     { name: 'AREnableCompleteProfileMessage', value: true },
-    { name: 'AREnableConsignmentInquiry', value: true },
     { name: 'AREnableCreateArtworkAlert', value: true },
     { name: 'AREnableCustomSharesheet', value: true },
     { name: 'AREnableHomeScreenArtworkRecommendations', value: true }, // 2023-01-05 removed artsy/eigen#7926
@@ -107,9 +106,10 @@
     { name: 'AROptionsNewFirstInquiry', value: true }, // 2021-03-14, removed: artsy/eigen#6419
     { name: 'AROptionsNewInsightsPage', value: false }, // old flag
     { name: 'AROptionsNewSalePage', value: true }, // 2022-03-08, removed: artsy/eigen#6386
-    { name: 'AROptionsPriceTransparency', value: true }, // old flag
+    { name: 'AROptionsPriceTransparency', value: true }, // 2023-10-20, removed artsy/eigen#9464
     { name: 'ARShowConsignmentsInMyCollection', value: true },
     { name: 'AREnableNewMyCollectionArtwork', value: true },
+    { name: 'AREnableConsignmentInquiry', value: true }, // 2023-10-20, removed artsy/eigen#9464
     {
       name: 'AREnableShowOnlySubmittedMyCollectionArtworkFilter',
       value: true,
