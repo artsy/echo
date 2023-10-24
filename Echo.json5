@@ -6,6 +6,7 @@
   features: [
     { name: 'AREnableESOnlySearch', value: true },
     { name: 'ARAllowLinkSocialAccountsOnSignUp', value: true },
+    { name: 'AREnableArticleSlideShow', value: false },
     { name: 'AREnableArtworksConnectionForAuction', value: false },
     { name: 'AREnableAuctionResultComparableWorks', value: true },
     { name: 'AREnableAuctionResultsKeywordFilter', value: true },
@@ -155,6 +156,7 @@
     { name: 'AREnableAuctionHeaderAlertCTA', value: true },
     { name: 'ARShowArtistsAlertsSet', value: true },
     { name: 'AREnableSingleActivityPanelScreen', value: false },
+    { name: 'AREnableAlertDetailsInput', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
