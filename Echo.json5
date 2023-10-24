@@ -156,6 +156,7 @@
     { name: 'AREnableAuctionHeaderAlertCTA', value: true },
     { name: 'ARShowArtistsAlertsSet', value: true },
     { name: 'AREnableSingleActivityPanelScreen', value: false },
+    { name: 'AREnableAlertDetailsInput', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
