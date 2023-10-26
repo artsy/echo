@@ -75,10 +75,10 @@
     { name: 'AREnableSearchDiscoveryContentAndroid', value: true }, //2023-09-22 removed artsy/eigen#9320
     { name: 'AREnableSearchDiscoveryContentIOS', value: true }, //2023-09-22 removed artsy/eigen#9320
     { name: 'AREnableConversationalBuyNow', value: true }, //2023-09-22 removed artsy/eigen#9319
-    { name: 'AREnableOrderHistoryOption', value: true },  // 2023-09-21 removed artsy/eigen#9299
-    { name: 'AREnableQueriesPrefetching', value: true },  // 2023-09-21 removed artsy/eigen#9299
-    { name: 'AREnableCollectionsInOnboarding', value: true },  // 2023-09-21 removed artsy/eigen#9299
-    { name: 'ARShowArtQuizApp', value: true },  // 2023-09-21 removed artsy/eigen#9299
+    { name: 'AREnableOrderHistoryOption', value: true }, // 2023-09-21 removed artsy/eigen#9299
+    { name: 'AREnableQueriesPrefetching', value: true }, // 2023-09-21 removed artsy/eigen#9299
+    { name: 'AREnableCollectionsInOnboarding', value: true }, // 2023-09-21 removed artsy/eigen#9299
+    { name: 'ARShowArtQuizApp', value: true }, // 2023-09-21 removed artsy/eigen#9299
     { name: 'AREnableNewOpaqueImageComponent', value: true }, // 2023-09-21 removed artsy/eigen#9299
     { name: 'ARArtworkRedesingPhase2', value: true }, // 2023-02-21 removed artsy/eigen#8244
     { name: 'AREnableLongPressArtworkCards', value: false }, // 2023-07-7 removed artsy/eigen#8966 make sure that 8.15.0 doesn't have active users
@@ -157,6 +157,7 @@
     { name: 'ARShowArtistsAlertsSet', value: true },
     { name: 'AREnableSingleActivityPanelScreen', value: false },
     { name: 'AREnableAlertDetailsInput', value: true },
+    { name: 'AREnableAlertsFilters', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
