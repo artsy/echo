@@ -158,6 +158,7 @@
     { name: 'AREnableSingleActivityPanelScreen', value: false },
     { name: 'AREnableAlertDetailsInput', value: true },
     { name: 'AREnableAlertsFilters', value: true },
+    { name: 'AREnableAlertsSuggestedFilters', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
