@@ -70,6 +70,7 @@
     { name: 'AREnableLongPressOnArtworkCards', value: false },
     { name: 'AREnablePriceControlForCreateAlertFlow', value: true },
     { name: 'ARUseNewErrorMiddleware', value: true },
+    { name: 'ARUsePrincipalFieldErrorHandlerMiddleware', value: false }
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
     { name: 'AREnableSearchDiscoveryContentAndroid', value: true }, //2023-09-22 removed artsy/eigen#9320
