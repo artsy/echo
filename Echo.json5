@@ -69,10 +69,10 @@
     { name: 'AREnableArtworksLists', value: true },
     { name: 'AREnableLongPressOnArtworkCards', value: false },
     { name: 'AREnablePriceControlForCreateAlertFlow', value: true },
-    { name: 'ARUseNewErrorMiddleware', value: true },
-    { name: 'ARUsePrincipalFieldErrorHandlerMiddleware', value: false },
+    { name: 'ARUsePrincipalFieldErrorHandlerMiddleware', value: true },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
+    { name: 'ARUseNewErrorMiddleware', value: true }, //2023-11-16 removed artsy/eigen#9574
     { name: 'AREnableSearchDiscoveryContentAndroid', value: true }, //2023-09-22 removed artsy/eigen#9320
     { name: 'AREnableSearchDiscoveryContentIOS', value: true }, //2023-09-22 removed artsy/eigen#9320
     { name: 'AREnableConversationalBuyNow', value: true }, //2023-09-22 removed artsy/eigen#9319
@@ -160,6 +160,7 @@
     { name: 'AREnableAlertDetailsInput', value: true },
     { name: 'AREnableAlertsFilters', value: true },
     { name: 'AREnableAlertsSuggestedFilters', value: true },
+    { name: 'AREnablePartnerOffersNotificationSwitch', value: false },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
