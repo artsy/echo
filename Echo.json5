@@ -37,6 +37,7 @@
     { name: 'AREnableOnlyTargetSupplyConsignments', value: true },
     { name: 'AREnablePageableArtworkScreens', value: false },
     { name: 'AREnablePlaceholderLayoutAnimation', value: true },
+    { name: 'AREnableProgressiveOnboardingAlerts', value: false },
     { name: 'AREnableReactNativeWebView', value: true },
     { name: 'AREnableSavedSearchToggles', value: true },
     { name: 'AREnableShowsRail', value: true },
