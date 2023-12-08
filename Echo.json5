@@ -162,6 +162,7 @@
     { name: 'AREnableAlertsFilters', value: true },
     { name: 'AREnableAlertsSuggestedFilters', value: true },
     { name: 'AREnablePartnerOffersNotificationSwitch', value: false },
+    { name: 'AREnableArtistSeriesFilter', value: false },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
