@@ -162,7 +162,7 @@
     { name: 'AREnableAlertsFilters', value: true },
     { name: 'AREnableAlertsSuggestedFilters', value: true },
     { name: 'AREnablePartnerOffersNotificationSwitch', value: false },
-    { name: 'AREnableArtistSeriesFilter', value: false },
+    { name: 'AREnableArtistSeriesFilter', value: true },
     { name: 'AREnableNewWorksForYouScreenFeed', value: true },
     { name: 'AREnablePartnerOffer', value: false },
   ],
