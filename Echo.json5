@@ -163,6 +163,7 @@
     { name: 'AREnableAlertsSuggestedFilters', value: true },
     { name: 'AREnablePartnerOffersNotificationSwitch', value: false },
     { name: 'AREnableArtistSeriesFilter', value: false },
+    { name: 'AREnableNewWorksForYouScreenFeed', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
