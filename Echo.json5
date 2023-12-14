@@ -165,6 +165,7 @@
     { name: 'AREnableArtistSeriesFilter', value: true },
     { name: 'AREnableNewWorksForYouScreenFeed', value: true },
     { name: 'AREnablePartnerOffer', value: false },
+    { name: 'AREnableArtistSeriesSuggestions', value: false },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
