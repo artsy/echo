@@ -151,7 +151,7 @@
     { name: 'AREnableAdditionalSiftAndroidTracking', value: true },
     { name: 'AREnableArtworkLists', value: false },
     { name: 'AREnableMyCollectionCollectedArtists', value: true },
-    { name: 'ARShowCollectedArtistOnboarding', value: true },
+    { name: 'ARShowCollectedArtistOnboarding', value: false }, // 2023-12-19, disabled pending removal
     { name: 'AREnableFallbackToGeneratedAlertNames', value: true },
     { name: 'ARShowCreateAlertInArtistArtworksListFooter', value: true },
     { name: 'AREnableLatestActivityRail', value: true },
