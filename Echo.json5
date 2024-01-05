@@ -163,7 +163,7 @@
     { name: 'AREnableAlertsSuggestedFilters', value: true },
     { name: 'AREnablePartnerOffersNotificationSwitch', value: false },
     { name: 'AREnableArtistSeriesFilter', value: true },
-    { name: 'AREnableNewWorksForYouScreenFeed', value: true },
+    { name: 'AREnableNewWorksForYouScreenFeed', value: false },
     { name: 'AREnablePartnerOffer', value: false },
     { name: 'AREnableArtistSeriesSuggestions', value: false },
   ],
