@@ -168,7 +168,7 @@
     { name: 'AREnableArtistSeriesSuggestions', value: true },
     { name: 'AREnableAlertsFiltersArtistSeriesFiltering', value: true },
     { name: 'AREnableArtworksFeedView', value: true },
-    { name: 'AREnableNewActivityPanelManagement', value: false }
+    { name: 'AREnableNewActivityPanelManagement', value: false },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
