@@ -170,6 +170,8 @@
     { name: 'AREnableArtworksFeedView', value: true },
     { name: 'AREnableNewActivityPanelManagement', value: false },
     { name: 'AREnableAlertsFiltersSizeFiltering', value: true },
+    { name: 'ARUsePaletteImageComponent', value: true },
+    { name: 'ARShowBlurhashImagePlaceholder', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
