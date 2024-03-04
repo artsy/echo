@@ -172,6 +172,7 @@
     { name: 'AREnableAlertsFiltersSizeFiltering', value: true },
     { name: 'ARUsePaletteImageComponent', value: true },
     { name: 'ARShowBlurhashImagePlaceholder', value: true },
+    { name: 'AREnableArtworkListOfferability', value: false },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
