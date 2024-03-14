@@ -173,7 +173,7 @@
     { name: 'ARUsePaletteImageComponent', value: true },
     { name: 'ARShowBlurhashImagePlaceholder', value: true },
     { name: 'AREnableArtworkListOfferability', value: false },
-    { name: 'AREnableAlertBottomSheet', value: false },
+    { name: 'AREnableAlertBottomSheet', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
