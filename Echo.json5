@@ -34,6 +34,7 @@
     { name: 'AREnableNewOnboardingFlow', value: true },
     { name: 'AREnableNewRequestPriceEstimateLogic', value: true },
     { name: 'AREnableNewSearch', value: true },
+    { name: 'AREnableNewTermsAndConditions', value: false },
     { name: 'AREnableNewWorksForYou', value: true },
     { name: 'AREnableOnlyTargetSupplyConsignments', value: true },
     { name: 'AREnablePageableArtworkScreens', value: false },
