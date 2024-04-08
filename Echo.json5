@@ -15,6 +15,7 @@
     { name: 'AREnableCompleteProfileMessage', value: true },
     { name: 'AREnableCreateArtworkAlert', value: true },
     { name: 'AREnableCustomSharesheet', value: true },
+    { name: 'AREnableEditorialNews', value: true },
     { name: 'AREnableHomeScreenArtworkRecommendations', value: true }, // 2023-01-05 removed artsy/eigen#7926
     { name: 'AREnableImprovedSearch', value: true },
     { name: 'AREnableImprovedSearchPills', value: false },
@@ -33,6 +34,7 @@
     { name: 'AREnableNewOnboardingFlow', value: true },
     { name: 'AREnableNewRequestPriceEstimateLogic', value: true },
     { name: 'AREnableNewSearch', value: true },
+    { name: 'AREnableNewTermsAndConditions', value: false },
     { name: 'AREnableNewWorksForYou', value: true },
     { name: 'AREnableOnlyTargetSupplyConsignments', value: true },
     { name: 'AREnablePageableArtworkScreens', value: false },
