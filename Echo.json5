@@ -30,6 +30,7 @@
     { name: 'AREnableMyCollectionInsightsPhase1Part2', value: true },
     { name: 'AREnableMyCollectionIOS', value: true },
     { name: 'AREnableMyCollectionOrderImport', value: true },
+    { name: 'AREnableNewCollectorSettings', value: false },
     { name: 'AREnableNewOnboarding', value: true }, // new onboarding flow flag (August 2022)
     { name: 'AREnableNewOnboardingFlow', value: true },
     { name: 'AREnableNewRequestPriceEstimateLogic', value: true },
