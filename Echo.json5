@@ -177,7 +177,7 @@
     { name: 'ARShowBlurhashImagePlaceholder', value: true },
     { name: 'AREnableArtworkListOfferability', value: false },
     { name: 'AREnableAlertBottomSheet', value: true },
-    { name: 'AREnablePartnerOfferV1Improvements', value: false },
+    { name: 'AREnablePartnerOfferOnArtworkScreen', value: false },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
