@@ -175,7 +175,7 @@
     { name: 'AREnableAlertsFiltersSizeFiltering', value: true },
     { name: 'ARUsePaletteImageComponent', value: true },
     { name: 'ARShowBlurhashImagePlaceholder', value: true },
-    { name: 'AREnableArtworkListOfferability', value: false },
+    { name: 'AREnableArtworkListOfferability', value: true },
     { name: 'AREnableAlertBottomSheet', value: true },
     { name: 'AREnablePartnerOfferOnArtworkScreen', value: false },
   ],
