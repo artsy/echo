@@ -178,6 +178,7 @@
     { name: 'AREnableArtworkListOfferability', value: true },
     { name: 'AREnableAlertBottomSheet', value: true },
     { name: 'AREnablePartnerOfferOnArtworkScreen', value: false },
+    { name: 'AREnableMyCollectionSellOnboarding', value: false },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
