@@ -15,6 +15,7 @@
     { name: 'AREnableCompleteProfileMessage', value: true },
     { name: 'AREnableCreateArtworkAlert', value: true },
     { name: 'AREnableCustomSharesheet', value: true },
+    { name: 'AREnableEditorialNews', value: true },
     { name: 'AREnableHomeScreenArtworkRecommendations', value: true }, // 2023-01-05 removed artsy/eigen#7926
     { name: 'AREnableImprovedSearch', value: true },
     { name: 'AREnableImprovedSearchPills', value: false },
@@ -29,10 +30,12 @@
     { name: 'AREnableMyCollectionInsightsPhase1Part2', value: true },
     { name: 'AREnableMyCollectionIOS', value: true },
     { name: 'AREnableMyCollectionOrderImport', value: true },
+    { name: 'AREnableNewCollectorSettings', value: false },
     { name: 'AREnableNewOnboarding', value: true }, // new onboarding flow flag (August 2022)
     { name: 'AREnableNewOnboardingFlow', value: true },
     { name: 'AREnableNewRequestPriceEstimateLogic', value: true },
     { name: 'AREnableNewSearch', value: true },
+    { name: 'AREnableNewTermsAndConditions', value: false },
     { name: 'AREnableNewWorksForYou', value: true },
     { name: 'AREnableOnlyTargetSupplyConsignments', value: true },
     { name: 'AREnablePageableArtworkScreens', value: false },
@@ -172,7 +175,10 @@
     { name: 'AREnableAlertsFiltersSizeFiltering', value: true },
     { name: 'ARUsePaletteImageComponent', value: true },
     { name: 'ARShowBlurhashImagePlaceholder', value: true },
-    { name: 'AREnableArtworkListOfferability', value: false },
+    { name: 'AREnableArtworkListOfferability', value: true },
+    { name: 'AREnableAlertBottomSheet', value: true },
+    { name: 'AREnablePartnerOfferOnArtworkScreen', value: false },
+    { name: 'AREnableMyCollectionInterestedInSellingTooltip', value: false },
     { name: 'ARSWAMakeAllDimensionsOptional', value: true },
   ],
   messages: [
