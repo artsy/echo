@@ -177,7 +177,7 @@
     { name: 'ARShowBlurhashImagePlaceholder', value: true },
     { name: 'AREnableArtworkListOfferability', value: true },
     { name: 'AREnableAlertBottomSheet', value: true },
-    { name: 'AREnablePartnerOfferOnArtworkScreen', value: false },
+    { name: 'AREnablePartnerOfferOnArtworkScreen', value: true },
     { name: 'AREnableMyCollectionInterestedInSellingTooltip', value: false },
     { name: 'ARSWAMakeAllDimensionsOptional', value: true },
   ],
