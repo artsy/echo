@@ -180,6 +180,7 @@
     { name: 'AREnablePartnerOfferOnArtworkScreen', value: true },
     { name: 'AREnableMyCollectionInterestedInSellingTooltip', value: true },
     { name: 'ARSWAMakeAllDimensionsOptional', value: true },
+    { name: 'AREnableNewSubmissionFlow', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
