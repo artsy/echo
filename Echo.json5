@@ -182,6 +182,7 @@
     { name: 'ARSWAMakeAllDimensionsOptional', value: true },
     { name: 'AREnableNewSubmissionFlow', value: true },
     { name: 'AREnableLongPressOnNewForYouRail', value: true },
+    { name: 'AREnableSaveAndContinueSubmission', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
