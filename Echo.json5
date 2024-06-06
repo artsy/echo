@@ -6,7 +6,7 @@
   features: [
     { name: 'AREnableESOnlySearch', value: true },
     { name: 'ARAllowLinkSocialAccountsOnSignUp', value: true },
-    { name: 'AREnableArticleSlideShow', value: false },
+    { name: 'AREnableArticleSlideShow', value: true },
     { name: 'AREnableArtworksConnectionForAuction', value: false },
     { name: 'AREnableAuctionResultComparableWorks', value: true },
     { name: 'AREnableAuctionResultsKeywordFilter', value: true },
