@@ -184,6 +184,7 @@
     { name: 'AREnableLongPressOnNewForYouRail', value: true },
     { name: 'AREnableSaveAndContinueSubmission', value: true },
     { name: 'AREnableSubmitMyCollectionArtworkInSubmitFlow', value: false },
+    { name: 'AREnableSubmitMyCollectionArtworkInSubmitFlowNew', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
