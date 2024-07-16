@@ -13,11 +13,11 @@
 - **Staging:** [https://echo.artsy.net/Echo.staging.json](https://echo.artsy.net/Echo.staging.json)
 - **Production:** [https://echo.artsy.net/Echo.json](https://echo.artsy.net/Echo.json)
 - **Github:** [https://github.com/artsy/echo/](https://github.com/artsy/echo/)
-- **Point People:** [@pvinis](https://github.com/pvinis)
+- **Point People:** [@gkartalis](https://github.com/gkartalis) [@brainbicycle](https://github.com/brainbicycle) [@MounirDhahri](https://github.com/MounirDhahri)
 
 ## Set-Up for Development
 
-- Fork [artsy/echo](https://github.com/artsy/echo)
+- Clone and create a branch on [artsy/echo](https://github.com/artsy/echo)
 - Make a PR with your changes (toggle/add/remove flags)
 
 ## Killing app versions
