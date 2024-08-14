@@ -188,6 +188,7 @@
     { name: 'AREnableCollectorProfilePrompts', value: false },
     { name: 'AREnablePartnerOfferSignals', value: false },
     { name: 'AREnableAuctionImprovementsSignals', value: false },
+    { name: 'AREnableCollectionsWithoutHeaderImage', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
