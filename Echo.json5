@@ -74,6 +74,7 @@
     { name: 'AREnableLongPressOnArtworkCards', value: false },
     { name: 'AREnablePriceControlForCreateAlertFlow', value: true },
     { name: 'ARUsePrincipalFieldErrorHandlerMiddleware', value: true },
+    { name: 'AREnableCollectionsWithoutHeaderImage', value: true },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
     { name: 'ARUseNewErrorMiddleware', value: true }, //2023-11-16 removed artsy/eigen#9574
@@ -188,7 +189,6 @@
     { name: 'AREnableCollectorProfilePrompts', value: false },
     { name: 'AREnablePartnerOfferSignals', value: false },
     { name: 'AREnableAuctionImprovementsSignals', value: false },
-    { name: 'AREnableCollectionsWithoutHeaderImage', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
