@@ -190,6 +190,7 @@
     { name: 'AREnableCollectorProfilePrompts', value: false },
     { name: 'AREnablePartnerOfferSignals', value: false },
     { name: 'AREnableAuctionImprovementsSignals', value: false },
+    { name: 'AREnableSubmitArtworkTier2Information', value: false }
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
