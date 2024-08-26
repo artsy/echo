@@ -70,7 +70,7 @@
     { name: 'AREnableSWALandingPageTestimonials', value: false },
     { name: 'AREnableNewAuctionsRailCard', value: true },
     { name: 'AREnableStickyTabsLazyLoading', value: true },
-    { name: 'AREnableArtworksLists', value: true },
+    { name: 'AREnableArtworksLists', value: true }, // 2024-08-26, removed artsy/eigen#10655
     { name: 'AREnableLongPressOnArtworkCards', value: false },
     { name: 'AREnablePriceControlForCreateAlertFlow', value: true },
     { name: 'ARUsePrincipalFieldErrorHandlerMiddleware', value: true },
@@ -140,22 +140,22 @@
     { name: 'AREnableLargeArtworkRailSaveIcon', value: true },
     { name: 'ARShowUpcomingAuctionResultsRails', value: false },
     { name: 'AREnableAndroidImagesGallery', value: true },
-    { name: 'AREnableCuratorsPickRail', value: true },
+    { name: 'AREnableCuratorsPickRail', value: true }, // 2024-08-26, removed artsy/eigen#10655
     { name: 'AREnableBrowseMoreArtworksCard', value: true },
     { name: 'AREnableNewCollectionsRail', value: true },
     { name: 'ARImpressionsTrackingHomeRailViews', value: true },
     { name: 'AREnableMyCollectionNotesField', value: true },
-    { name: 'AREnableSkeletonAnimation', value: true },
+    { name: 'AREnableSkeletonAnimation', value: true }, // 2024-08-26, removed artsy/eigen#10655
     { name: 'ARImpressionsTrackingHomeItemViews', value: true },
-    { name: 'AREnableDoMoreOnArtsyRail', value: false },
+    { name: 'AREnableDoMoreOnArtsyRail', value: false }, // 2024-08-26, removed artsy/eigen#10655
     { name: 'AREnableMeetYourNewAdvisorRail', value: true },
     { name: 'AREnableShowsForYouLocation', value: true },
     { name: 'AREnableInstantViewInRoom', value: true }, // 2023-10-20, removed artsy/eigen#9469
     { name: 'AREnableGalleriesForYou', value: true },
     { name: 'AREnableAdditionalSiftAndroidTracking', value: true },
     { name: 'AREnableArtworkLists', value: false },
-    { name: 'AREnableMyCollectionCollectedArtists', value: true },
-    { name: 'ARShowCollectedArtistOnboarding', value: false }, // 2023-12-19, disabled pending removal
+    { name: 'AREnableMyCollectionCollectedArtists', value: true }, // 2024-08-26, removed artsy/eigen#10653
+    { name: 'ARShowCollectedArtistOnboarding', value: false }, // 2023-12-19, disabled pending removal; 2024-08-26, removed artsy/eigen#10653
     { name: 'AREnableFallbackToGeneratedAlertNames', value: true },
     { name: 'ARShowCreateAlertInArtistArtworksListFooter', value: true },
     { name: 'AREnableLatestActivityRail', value: true },
