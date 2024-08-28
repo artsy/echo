@@ -188,9 +188,9 @@
     { name: 'AREnableSubmitMyCollectionArtworkInSubmitFlow', value: false },
     { name: 'AREnableSubmitMyCollectionArtworkInSubmitFlowNew', value: true },
     { name: 'AREnableCollectorProfilePrompts', value: false },
-    { name: 'AREnablePartnerOfferSignals', value: false },
+    { name: 'AREnablePartnerOfferSignals', value: true },
     { name: 'AREnableAuctionImprovementsSignals', value: false },
-    { name: 'AREnableSubmitArtworkTier2Information', value: false }
+    { name: 'AREnableSubmitArtworkTier2Information', value: false },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
