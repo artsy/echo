@@ -75,6 +75,7 @@
     { name: 'AREnablePriceControlForCreateAlertFlow', value: true },
     { name: 'ARUsePrincipalFieldErrorHandlerMiddleware', value: true },
     { name: 'AREnableCollectionsWithoutHeaderImage', value: true },
+    { name: 'ARTesting', value: false },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
     { name: 'ARUseNewErrorMiddleware', value: true }, //2023-11-16 removed artsy/eigen#9574
