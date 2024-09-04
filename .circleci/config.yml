@@ -20,7 +20,16 @@ jobs:
           name: Install dependencies
           command: ./scripts/install_dependencies.sh
       - run: ./scripts/deploy.sh
-
+  run-eigen-tests:
+    docker:
+      - image: cimg/node:18.15.0
+    steps:
+      - run:
+          name: Kick off new pipeline
+          command: |
+            curl --location --request POST 'https://circleci.com/api/v2/project/github/artsy/eigen/pipeline' \
+            --header 'Content-Type: application/json' \
+            -u "${EIGEN_ECHO_API_TOKEN}:"
 
 workflows:
   deploy:
@@ -32,4 +41,12 @@ workflows:
                  - main
                  - production
                  - fix-ci
+          context: echo
+      - run-eigen-tests:
+          filters:
+              branches:
+                only:
+                  - main
+                  - production
+                  - fix-ci
           context: echo
