@@ -190,7 +190,7 @@
     { name: 'AREnableSubmitMyCollectionArtworkInSubmitFlowNew', value: true },
     { name: 'AREnableCollectorProfilePrompts', value: false },
     { name: 'AREnablePartnerOfferSignals', value: true },
-    { name: 'AREnableAuctionImprovementsSignals', value: false },
+    { name: 'AREnableAuctionImprovementsSignals', value: true },
     { name: 'AREnableSubmitArtworkTier2Information', value: false },
   ],
   messages: [
