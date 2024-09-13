@@ -30,7 +30,6 @@
     { name: 'AREnableMyCollectionInsightsPhase1Part2', value: true },
     { name: 'AREnableMyCollectionIOS', value: true },
     { name: 'AREnableMyCollectionOrderImport', value: true },
-    { name: 'AREnableNewCollectorSettings', value: true },
     { name: 'AREnableNewOnboarding', value: true }, // new onboarding flow flag (August 2022)
     { name: 'AREnableNewOnboardingFlow', value: true },
     { name: 'AREnableNewRequestPriceEstimateLogic', value: true },
@@ -78,6 +77,7 @@
     { name: 'ARTesting', value: false },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
+    { name: 'AREnableNewCollectorSettings', value: true }, // 2024-09-12 removed artsy/eigen#10756
     { name: 'ARUseNewErrorMiddleware', value: true }, //2023-11-16 removed artsy/eigen#9574
     { name: 'AREnableSearchDiscoveryContentAndroid', value: true }, //2023-09-22 removed artsy/eigen#9320
     { name: 'AREnableSearchDiscoveryContentIOS', value: true }, //2023-09-22 removed artsy/eigen#9320
@@ -192,6 +192,7 @@
     { name: 'AREnablePartnerOfferSignals', value: true },
     { name: 'AREnableAuctionImprovementsSignals', value: true },
     { name: 'AREnableSubmitArtworkTier2Information', value: true },
+    { name: 'AREnableCuratorsPicksAndInterestSignals', value: false },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
