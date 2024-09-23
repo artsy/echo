@@ -192,7 +192,7 @@
     { name: 'AREnablePartnerOfferSignals', value: true },
     { name: 'AREnableAuctionImprovementsSignals', value: true },
     { name: 'AREnableSubmitArtworkTier2Information', value: true },
-    { name: 'AREnableCuratorsPicksAndInterestSignals', value: false },
+    { name: 'AREnableCuratorsPicksAndInterestSignals', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
