@@ -17,6 +17,7 @@
     { name: 'AREnableCustomSharesheet', value: true },
     { name: 'AREnableEditorialNews', value: true },
     { name: 'AREnableHomeScreenArtworkRecommendations', value: true }, // 2023-01-05 removed artsy/eigen#7926
+    { name: 'AREnableHomeViewExploreBy', value: false },
     { name: 'AREnableImprovedSearch', value: true },
     { name: 'AREnableImprovedSearchPills', value: false },
     { name: 'AREnableLocalDiscovery', value: true },
