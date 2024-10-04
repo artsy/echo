@@ -25,7 +25,7 @@ jobs:
       - image: cimg/node:18.15.0
     steps:
       - run:
-          name: Kick off new pipeline
+          name: Trigger eigen workflow
           command: |
             curl --location --request POST 'https://circleci.com/api/v2/project/github/artsy/eigen/pipeline' \
             --header 'Content-Type: application/json' \
