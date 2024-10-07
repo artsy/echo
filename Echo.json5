@@ -76,7 +76,7 @@
     { name: 'ARUsePrincipalFieldErrorHandlerMiddleware', value: true },
     { name: 'AREnableCollectionsWithoutHeaderImage', value: true },
     { name: 'ARTesting', value: false },
-    { name: 'AREnableArtworkRailRedesignImageAspectRatio', value: false },
+    { name: 'AREnableArtworkRailRedesignImageAspectRatio', value: true },
     { name: 'AREnableDynamicHomeView', value: true }, // aka Art Advisor Milestone 2
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
