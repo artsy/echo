@@ -24,6 +24,7 @@ jobs:
     docker:
       - image: cimg/node:18.15.0
     steps:
+      - checkout
       - run:
           name: Run eigen tests
           command: ./scripts/run_eigen_tests.sh
