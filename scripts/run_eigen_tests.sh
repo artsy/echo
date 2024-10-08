@@ -3,6 +3,7 @@ set -euxo pipefail
 
 echo "Running Eigen tests"
 
+# Trigger the test pipeline
 PIPELINE_ID=$(curl --request POST \
               --url https://circleci.com/api/v2/project/github/artsy/eigen/pipeline \
               --header "Circle-Token: ${EIGEN_ECHO_API_TOKEN}" \
@@ -12,7 +13,7 @@ PIPELINE_ID=$(curl --request POST \
 
 echo "Triggered eigen pipeline: $PIPELINE_ID"
 
-# wait for pipeline to finish
+# Wait for pipeline to finish
 STATUS="running"
 WORKFLOW_ID=""
 while [ "$STATUS" == "running" ] || [ -z "$WORKFLOW_ID" ]; do
@@ -25,8 +26,8 @@ while [ "$STATUS" == "running" ] || [ -z "$WORKFLOW_ID" ]; do
   WORKFLOW_ID=$(echo $RESPONSE | jq -r '.items[0].id')
 
   if [ -z "$WORKFLOW_ID" ] || [ "$WORKFLOW_ID" == "null" ]; then
-    echo "Workflow not yet created, waiting for 1 minute before retrying..."
-    sleep 30  # Wait for 30s before checking again
+    echo "Workflow not yet created, waiting for 30s before retrying..."
+    sleep 30
     continue
   fi
 
@@ -43,5 +44,5 @@ while [ "$STATUS" == "running" ] || [ -z "$WORKFLOW_ID" ]; do
   fi
 
   echo "Workflow still running, waiting for 30s before checking again..."
-  sleep 30  # Wait for 5 minutes before checking again
+  sleep 30
 done
