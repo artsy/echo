@@ -25,13 +25,40 @@ jobs:
       - image: cimg/node:18.15.0
     steps:
       - run:
-          name: Trigger eigen workflow
+          name: Trigger eigen workflow and get pipeline ID
           command: |
-            curl --request POST \
+            PIPELINE_ID=$(curl --request POST \
               --url https://circleci.com/api/v2/project/github/artsy/eigen/pipeline \
               --header "Circle-Token: ${EIGEN_ECHO_API_TOKEN}" \
               --header 'content-type: application/json' \
-              --data '{"parameters":{"run_workflow_build-run-tests-for-echo":true, "run_workflow_test-build-deploy":false}}'
+              --data '{"parameters":{"run_workflow_build-run-tests-for-echo":true, "run_workflow_test-build-deploy":false}}' \
+              | jq -r '.id')
+            
+            echo "Triggered eigen pipeline: $PIPELINE_ID"
+
+      - run:
+          name: Poll for eigen workflow status
+          command: |
+            STATUS="running"
+            while [ "$STATUS" == "running" ]; do
+              echo "Checking eigen workflow status..."
+              STATUS=$(curl --request GET \
+                --url https://circleci.com/api/v2/pipeline/$PIPELINE_ID/workflow \
+                --header "Circle-Token: ${EIGEN_ECHO_API_TOKEN}" \
+                | jq -r '.items[0].status')
+              
+              echo "Current status: $STATUS"
+
+              if [ "$STATUS" == "success" ]; then
+                echo "Eigen workflow succeeded."
+                exit 0
+              elif [ "$STATUS" == "failed" ]; then
+                echo "Eigen workflow failed."
+                exit 1
+              fi
+
+              sleep 300  # Wait 5 minutes before checking again
+            done
 
 workflows:
   deploy:
