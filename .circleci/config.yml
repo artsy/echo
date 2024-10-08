@@ -31,7 +31,7 @@ jobs:
               --url https://circleci.com/api/v2/project/github/artsy/eigen/pipeline \
               --header "Circle-Token: ${EIGEN_ECHO_API_TOKEN}" \
               --header 'content-type: application/json' \
-              --data '{"parameters":{"run_workflow_build-run-tests-for-echo":false, "run_workflow_test-build-deploy":true}}'
+              --data '{"parameters":{"run_workflow_build-run-tests-for-echo":true, "run_workflow_test-build-deploy":false}}'
 
 workflows:
   deploy:
