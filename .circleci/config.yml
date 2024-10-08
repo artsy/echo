@@ -27,10 +27,11 @@ jobs:
       - run:
           name: Trigger eigen workflow
           command: |
-            curl --location --request POST 'https://circleci.com/api/v2/project/github/artsy/eigen/pipeline' \
-            --header 'Content-Type: application/json' \
-            -u "${EIGEN_ECHO_API_TOKEN}:\
-            --data '{"parameters":{"run_workflow_build-run-tests-for-echo":false}}"
+            curl --request POST \
+              --url https://circleci.com/api/v2/project/github/artsy/eigen/pipeline \
+              --header 'Circle-Token: ${EIGEN_ECHO_API_TOKEN}' \
+              --header 'content-type: application/json' \
+              --data '{"parameters":{"run_workflow_build-run-tests-for-echo":false}}'
 
 workflows:
   deploy:
