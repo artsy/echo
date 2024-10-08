@@ -40,13 +40,25 @@ jobs:
           name: Poll for eigen workflow status
           command: |
             STATUS="running"
-            while [ "$STATUS" == "running" ]; do
+            WORKFLOW_ID=""
+            while [ "$STATUS" == "running" ] || [ -z "$WORKFLOW_ID" ]; do
               echo "Checking eigen workflow status..."
-              STATUS=$(curl --request GET \
+
+              # Fetch the workflows associated with the pipeline
+              RESPONSE=$(curl --request GET \
                 --url https://circleci.com/api/v2/pipeline/$PIPELINE_ID/workflow \
-                --header "Circle-Token: ${EIGEN_ECHO_API_TOKEN}" \
-                | jq -r '.items[0].status')
-              
+                --header "Circle-Token: ${EIGEN_ECHO_API_TOKEN}")
+
+              WORKFLOW_ID=$(echo $RESPONSE | jq -r '.items[0].id')
+
+              if [ -z "$WORKFLOW_ID" ] || [ "$WORKFLOW_ID" == "null" ]; then
+                echo "Workflow not yet created, waiting for 1 minute before retrying..."
+                sleep 60  # Wait for 1 minute before checking again
+                continue
+              fi
+
+              STATUS=$(echo $RESPONSE | jq -r '.items[0].status')
+
               echo "Current status: $STATUS"
 
               if [ "$STATUS" == "success" ]; then
@@ -57,7 +69,8 @@ jobs:
                 exit 1
               fi
 
-              sleep 300  # Wait 5 minutes before checking again
+              echo "Workflow still running, waiting for 5 minutes before checking again..."
+              sleep 300  # Wait for 5 minutes before checking again
             done
 
 workflows:
