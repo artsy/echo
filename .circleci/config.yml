@@ -29,7 +29,8 @@ jobs:
           command: |
             curl --location --request POST 'https://circleci.com/api/v2/project/github/artsy/eigen/pipeline' \
             --header 'Content-Type: application/json' \
-            -u "${EIGEN_ECHO_API_TOKEN}:"
+            -u "${EIGEN_ECHO_API_TOKEN}:\
+            --data '{"parameters":{"run_workflow_build-run-tests-for-echo":false}}"
 
 workflows:
   deploy:
@@ -43,10 +44,10 @@ workflows:
                  - fix-ci
           context: echo
       - run-eigen-tests:
-          filters:
-              branches:
-                only:
-                  - main
-                  - production
-                  - fix-ci
+          # filters:
+              # branches:
+              #   only:
+              #     - main
+              #     - production
+              #     - fix-ci
           context: echo
