@@ -22,6 +22,7 @@
     { name: 'AREnableImprovedSearchPills', value: false },
     { name: 'AREnableLocalDiscovery', value: true },
     { name: 'AREnableMakeOfferFlow', value: true },
+    { name: 'AREnableMarketingCollectionsCategories', value: false },
     { name: 'AREnableMedianPriceChartCareerHighlights', value: true },
     { name: 'AREnableMoneyFormattingInMyCollectionForm', value: true },
     { name: 'AREnableMyCollectionAndroid', value: true },
@@ -196,6 +197,8 @@
     { name: 'AREnableAuctionImprovementsSignals', value: true },
     { name: 'AREnableSubmitArtworkTier2Information', value: true },
     { name: 'AREnableCuratorsPicksAndInterestSignals', value: true },
+    { name: 'ARUseMetaphysicsCDN', value: false },
+    { name: 'AREnableCacheableDirective', value: false },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },

@@ -20,7 +20,14 @@ jobs:
           name: Install dependencies
           command: ./scripts/install_dependencies.sh
       - run: ./scripts/deploy.sh
-
+  run-eigen-tests:
+    docker:
+      - image: cimg/node:18.15.0
+    steps:
+      - checkout
+      - run:
+          name: Run eigen tests
+          command: ./scripts/run_eigen_tests.sh
 
 workflows:
   deploy:
@@ -32,4 +39,12 @@ workflows:
                  - main
                  - production
                  - fix-ci
+          context: echo
+      - run-eigen-tests:
+          filters:
+              branches:
+                only:
+                  - main
+                  - production
+                  - fix-ci
           context: echo
