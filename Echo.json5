@@ -197,7 +197,7 @@
     { name: 'AREnableAuctionImprovementsSignals', value: true },
     { name: 'AREnableSubmitArtworkTier2Information', value: true },
     { name: 'AREnableCuratorsPicksAndInterestSignals', value: true },
-    { name: 'ARUseMetaphysicsCDN', value: false },
+    { name: 'ARUseMetaphysicsCDN', value: true },
     { name: 'AREnableCacheableDirective', value: false },
   ],
   messages: [
