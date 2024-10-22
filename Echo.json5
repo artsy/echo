@@ -199,6 +199,7 @@
     { name: 'AREnableCuratorsPicksAndInterestSignals', value: true },
     { name: 'ARUseMetaphysicsCDN', value: true },
     { name: 'AREnableCacheableDirective', value: false },
+    { name: 'AREnablePaymentFailureBanner', value: false },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
