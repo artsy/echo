@@ -6,7 +6,7 @@
   features: [
     { name: 'AREnableESOnlySearch', value: true },
     { name: 'ARAllowLinkSocialAccountsOnSignUp', value: true },
-    { name: 'AREnableArticleSlideShow', value: true },
+    { name: 'AREnableArticleSlideShow', value: true }, // 2024-10-30 removed artsy/eigen#11037
     { name: 'AREnableArtworksConnectionForAuction', value: false },
     { name: 'AREnableAuctionResultComparableWorks', value: true },
     { name: 'AREnableAuctionResultsKeywordFilter', value: true },
