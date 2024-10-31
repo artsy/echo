@@ -22,7 +22,7 @@
     { name: 'AREnableImprovedSearchPills', value: false },
     { name: 'AREnableLocalDiscovery', value: true },
     { name: 'AREnableMakeOfferFlow', value: true },
-    { name: 'AREnableMarketingCollectionsCategories', value: false },
+    { name: 'AREnableMarketingCollectionsCategories', value: true },
     { name: 'AREnableMedianPriceChartCareerHighlights', value: true },
     { name: 'AREnableMoneyFormattingInMyCollectionForm', value: true },
     { name: 'AREnableMyCollectionAndroid', value: true },
