@@ -201,7 +201,7 @@
     { name: 'ARUseMetaphysicsCDN', value: true },
     { name: 'AREnableCacheableDirective', value: false },
     { name: 'AREnablePaymentFailureBanner', value: false },
-    { name: 'AREnableHomeVieTasksSection', value: false }
+    { name: 'AREnableHomeViewTasksSection', value: false },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
