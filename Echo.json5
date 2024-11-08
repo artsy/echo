@@ -44,6 +44,7 @@
     { name: 'AREnableProgressiveOnboardingAlerts', value: false },
     { name: 'AREnableReactNativeWebView', value: true },
     { name: 'AREnableSavedSearchToggles', value: true },
+    { name: 'AREnableSignupLoginFusion', value: true },
     { name: 'AREnableShowsRail', value: true },
     { name: 'AREnableSortFilterForArtworksPill', value: true },
     { name: 'AREnableSplitIOABTesting', value: true },
