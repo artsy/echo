@@ -202,6 +202,7 @@
     { name: 'AREnableCacheableDirective', value: false },
     { name: 'AREnablePaymentFailureBanner', value: false },
     { name: 'AREnableHomeViewTasksSection', value: false },
+    { name: 'AREnableCacheableDirective', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
