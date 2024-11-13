@@ -200,8 +200,8 @@
     { name: 'AREnableCuratorsPicksAndInterestSignals', value: true }, // 2024-10-23, removed artsy/eigen#11004
     { name: 'ARUseMetaphysicsCDN', value: true },
     { name: 'AREnableCacheableDirective', value: false },
-    { name: 'AREnablePaymentFailureBanner', value: false },
-    { name: 'AREnableHomeViewTasksSection', value: false },
+    { name: 'AREnablePaymentFailureBanner', value: true },
+    { name: 'AREnableHomeViewTasksSection', value: true },
     { name: 'AREnableCacheableDirective', value: true },
   ],
   messages: [
