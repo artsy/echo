@@ -80,6 +80,7 @@
     { name: 'ARTesting', value: false },
     { name: 'AREnableArtworkRailRedesignImageAspectRatio', value: true },
     { name: 'AREnableDynamicHomeView', value: true }, // aka Art Advisor Milestone 2
+    { name: 'AREnableNewSaveAndFollowOnArtworkCard', value: false },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
     { name: 'AREnableNewCollectorSettings', value: true }, // 2024-09-12 removed artsy/eigen#10756
