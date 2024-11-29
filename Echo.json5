@@ -206,6 +206,7 @@
     { name: 'AREnableCacheableDirective', value: true },
     { name: 'AREnableNewNavigation', value: true },
     { name: 'AREnableNewSearchModal', value: true },
+    { name: 'AREnableAvailabilityFilter', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
