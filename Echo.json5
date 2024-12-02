@@ -202,10 +202,11 @@
     { name: 'ARUseMetaphysicsCDN', value: true },
     { name: 'AREnableCacheableDirective', value: false },
     { name: 'AREnablePaymentFailureBanner', value: true },
-    { name: 'AREnableHomeViewTasksSection', value: true },
+    { name: 'AREnableHomeViewTasksSection', value: true }, // 2024-11-26, removed artsy/eigen#11197
     { name: 'AREnableCacheableDirective', value: true },
     { name: 'AREnableNewNavigation', value: true },
     { name: 'AREnableNewSearchModal', value: true },
+    { name: 'AREnableAvailabilityFilter', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
