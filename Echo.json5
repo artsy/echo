@@ -197,7 +197,7 @@
     { name: 'AREnableCollectorProfilePrompts', value: true }, // 2024-08-26, removed artsy/eigen#11038
     { name: 'AREnablePartnerOfferSignals', value: true }, // 2024-10-22, removed artsy/eigen#10992
     { name: 'AREnableAuctionImprovementsSignals', value: true },
-    { name: 'AREnableSubmitArtworkTier2Information', value: true },
+    { name: 'AREnableSubmitArtworkTier2Information', value: true }, // 2024-12-04, removed artsy/eigen#11244
     { name: 'AREnableCuratorsPicksAndInterestSignals', value: true }, // 2024-10-23, removed artsy/eigen#11004
     { name: 'ARUseMetaphysicsCDN', value: true },
     { name: 'AREnableCacheableDirective', value: false },
