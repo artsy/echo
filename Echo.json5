@@ -186,7 +186,7 @@
     { name: 'ARShowBlurhashImagePlaceholder', value: true },
     { name: 'AREnableArtworkListOfferability', value: true },
     { name: 'AREnableAlertBottomSheet', value: true },
-    { name: 'AREnablePartnerOfferOnArtworkScreen', value: true },
+    { name: 'AREnablePartnerOfferOnArtworkScreen', value: true }, , // 2024-12-30, removed artsy/eigen#11329
     { name: 'AREnableMyCollectionInterestedInSellingTooltip', value: true },
     { name: 'ARSWAMakeAllDimensionsOptional', value: true },
     { name: 'AREnableNewSubmissionFlow', value: true },
