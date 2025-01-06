@@ -73,7 +73,7 @@
     { name: 'AREnableNewAuctionsRailCard', value: true },
     { name: 'AREnableStickyTabsLazyLoading', value: true },
     { name: 'AREnableArtworksLists', value: true }, // 2024-08-26, removed artsy/eigen#10655
-    { name: 'AREnableLongPressOnArtworkCards', value: false },
+    { name: 'AREnableLongPressOnArtworkCards', value: true },
     { name: 'AREnablePriceControlForCreateAlertFlow', value: true },
     { name: 'ARUsePrincipalFieldErrorHandlerMiddleware', value: true },
     { name: 'AREnableCollectionsWithoutHeaderImage', value: true },
