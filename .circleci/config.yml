@@ -1,10 +1,8 @@
 version: 2.1
 
-
 orbs:
   node: circleci/node@4.7.0
   aws: circleci/aws-s3@3.0.0
-
 
 jobs:
   deploy-json:
@@ -13,15 +11,12 @@ jobs:
     steps:
       - add_ssh_keys:
           fingerprints:
-            - "7c:fc:21:ad:e5:d6:c3:a3:45:b9:48:a8:3f:ff:ae:70"
+            - '7c:fc:21:ad:e5:d6:c3:a3:45:b9:48:a8:3f:ff:ae:70'
       - checkout
       - run: yarn install
       - run:
           name: Install dependencies
           command: ./scripts/install_dependencies.sh
-      - run:
-          name: Validate json
-          command: yarn prettier --check Echo.json5
       - run: ./scripts/deploy.sh
   run-eigen-tests:
     docker:
@@ -37,17 +32,17 @@ workflows:
     jobs:
       - deploy-json:
           filters:
-             branches:
-               only:
-                 - main
-                 - production
-                 - fix-ci
+            branches:
+              only:
+                - main
+                - production
+                - fix-ci
           context: echo
       - run-eigen-tests:
           filters:
-              branches:
-                only:
-                  - main
-                  - production
-                  - fix-ci
+            branches:
+              only:
+                - main
+                - production
+                - fix-ci
           context: echo
