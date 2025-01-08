@@ -19,6 +19,9 @@ jobs:
       - run:
           name: Install dependencies
           command: ./scripts/install_dependencies.sh
+      - run:
+          name: Validate json
+          command: yarn prettier --check Echo.json5
       - run: ./scripts/deploy.sh
   run-eigen-tests:
     docker:
