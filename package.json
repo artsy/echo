@@ -15,7 +15,13 @@
     "prettier": "3.1.1"
   },
   "devDependencies": {
-    "husky": "8.0.3"
+    "husky": "8.0.3",
+    "lint-staged": "15.3.0"
+  },
+  "lint-staged": {
+    "*.json": [
+      "yarn prettier --check Echo.json5"
+    ]
   },
   "repository": "git@github.com:artsy/echo.git",
   "author": "Pavlos Vinieratos <pvinis@gmail.com>",
