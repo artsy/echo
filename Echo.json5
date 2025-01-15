@@ -73,7 +73,7 @@
     { name: 'AREnableNewAuctionsRailCard', value: true },
     { name: 'AREnableStickyTabsLazyLoading', value: true },
     { name: 'AREnableArtworksLists', value: true }, // 2024-08-26, removed artsy/eigen#10655
-    { name: 'AREnableLongPressOnArtworkCards', value: false },
+    { name: 'AREnableLongPressOnArtworkCards', value: false }, // 2025-01-15, removed artsy/eigen#11398
     { name: 'AREnablePriceControlForCreateAlertFlow', value: true },
     { name: 'ARUsePrincipalFieldErrorHandlerMiddleware', value: true },
     { name: 'AREnableCollectionsWithoutHeaderImage', value: true },
@@ -81,6 +81,7 @@
     { name: 'AREnableArtworkRailRedesignImageAspectRatio', value: true },
     { name: 'AREnableDynamicHomeView', value: true }, // aka Art Advisor Milestone 2
     { name: 'AREnableNewSaveAndFollowOnArtworkCard', value: true },
+    { name: 'AREnableArtworkCardContextMenuIOS', value: false },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
     { name: 'AREnableNewCollectorSettings', value: true }, // 2024-09-12 removed artsy/eigen#10756
@@ -190,7 +191,7 @@
     { name: 'AREnableMyCollectionInterestedInSellingTooltip', value: true },
     { name: 'ARSWAMakeAllDimensionsOptional', value: true },
     { name: 'AREnableNewSubmissionFlow', value: true },
-    { name: 'AREnableLongPressOnNewForYouRail', value: true },
+    { name: 'AREnableLongPressOnNewForYouRail', value: true }, // 2025-01-15, removed artsy/eigen#11398
     { name: 'AREnableSaveAndContinueSubmission', value: true },
     { name: 'AREnableSubmitMyCollectionArtworkInSubmitFlow', value: false },
     { name: 'AREnableSubmitMyCollectionArtworkInSubmitFlowNew', value: true },
