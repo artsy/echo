@@ -84,7 +84,7 @@
     { name: 'AREnableArtworkCardContextMenuIOS', value: true },
     { name: 'AREnableHidingDislikedArtworks', value: true },
     { name: 'AREnableArtworkCardContextMenuAndroid', value: true },
-    { name: 'AREnableLongPressContextMenuOnboarding', value: true },
+    { name: 'AREnableLongPressContextMenuOnboarding', value: false },
     { name: 'AREnableHomeViewQuickLinks', value: false },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
