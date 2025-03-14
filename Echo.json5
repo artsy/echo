@@ -213,6 +213,7 @@
     { name: 'AREnableAvailabilityFilter', value: true },
     { name: 'AREnableViewPortPrefetching', value: true },
     { name: 'AREnableFramedFilter', value: false },
+    { name: 'AREnableInfiniteDiscovery', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
