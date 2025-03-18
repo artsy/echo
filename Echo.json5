@@ -85,7 +85,7 @@
     { name: 'AREnableHidingDislikedArtworks', value: true },
     { name: 'AREnableArtworkCardContextMenuAndroid', value: true },
     { name: 'AREnableLongPressContextMenuOnboarding', value: false },
-    { name: 'AREnableHomeViewQuickLinks', value: false },
+    { name: 'AREnableHomeViewQuickLinks', value: true },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
     { name: 'AREnableNewCollectorSettings', value: true }, // 2024-09-12 removed artsy/eigen#10756
@@ -237,7 +237,7 @@
     },
     { name: 'KillSwitchBuildMinimum', content: '8.36.0' },
     { name: 'KillSwitchBuildMinimumAndroid', content: '8.36.0' },
-    { name: 'EigenQueryPrefetchingRateLimit', content: '60' },
+    { name: 'EigenQueryPrefetchingRateLimit', content: '180' },
     {
       name: 'LegacyFairSlugs', // 2021-05-17, removed: artsy/eigen#4785, wait for few or no users with version 6.9.0 to remove from echo
       content: 'ifpda-fine-art-print-fair-online-fall-2020,photo-london-2020,highlights-international-art-fair-munich-2020,2020-art-taipei,1-54-london-2020',
