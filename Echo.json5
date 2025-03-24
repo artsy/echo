@@ -86,6 +86,7 @@
     { name: 'AREnableArtworkCardContextMenuAndroid', value: true },
     { name: 'AREnableLongPressContextMenuOnboarding', value: false },
     { name: 'AREnableHomeViewQuickLinks', value: true },
+    { name: 'AREnableFavoritesTab', value: false },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
     { name: 'AREnableNewCollectorSettings', value: true }, // 2024-09-12 removed artsy/eigen#10756
