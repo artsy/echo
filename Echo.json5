@@ -22,7 +22,7 @@
     { name: 'AREnableImprovedSearchPills', value: false },
     { name: 'AREnableLocalDiscovery', value: true },
     { name: 'AREnableMakeOfferFlow', value: true },
-    { name: 'AREnableMarketingCollectionsCategories', value: true },
+    { name: 'AREnableMarketingCollectionsCategories', value: true }, // 2025-03-25 removed artsy/eigen#11769
     { name: 'AREnableMedianPriceChartCareerHighlights', value: true },
     { name: 'AREnableMoneyFormattingInMyCollectionForm', value: true },
     { name: 'AREnableMyCollectionAndroid', value: true },
