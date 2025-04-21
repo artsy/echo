@@ -86,7 +86,7 @@
     { name: 'AREnableArtworkCardContextMenuAndroid', value: true },
     { name: 'AREnableLongPressContextMenuOnboarding', value: false },
     { name: 'AREnableHomeViewQuickLinks', value: true },
-    { name: 'AREnableFavoritesTab', value: false },
+    { name: 'AREnableFavoritesTab', value: true },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
     { name: 'AREnableNewCollectorSettings', value: true }, // 2024-09-12 removed artsy/eigen#10756
@@ -215,7 +215,6 @@
     { name: 'AREnableViewPortPrefetching', value: true },
     { name: 'AREnableFramedFilter', value: true },
     { name: 'AREnableInfiniteDiscovery', value: true },
-    { name: 'AREnableFavoritesTab', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
