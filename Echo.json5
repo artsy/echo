@@ -214,7 +214,6 @@
     { name: 'AREnableAvailabilityFilter', value: true },
     { name: 'AREnableViewPortPrefetching', value: true },
     { name: 'AREnableFramedFilter', value: true },
-    { name: 'AREnableInfiniteDiscovery', value: true },
     { name: 'AREnableFavoritesTab', value: true },
   ],
   messages: [
