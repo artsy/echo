@@ -26,7 +26,6 @@
     { name: 'AREnableMedianPriceChartCareerHighlights', value: true },
     { name: 'AREnableMoneyFormattingInMyCollectionForm', value: true },
     { name: 'AREnableMyCollectionAndroid', value: true },
-    { name: 'AREnableMyCollectionComparableWorks', value: false },
     { name: 'AREnableMyCollectionInsights', value: true },
     { name: 'AREnableMyCollectionInsightsPhase1Part1', value: true },
     { name: 'AREnableMyCollectionInsightsPhase1Part2', value: true },
