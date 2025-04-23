@@ -1,11 +1,11 @@
-import fs from "fs"
+import fs from 'fs'
 import envsub from 'envsub'
 import jsonminify from 'jsonminify'
-import { exit }  from 'process'
+import { exit } from 'process'
 import JSON5 from 'json5'
 import jsonschema from 'jsonschema'
 import { execa } from 'execa'
-
+import { checkForDuplicateFeatures } from './checkForDuplicateFeatures.js'
 
 const __dirname = new URL('.', import.meta.url).pathname
 
@@ -42,6 +42,8 @@ const prepare = async () => {
         'Did not pass schema validation: ' + JSON.stringify(validation.errors)
       )
     }
+
+    checkForDuplicateFeatures(outputFile5)
 
     const regularJSON = JSON.stringify(json)
     fs.writeFileSync(outputFile, regularJSON)
