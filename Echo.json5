@@ -215,6 +215,7 @@
     { name: 'AREnableFramedFilter', value: true },
     { name: 'AREnableFavoritesTab', value: true },
     { name: 'ARDarkModeSupport', value: false },
+    { name: 'ARDarkModeOnboarding', value: false },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
