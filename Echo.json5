@@ -216,8 +216,8 @@
     { name: 'AREnableViewPortPrefetching', value: true },
     { name: 'AREnableFramedFilter', value: true },
     { name: 'AREnableFavoritesTab', value: true },
-    { name: 'ARDarkModeSupport', value: false },
-    { name: 'ARDarkModeOnboarding', value: false },
+    { name: 'ARDarkModeSupport', value: true },
+    { name: 'ARDarkModeOnboarding', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
