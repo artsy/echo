@@ -74,6 +74,7 @@
     { name: 'AREnableArtworksLists', value: true }, // 2024-08-26, removed artsy/eigen#10655
     { name: 'AREnableLongPressOnArtworkCards', value: false }, // 2025-01-15, removed artsy/eigen#11398
     { name: 'AREnablePriceControlForCreateAlertFlow', value: true },
+    { name: 'ARTestingMobilePractice', value: false },
     { name: 'ARUsePrincipalFieldErrorHandlerMiddleware', value: true },
     { name: 'AREnableCollectionsWithoutHeaderImage', value: true },
     { name: 'ARTesting', value: false },
