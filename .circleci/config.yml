@@ -39,6 +39,8 @@ workflows:
                 - fix-ci
           context: echo
       - run-eigen-tests:
+          requires:
+            - deploy-json
           filters:
             branches:
               only:
