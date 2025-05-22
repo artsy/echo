@@ -1,13 +1,13 @@
 version: 2.1
 
 orbs:
-  node: circleci/node@4.7.0
+  node: circleci/node@5.3.0
   aws: circleci/aws-s3@3.0.0
 
 jobs:
   deploy-json:
     docker:
-      - image: cimg/node:18.15.0
+      - image: cimg/node:20.9.0
     steps:
       - add_ssh_keys:
           fingerprints:
@@ -20,7 +20,7 @@ jobs:
       - run: ./scripts/deploy.sh
   run-eigen-tests:
     docker:
-      - image: cimg/node:18.15.0
+      - image: cimg/node:20.9.0
     steps:
       - checkout
       - run:
