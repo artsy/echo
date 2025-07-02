@@ -252,6 +252,8 @@
       name: 'LegacyFairProfileSlugs', // 2021-05-17, removed: artsy/eigen#4785, wait for few or no users with version 6.9.0 to remove from echo
       content: 'ifpda-fine-art-print-fair-online-fall-2020,photo-london-digital-2020,highlights-munich-2020,art-taipei-2020,1-54-london-2020,ifpda-print-fair,photo-london,highlights-munich,art-taipei,1-54',
     },
+    { name: 'ImpressionsTrackingMinimumViewTime', content: '2000' },
+    { name: 'ImpressionsTrackingVisiblePercentThreshold', content: '60' },
   ],
   routes: [
     { name: 'ARArtistRoute', path: '/artist/:id' },
