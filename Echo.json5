@@ -219,7 +219,7 @@
     { name: 'AREnableFavoritesTab', value: true },
     { name: 'ARDarkModeSupport', value: true },
     { name: 'ARDarkModeOnboarding', value: true },
-    { name: 'AREnableNewOrderDetails', value: false },
+    { name: 'AREnableNewOrderDetails', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
