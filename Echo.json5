@@ -88,7 +88,6 @@
     { name: 'AREnableQuickLinksAnimation', value: false },
     { name: 'AREnableQuickLinksAnimation2', value: true },
     { name: 'AREnableRedesignedSettings', value: true },
-    { name: 'AREnableBlueActivityDots', value: true },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
     { name: 'AREnableInfiniteDiscovery', value: true }, // 2025-04-24 removed artsy/eigen#11769
@@ -221,6 +220,7 @@
     { name: 'ARDarkModeSupport', value: true },
     { name: 'ARDarkModeOnboarding', value: true },
     { name: 'AREnableNewOrderDetails', value: true },
+    { name: 'AREnableBlueActivityDots', value: true }, // 2025-07-17, removed artsy/eigen/pull/12493
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
