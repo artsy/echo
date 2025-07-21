@@ -221,7 +221,7 @@
     { name: 'ARDarkModeSupport', value: true },
     { name: 'ARDarkModeOnboarding', value: true },
     { name: 'AREnableNewOrderDetails', value: true },
-    { name: 'AREnableHomeViewPopover', value: true },
+    { name: 'AREnableHomeViewPriceRangePopover', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
