@@ -221,10 +221,10 @@
     { name: 'AREnableFavoritesTab', value: true },
     { name: 'ARDarkModeSupport', value: true },
     { name: 'ARDarkModeOnboarding', value: true },
-    { name: 'AREnableNewOrderDetails', value: true },
+    { name: 'AREnableNewOrderDetails', value: true }, // 2025-08-18,  removed artsy/eigen#12634
     { name: 'AREnableBlueActivityDots', value: true }, // 2025-07-17, removed artsy/eigen/pull/12493
     { name: 'AREnableProgressiveOnboardingPriceRangeHome', value: true },
-    { name: 'AREnablePriceRangeToast', value: false },
+    { name: 'AREnablePriceRangeToast', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
