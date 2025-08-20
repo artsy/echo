@@ -246,8 +246,8 @@
       name: 'StripeStagingPublishableKey',
       content: '${StripeStagingPublishableKey}',
     },
-    { name: 'KillSwitchBuildMinimum', content: '7.3.5' },
-    { name: 'KillSwitchBuildMinimumAndroid', content: '7.3.5' },
+    { name: 'KillSwitchBuildMinimum', content: '8.36.0' },
+    { name: 'KillSwitchBuildMinimumAndroid', content: '8.36.0' },
     { name: 'EigenQueryPrefetchingRateLimit', content: '180' },
     {
       name: 'LegacyFairSlugs', // 2021-05-17, removed: artsy/eigen#4785, wait for few or no users with version 6.9.0 to remove from echo
