@@ -225,7 +225,7 @@
     { name: 'AREnableBlueActivityDots', value: true }, // 2025-07-17, removed artsy/eigen/pull/12493
     { name: 'AREnableProgressiveOnboardingPriceRangeHome', value: true },
     { name: 'AREnablePriceRangeToast', value: true },
-    { name: 'AREnableArtworkSaveIconAnimation', value: false },
+    { name: 'AREnableArtworkSaveIconAnimation', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
