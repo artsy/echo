@@ -226,6 +226,7 @@
     { name: 'AREnableProgressiveOnboardingPriceRangeHome', value: true },
     { name: 'AREnablePriceRangeToast', value: true },
     { name: 'AREnableArtworkSaveIconAnimation', value: true },
+    { name: 'AREnableNewHomeViewCardRailType', value: false },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
