@@ -227,6 +227,7 @@
     { name: 'AREnablePriceRangeToast', value: true },
     { name: 'AREnableArtworkSaveIconAnimation', value: true },
     { name: 'AREnableNewHomeViewCardRailType', value: false },
+    { name: 'AREnableRedirectForVideoFeatureType', value: false },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
