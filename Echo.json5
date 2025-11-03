@@ -227,7 +227,7 @@
     { name: 'AREnablePriceRangeToast', value: true },
     { name: 'AREnableArtworkSaveIconAnimation', value: true },
     { name: 'AREnableNewHomeViewCardRailType', value: false },
-    { name: 'AREnableRedirectForVideoFeatureType', value: false },
+    { name: 'AREnableRedirectForVideoFeatureType', value: true },
     { name: 'AREnableAuctionsHubOnHomeView', value: false },
   ],
   messages: [
