@@ -36,7 +36,6 @@ workflows:
               only:
                 - main
                 - production
-                - fix-ci
           context: echo
       - run-eigen-tests:
           requires:
@@ -46,5 +45,4 @@ workflows:
               only:
                 - main
                 - production
-                - fix-ci
           context: echo
