@@ -90,7 +90,7 @@
     { name: 'AREnableQuickLinksAnimation2', value: true },
     { name: 'AREnableRedesignedSettings', value: true },
     { name: 'ARShowOnboardingPriceRangeScreen', value: true },
-    { name: 'AREnableFailingTestEcho', value: true },
+    { name: 'AREnableFailingTestEcho', value: false },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
     { name: 'AREnableInfiniteDiscovery', value: true }, // 2025-04-24 removed artsy/eigen#11769
