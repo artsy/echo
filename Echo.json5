@@ -229,6 +229,7 @@
     { name: 'AREnableNewHomeViewCardRailType', value: false },
     { name: 'AREnableRedirectForVideoFeatureType', value: true },
     { name: 'AREnableAuctionsHubOnHomeView', value: false },
+    { name: 'AREnableFeatureVideoPhase2Type', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
