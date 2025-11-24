@@ -230,6 +230,7 @@
     { name: 'AREnableRedirectForVideoFeatureType', value: true },
     { name: 'AREnableAuctionsHubOnHomeView', value: false },
     { name: 'AREnableFeatureVideoPhase2Type', value: true },
+    { name: 'AREnableExpandedCityGuide', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
