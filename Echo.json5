@@ -226,7 +226,7 @@
     { name: 'AREnableProgressiveOnboardingPriceRangeHome', value: true },
     { name: 'AREnablePriceRangeToast', value: true },
     { name: 'AREnableArtworkSaveIconAnimation', value: true },
-    { name: 'AREnableNewHomeViewCardRailType', value: false },
+    { name: 'AREnableNewHomeViewCardRailType', value: true },
     { name: 'AREnableRedirectForVideoFeatureType', value: true },
     { name: 'AREnableAuctionsHubOnHomeView', value: false },
     { name: 'AREnableFeatureVideoPhase2Type', value: true },
