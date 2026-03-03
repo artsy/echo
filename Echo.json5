@@ -231,6 +231,7 @@
     { name: 'AREnableAuctionsHubOnHomeView', value: false },
     { name: 'AREnableFeatureVideoPhase2Type', value: true },
     { name: 'AREnableExpandedCityGuide', value: true },
+    { name: 'AREnableArtworksConnectionForAuction2', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
