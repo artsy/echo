@@ -216,7 +216,7 @@
     { name: 'AREnableNewNavigation', value: true },
     { name: 'AREnableNewSearchModal', value: true }, // 2025-01-08, removed artsy/eigen#11347
     { name: 'AREnableAvailabilityFilter', value: true },
-    { name: 'AREnableViewPortPrefetching', value: true },
+    { name: 'AREnableViewPortPrefetching', value: false },
     { name: 'AREnableFramedFilter', value: true },
     { name: 'AREnableFavoritesTab', value: true },
     { name: 'ARDarkModeSupport', value: true },
