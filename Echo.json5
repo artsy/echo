@@ -296,7 +296,15 @@
     { name: 'ARBuyNowRoute', path: '/orders/:id' },
   ],
   killedVersions: {
-    ios: {},
-    android: {},
+    ios: {
+      '9.0.1': {
+        message: 'This version of the app is no longer supported. Please update to the latest version. We apologize for the inconvenience.',
+      },
+    },
+    android: {
+      '9.0.1': {
+        message: 'This version of the app is no longer supported. Please update to the latest version. We apologize for the inconvenience.',
+      },
+    },
   },
 }
