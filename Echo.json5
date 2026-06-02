@@ -233,6 +233,7 @@
     { name: 'AREnableExpandedCityGuide', value: true },
     { name: 'AREnableArtworksConnectionForAuction2', value: true },
     { name: 'AREnableArtworksFramedSize', value: true }, // 2026-05-12, removed: artsy/eigen#13542
+    { name: 'AREnableExperienceBasedOnboarding', value: false },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
