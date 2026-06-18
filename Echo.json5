@@ -39,6 +39,7 @@
     { name: 'AREnableNewTermsAndConditions', value: true },
     { name: 'AREnableNewWorksForYou', value: true },
     { name: 'AREnableOnlyTargetSupplyConsignments', value: true },
+    { name: 'AREnableConversationPartnerOffers', value: true },
     { name: 'AREnablePageableArtworkScreens', value: false },
     { name: 'AREnablePlaceholderLayoutAnimation', value: true },
     { name: 'AREnableProgressiveOnboardingAlerts', value: true },
