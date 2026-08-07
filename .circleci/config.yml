@@ -13,8 +13,8 @@ jobs:
           fingerprints:
             - '7c:fc:21:ad:e5:d6:c3:a3:45:b9:48:a8:3f:ff:ae:70'
       - checkout
-      - run: corepack enable yarn
-      - run: yarn install
+      - node/install-packages:
+          pkg-manager: yarn-berry
       - run:
           name: Install dependencies
           command: ./scripts/install_dependencies.sh
