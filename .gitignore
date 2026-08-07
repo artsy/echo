@@ -8,3 +8,11 @@ yarn-error.log
 build/
 
 node_modules
+
+
+# yarn 4
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
