@@ -13,7 +13,7 @@ jobs:
           fingerprints:
             - '7c:fc:21:ad:e5:d6:c3:a3:45:b9:48:a8:3f:ff:ae:70'
       - checkout
-      - run: corepack enable
+      - run: corepack enable yarn
       - run: yarn install
       - run:
           name: Install dependencies
