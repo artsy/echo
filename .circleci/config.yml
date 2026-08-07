@@ -7,12 +7,13 @@ orbs:
 jobs:
   deploy-json:
     docker:
-      - image: cimg/node:20.9.0
+      - image: cimg/node:24.6.0
     steps:
       - add_ssh_keys:
           fingerprints:
             - '7c:fc:21:ad:e5:d6:c3:a3:45:b9:48:a8:3f:ff:ae:70'
       - checkout
+      - run: corepack enable yarn
       - run: yarn install
       - run:
           name: Install dependencies
@@ -20,7 +21,7 @@ jobs:
       - run: ./scripts/deploy.sh
   run-eigen-tests:
     docker:
-      - image: cimg/node:20.9.0
+      - image: cimg/node:24.6.0
     steps:
       - checkout
       - run:
