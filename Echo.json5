@@ -235,6 +235,7 @@
     { name: 'AREnableArtworksConnectionForAuction2', value: true }, // 2026-06-17, removed: artsy/eigen#13661
     { name: 'AREnableArtworksFramedSize', value: true }, // 2026-05-12, removed: artsy/eigen#13542
     { name: 'AREnableExperienceBasedOnboarding', value: true },
+    { name: 'AREnableConversationsRealtime', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
