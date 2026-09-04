@@ -238,6 +238,7 @@
     { name: 'AREnableExperienceBasedOnboarding', value: true },
     { name: 'AREnableConversationsRealtime', value: true },
     { name: 'AREnableTrendingSearchesInSearchModal', value: true },
+    { name: 'AREnableArtsyLens', value: false },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
