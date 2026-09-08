@@ -220,7 +220,7 @@
     { name: 'AREnableViewPortPrefetching', value: true },
     { name: 'AREnableFramedFilter', value: true },
     { name: 'AREnableFavoritesTab', value: true },
-    { name: 'AREnableFollowShowsAndFairs', value: true },
+    { name: 'AREnableFollowShowsAndFairs', value: false },
     { name: 'ARDarkModeSupport', value: true },
     { name: 'ARDarkModeOnboarding', value: true },
     { name: 'AREnableNewOrderDetails', value: true }, // 2025-08-18,  removed artsy/eigen#12634
