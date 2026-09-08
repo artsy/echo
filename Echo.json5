@@ -90,9 +90,10 @@
     { name: 'AREnableQuickLinksAnimation', value: false },
     { name: 'AREnableQuickLinksAnimation2', value: true },
     { name: 'AREnableRedesignedSettings', value: true },
-    { name: 'ARShowOnboardingPriceRangeScreen', value: true },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
+    { name: 'ARShowOnboardingPriceRangeScreen', value: true }, // 2026-09-08 removed artsy/eigen#14036
+    { name: 'AREnableExperienceBasedOnboarding', value: true }, // 2026-09-08 removed artsy/eigen#14036
     { name: 'AREnableInfiniteDiscovery', value: true }, // 2025-04-24 removed artsy/eigen#11769
     { name: 'AREnableNewCollectorSettings', value: true }, // 2024-09-12 removed artsy/eigen#10756
     { name: 'ARUseNewErrorMiddleware', value: true }, //2023-11-16 removed artsy/eigen#9574
@@ -235,7 +236,6 @@
     { name: 'AREnableExpandedCityGuide', value: true },
     { name: 'AREnableArtworksConnectionForAuction2', value: true }, // 2026-06-17, removed: artsy/eigen#13661
     { name: 'AREnableArtworksFramedSize', value: true }, // 2026-05-12, removed: artsy/eigen#13542
-    { name: 'AREnableExperienceBasedOnboarding', value: true },
     { name: 'AREnableConversationsRealtime', value: true },
     { name: 'AREnableTrendingSearchesInSearchModal', value: true },
     { name: 'AREnableArtsyLens', value: false },
