@@ -238,7 +238,7 @@
     { name: 'AREnableArtworksFramedSize', value: true }, // 2026-05-12, removed: artsy/eigen#13542
     { name: 'AREnableConversationsRealtime', value: true },
     { name: 'AREnableTrendingSearchesInSearchModal', value: true },
-    { name: 'AREnableArtsyLens', value: false },
+    { name: 'AREnableArtsyLens', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
