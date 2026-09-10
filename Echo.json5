@@ -239,6 +239,7 @@
     { name: 'AREnableConversationsRealtime', value: true },
     { name: 'AREnableTrendingSearchesInSearchModal', value: true },
     { name: 'AREnableArtsyLens', value: true },
+    { name: 'AREnableArtAssistant', value: false },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
