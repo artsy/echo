@@ -240,6 +240,10 @@
     { name: 'AREnableTrendingSearchesInSearchModal', value: true },
     { name: 'AREnableArtsyLens', value: true },
     { name: 'AREnableArtAssistant', value: true },
+    { name: 'AREnableCityGuideArticlesForYou', value: true },
+    { name: 'AREnableCityGuideItineraries', value: true },
+    { name: 'AREnableCityGuideEditorialContent', value: true },
+    { name: 'AREnableCityGuideShowsForYou', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
