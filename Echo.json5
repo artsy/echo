@@ -32,6 +32,7 @@
     { name: 'AREnableMyCollectionInsightsPhase1Part2', value: true },
     { name: 'AREnableMyCollectionIOS', value: true },
     { name: 'AREnableMyCollectionOrderImport', value: true },
+    { name: 'AREnableNewHomeFeed', value: false },
     { name: 'AREnableNewOnboarding', value: true }, // new onboarding flow flag (August 2022)
     { name: 'AREnableNewOnboardingFlow', value: true },
     { name: 'AREnableNewRequestPriceEstimateLogic', value: true },
@@ -90,6 +91,7 @@
     { name: 'AREnableQuickLinksAnimation', value: false },
     { name: 'AREnableQuickLinksAnimation2', value: true },
     { name: 'AREnableRedesignedSettings', value: true },
+    { name: 'AREnableEnrichedMarkdown', value: false },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
     { name: 'ARShowOnboardingPriceRangeScreen', value: true }, // 2026-09-08 removed artsy/eigen#14036
