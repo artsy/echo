@@ -91,6 +91,7 @@
     { name: 'AREnableQuickLinksAnimation', value: false },
     { name: 'AREnableQuickLinksAnimation2', value: true },
     { name: 'AREnableRedesignedSettings', value: true },
+    { name: 'AREnableEnrichedMarkdown', value: false },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
     { name: 'ARShowOnboardingPriceRangeScreen', value: true }, // 2026-09-08 removed artsy/eigen#14036
