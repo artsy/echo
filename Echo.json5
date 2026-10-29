@@ -242,6 +242,7 @@
     { name: 'AREnableTrendingSearchesInSearchModal', value: true },
     { name: 'AREnableArtsyLens', value: true },
     { name: 'AREnableArtAssistant', value: true },
+    { name: 'AREnableArtAssistantImageSearch', value: false },
     { name: 'AREnableCityGuideArticlesForYou', value: true },
     { name: 'AREnableCityGuideItineraries', value: true },
     { name: 'AREnableCityGuideEditorialContent', value: true },
