@@ -247,6 +247,7 @@
     { name: 'AREnableCityGuideItineraries', value: true },
     { name: 'AREnableCityGuideEditorialContent', value: true },
     { name: 'AREnableCityGuideShowsForYou', value: true },
+    { name: 'AREnableShareShowPartnerFeature', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
