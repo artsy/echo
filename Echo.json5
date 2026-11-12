@@ -249,6 +249,7 @@
     { name: 'AREnableCityGuideShowsForYou', value: true },
     { name: 'AREnableShareShowPartnerFeature', value: true },
     { name: 'AREnableArtAssistantVoiceInput', value: false },
+    { name: 'AREnableHomeViewCityGuidesRail', value: false },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
