@@ -25,5 +25,6 @@
   },
   "repository": "git@github.com:artsy/echo.git",
   "author": "Pavlos Vinieratos <pvinis@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "yarn@4.10.3"
 }

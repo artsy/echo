@@ -32,6 +32,7 @@
     { name: 'AREnableMyCollectionInsightsPhase1Part2', value: true },
     { name: 'AREnableMyCollectionIOS', value: true },
     { name: 'AREnableMyCollectionOrderImport', value: true },
+    { name: 'AREnableNewHomeFeed', value: false },
     { name: 'AREnableNewOnboarding', value: true }, // new onboarding flow flag (August 2022)
     { name: 'AREnableNewOnboardingFlow', value: true },
     { name: 'AREnableNewRequestPriceEstimateLogic', value: true },
@@ -39,6 +40,7 @@
     { name: 'AREnableNewTermsAndConditions', value: true },
     { name: 'AREnableNewWorksForYou', value: true },
     { name: 'AREnableOnlyTargetSupplyConsignments', value: true },
+    { name: 'AREnableConversationPartnerOffers', value: true },
     { name: 'AREnablePageableArtworkScreens', value: false },
     { name: 'AREnablePlaceholderLayoutAnimation', value: true },
     { name: 'AREnableProgressiveOnboardingAlerts', value: true },
@@ -89,9 +91,11 @@
     { name: 'AREnableQuickLinksAnimation', value: false },
     { name: 'AREnableQuickLinksAnimation2', value: true },
     { name: 'AREnableRedesignedSettings', value: true },
-    { name: 'ARShowOnboardingPriceRangeScreen', value: true },
+    { name: 'AREnableEnrichedMarkdown', value: true },
 
     // deprecated flags. REMOVE OR CHANGE WITH CARE.
+    { name: 'ARShowOnboardingPriceRangeScreen', value: true }, // 2026-09-08 removed artsy/eigen#14036
+    { name: 'AREnableExperienceBasedOnboarding', value: true }, // 2026-09-08 removed artsy/eigen#14036
     { name: 'AREnableInfiniteDiscovery', value: true }, // 2025-04-24 removed artsy/eigen#11769
     { name: 'AREnableNewCollectorSettings', value: true }, // 2024-09-12 removed artsy/eigen#10756
     { name: 'ARUseNewErrorMiddleware', value: true }, //2023-11-16 removed artsy/eigen#9574
@@ -219,6 +223,7 @@
     { name: 'AREnableViewPortPrefetching', value: true },
     { name: 'AREnableFramedFilter', value: true },
     { name: 'AREnableFavoritesTab', value: true },
+    { name: 'AREnableFollowShowsAndFairs', value: false },
     { name: 'ARDarkModeSupport', value: true },
     { name: 'ARDarkModeOnboarding', value: true },
     { name: 'AREnableNewOrderDetails', value: true }, // 2025-08-18,  removed artsy/eigen#12634
@@ -231,8 +236,21 @@
     { name: 'AREnableAuctionsHubOnHomeView', value: false },
     { name: 'AREnableFeatureVideoPhase2Type', value: true },
     { name: 'AREnableExpandedCityGuide', value: true },
-    { name: 'AREnableArtworksConnectionForAuction2', value: true },
-    { name: 'AREnableArtworksFramedSize', value: true },
+    { name: 'AREnableArtworksConnectionForAuction2', value: true }, // 2026-06-17, removed: artsy/eigen#13661
+    { name: 'AREnableArtworksFramedSize', value: true }, // 2026-05-12, removed: artsy/eigen#13542
+    { name: 'AREnableConversationsRealtime', value: true },
+    { name: 'AREnableTrendingSearchesInSearchModal', value: true },
+    { name: 'AREnableArtsyLens', value: true },
+    { name: 'AREnableArtAssistant', value: true },
+    { name: 'AREnableArtAssistantImageSearch', value: true },
+    { name: 'AREnableCityGuideArticlesForYou', value: true },
+    { name: 'AREnableCityGuideItineraries', value: true },
+    { name: 'AREnableCityGuideEditorialContent', value: true },
+    { name: 'AREnableCityGuideShowsForYou', value: true },
+    { name: 'AREnableShareShowPartnerFeature', value: true },
+    { name: 'AREnableArtAssistantVoiceInput', value: true },
+    { name: 'AREnableHomeViewCityGuidesRail', value: true },
+    { name: 'ARDefaultToLastSavedList', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
