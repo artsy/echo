@@ -250,7 +250,7 @@
     { name: 'AREnableShareShowPartnerFeature', value: true },
     { name: 'AREnableArtAssistantVoiceInput', value: true },
     { name: 'AREnableHomeViewCityGuidesRail', value: true },
-    { name: 'ARDefaultToLastSavedList', value: false },
+    { name: 'ARDefaultToLastSavedList', value: true },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
