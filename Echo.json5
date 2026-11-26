@@ -251,6 +251,7 @@
     { name: 'AREnableArtAssistantVoiceInput', value: true },
     { name: 'AREnableHomeViewCityGuidesRail', value: true },
     { name: 'ARDefaultToLastSavedList', value: true },
+    { name: 'AREnableArtistStory', value: false },
   ],
   messages: [
     { name: 'LiveAuctionsCurrentWebSocketVersion', content: '3' },
